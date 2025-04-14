@@ -35,6 +35,9 @@ github:
     - INFRA
     - ATTIC
 
+publish:
+  whoami: asf-site
+
 notifications:
   commits: general@attic.apache.org
   pullrequests: general@attic.apache.org
