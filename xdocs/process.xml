@@ -64,17 +64,10 @@
 
   <p>The following are useful Git/svn/https locations:</p>
     <ul>
-     <li>site <a href="https://attic.apache.org">https://attic.apache.org</a>, with its source <a href="https://github.com/apache/attic">https://github.com/apache/attic</a></li>
+     <li>site <a href="https://attic.apache.org">https://attic.apache.org</a>, with its source <a href="https://github.com/apache/attic">https://github.com/apache/attic</a>,
+       <a href="https://github.com/apache/attic/actions">built</a> to <a href="https://github.com/apache/attic/tree/asf-site">asf-site</a></li>
      <li>jira <a href="https://issues.apache.org/jira/browse/ATTIC">https://issues.apache.org/jira/browse/ATTIC</a></li>
-     
-     <li>internals:<ul>
-       <li>legacy svn site <a href="https://svn.apache.org/repos/asf/attic">https://svn.apache.org/repos/asf/attic</a>: sources in <code>xdocs</code>, generated html in <code>docs</code><br/>
-          git mirror <a href="https://github.com/apache/attic-site">https://github.com/apache/attic-site</a></li>
-       <li> <a href="https://ci2.apache.org/#/builders/16">Buildbot job</a> to build from source and commit generated html
-         (see <a href="https://svn.apache.org/repos/infra/infrastructure/buildbot2/projects/attic-site.py">attic-site.py</a>),
-         <a href="https://github.com/apache/infrastructure-p6/blob/production/modules/svnwcsub/files/svnwcsub.conf">svnwcsub configuration</a> to update generated html from svn to webserver</li>
-       </ul>
-     </li>
+     <li>legacy svn site <a href="https://svn.apache.org/repos/asf/attic">https://svn.apache.org/repos/asf/attic</a>: <code>cwiki_retired</code> is last content used for now</li>
      <li>permissions on svn <a href="https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/asf-authorization-template#L231">/repos/asf</a>
      and <a href="https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/pit-authorization-template">/repos/infra</a></li>
      <li>websites <a href="https://github.com/apache/infrastructure-p6/blob/production/modules/svnwcsub/files/svnwcsub.conf">svnpubsub</a> and
