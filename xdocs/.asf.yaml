@@ -17,27 +17,6 @@
 
 # https://github.com/apache/infrastructure-asfyaml/blob/main/README.md
 ---
-github:
-  description: "Attic"
-  homepage: https://attic.apache.org/
-  labels:
-    - apache
-    - attic
-  features:
-    # disable issues management: we're using Jira https://issues.apache.org/jira/projects/ATTIC/summary
-    issues: true
 
-  enabled_merge_buttons:
-    squash: true
-    merge: false
-    rebase: false
-  autolink_jira:
-    - INFRA
-    - ATTIC
-
-notifications:
-  commits: general@attic.apache.org
-  pullrequests: general@attic.apache.org
-  jira_options: link label worklog
-  jobs: general@attic.apache.org
-  discussions: general@attic.apache.org
+publish:
+  whoami: asf-site
