@@ -39,14 +39,14 @@ jobs:
         with:
           ref: asf-site
           fetch-depth: 1
-          path: docs
+          path: asf-site
       - name: 🔧 Build site
         run: |
-          rm -rf docs/*
-          ./build.sh
+          rm -rf asf-site/output/*
+          ./build.sh -Ddocs.dest=asf-site/output
       - name: 🚀 Add commit to the asf-site
         if: ${{ github.event_name == 'push' }}
-        working-directory: docs
+        working-directory: asf-site
         run: |
           echo "Running git config"
           git config user.name "GitHub Actions"
