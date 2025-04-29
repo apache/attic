@@ -1,49 +1,24 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Axis Sandesha2/C</title>
-  </properties>
-<body>
-
-<section id="sandesha2c">
-  <title>Apache Axis Sandesha2/C</title>
-
-  <p>Apache Axis Sandesha2/C moved into the Attic in September 2014.  Sandesha2/C was a C implementation of the WS-ReliableMessaging specification. Sandesha2/C was built on top of Apache Axis2/C Web services engine, as a module. Therefore by using Sandesha2/C you could add reliable messaging capability to Web services hosted using Axis2/C. Sandesha2/C could also be used with Axis2/C client to interact with an already hosted Web services in a reliable manner. </p>
-     
-  <p>The website, downloads and issue tracker all remain open, though the
-     issue tracker is read-only. There was no mailing list, instead you 
-     can see posts related to Sandesha2/C in the Axis2/C mailing list in the 
-     <a href="https://mail-archives.apache.org/">mail archives</a>.
-     See the website at
-     <a href="https://axis.apache.org/axis2/c/sandesha/">http://axis.apache.org/axis2/c/sandesha</a> 
-     for more information on Sandesha2/C.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork Sandesha2/C outside of Apache, 
-     please let us know so we can link to your project. </p>
-  
-  <p>Archived versions of Sandesha2/C may be downloaded from the 
-     <a href="https://archive.apache.org/dist/ws/sandesha2/c/">Apache Archives</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2014-09-01
+attic_issue: ATTIC-133
+attic_date: 2015-07-12
+attic_banner: false
+project_type: Subproject
+project_name: Axis Sandesha2/C
+project_domain: axis.apache.org/axis2/c/sandesha/
+project_description: >-
+    Sandesha2/C was a C implementation of the WS-ReliableMessaging specification. Sandesha2/C was
+    built on top of Apache Axis2/C Web services engine, as a module. Therefore by using Sandesha2/C
+    you could add reliable messaging capability to Web services hosted using Axis2/C. Sandesha2/C
+    could also be used with Axis2/C client to interact with an already hosted Web services in a reliable
+    manner.
+additional_text: >-
+    There was no mailing list, instead you can see posts related to Sandesha2/C in the Axis2/C mailing
+    list in the mail archives. 
+board_reports: false
+board_resolution: false
+downloads: true
+archive_path: ws/sandesha2/c
+source_repositories:
+    - type: Subversion
+      path: axis/axis2/c/sandesha

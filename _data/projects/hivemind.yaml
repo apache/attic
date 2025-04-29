@@ -1,55 +1,34 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache HiveMind</title>
-  </properties>
-<body>
-
-<section id="hivemind">
-  <title>Apache HiveMind</title>
-
-  <p><a href="https://hivemind.apache.org">Apache HiveMind</a> moved into the Attic in April 2009. 
-     HiveMind was a services and configuration microkernel. Its features are also referred to as 
-     Inversion of Control (IoC) Container or Lightweight Container.
-     Closely linked to Tapestry 4, it lost activity when Tapestry 5 moved to a new IoC container. </p>
-
-  <resource_table project="hivemind">
-    <mail name="commits"/>
-    <mail name="user"/>
-    <jira/>
-    <cwiki key="HIVEMIND/Home,HIVEMIND2/Index"/>
-    <svn/>
-  </resource_table>
-
-  <p><a href="https://markmail.org/thread/hb46sg2nolnntnnz">Discussion on the mailing list</a> 
-     indicated that <a href="https://tapestry.apache.org/tapestry5/tapestry-ioc/">Tapestry IoC</a>
-     was the natural successor to HiveMind. </p>
-
-  <p>As with any project in the Attic - if you should choose to fork HiveMind outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <p>One fork that has been created is Gaderian at <a href="https://gaderian.ops4j.org/">http://gaderian.ops4j.org/</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2009-03-18
+attic_issue: ATTIC-1
+attic_date: 2009-05-14
+attic_banner: false
+project_name: HiveMind
+project_description: >-
+    HiveMind was a services and configuration microkernel. Its features are
+    also referred to as Inversion of Control (IoC) Container or Lightweight
+    Container. Closely linked to Tapestry 4, it lost activity when Tapestry 5
+    moved to a new IoC container.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+    keys:
+        - HIVEMIND
+        - HIVEMIND2
+related_projects:
+    - name: Tapestry IoC
+      url: https://tapestry.apache.org/ioc.html
+      description: Discussion on the mailing list indicated that this was the natural successor to HiveMind.
+    - name: Gaderian 
+      url: https://ops4j1.jira.com/wiki/spaces/gaderian/
+      description: is one fork that has been created

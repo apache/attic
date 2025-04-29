@@ -1,55 +1,30 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache iBATIS</title>
-  </properties>
-<body>
-
-<section id="ibatis">
-  <title>Apache iBATIS</title>
-
-  <p><a href="https://ibatis.apache.org">Apache iBATIS</a> moved into the Attic in June 2010. 
-     iBATIS was a data mapper framework that made it easier to use a relational database 
-     with object-oriented applications. There were both Java and .Net implementations. </p>
-
-  <p>The iBATIS committers moved over to 
-     <a href="https://www.mybatis.org/">MyBatis</a>
-     which is the natural successor to iBATIS. </p>
-
-  <p>As with any project in the Attic - if you should choose to fork iBATIS outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <resource_table project="ibatis">
-  <mail name="commits,user-cs,user-java"/>
-  <jira/>
-  </resource_table>
-
-  <p>Archived versions of iBATIS may be downloaded from the 
-     <a href="https://archive.apache.org/dist/ibatis/">Apache Archives</a>. </p>
-
-  <p>As mentioned above, one fork that has been created is MyBatis at 
-     <a href="https://www.mybatis.org/">http://www.mybatis.org/</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2010-06-16
+attic_issue: ATTIC-66
+attic_date: 2010-07-24
+attic_banner: false
+project_name: iBATIS
+project_description: >-
+    iBATIS was a data mapper framework that made it easier to use a relational
+    database with object-oriented applications. There were both Java and .Net
+    implementations.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user-cs
+    - user-java
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+related_projects_text: >-
+    The iBATIS committers moved over to MyBatis which is the natural successor to iBATIS.
+related_projects:
+    - name: MyBatis
+      url: https://www.mybatis.org/
+      description: is a fork of iBATIS

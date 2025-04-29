@@ -1,56 +1,25 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache jUDDI</title>
-  </properties>
-<body>
-
-<section id="juddi">
-  <title>Apache jUDDI</title>
-
-  <p><a href="https://juddi.apache.org/">Apache jUDDI</a>
-     moved into the Attic in 2023-02.
-     Apache jUDDI mission was Java implementation of the Universal Description, Discovery, and Integration specification.</p>
-
-  <p>The website, downloads and issue tracker all remain open, though 
-     the issue tracker is read-only. See the website at
-     <a href="https://juddi.apache.org/">http://juddi.apache.org</a>
-     for more information on jUDDI.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork jUDDI
-     outside of Apache, please let us know so we can link to your project.
-  </p>
-
-  <resource_table project="juddi">
-    <mail name="commits,user"/>
-    <jira key="JUDDI,SCOUT"/>
-    <cwiki/>
-    <git/>
-    <!-- use the tag
-    <no_downloads/>
-    to suppress the Downloads links -->
-  </resource_table>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2023-02-15
+attic_issue: ATTIC-213
+attic_date: 2023-03-04
+attic_banner: true
+project_name: jUDDI
+project_description: >-
+    jUDDI mission was Java implementation of the Universal Description,
+    Discovery, and Integration specification.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Git
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+    keys:
+        - JUDDI
+        - SCOUT
+wiki:
+    type: CWIKI

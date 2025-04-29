@@ -1,55 +1,24 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache C++ Standard Library (STDCXX)</title>
-  </properties>
-<body>
-
-<section id="stdcxx">
-  <title>Apache C++ Standard Library (STDCXX)</title>
-
-  <p>The <a href="https://stdcxx.apache.org">Apache C++ Standard Library (STDCXX)</a> moved into the Attic in July 2013. 
-     The Apache C++ Standard Library project was a collection of algorithms, containers, iterators, and other fundamental 
-     components of every piece of software, implemented as C++ classes, templates, and functions essential for writing C++ programs. </p>
-     
-  <p>The user mailing list, website, downloads and issue tracker all remain open, though 
-     the issue tracker is read-only. See the website at 
-     <a href="https://stdcxx.apache.org/">http://stdcxx.apache.org</a> for more information on the project. </p>
-
-  <resource_table project="stdcxx" board_report_id="Cxx_Standard_Library">
-    <mail name="commits"/>
-    <mail name="user"/>
-    <jira/>
-    <cwiki/>
-    <svn/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork the retired project outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <p>Archived versions of the Apache C++ Standard Library (STDCXX) may be downloaded from the 
-     <a href="https://archive.apache.org/dist/stdcxx/">Apache Archives</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2013-07-17
+attic_issue: ATTIC-130
+attic_date: 2014-05-14
+attic_banner: false
+project_name: C++ Standard Library
+project_description: >-
+    The C++ Standard Library project was a collection of algorithms,
+    containers, iterators, and other fundamental components of every piece of
+    software, implemented as C++ classes, templates, and functions essential
+    for writing C++ programs.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

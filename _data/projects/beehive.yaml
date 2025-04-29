@@ -1,57 +1,26 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Beehive</title>
-  </properties>
-<body>
-
-<section id="beehive">
-  <title>Apache Beehive</title>
-
-  <p><a href="https://beehive.apache.org/">Apache Beehive</a> moved into the Attic in January 2010. 
-     Apache Beehive was a simple object model built on J2EE and Struts that used annotations to reduce 
-     the amount of required code. </p>
-     
-  <p>If you are looking for a project to use in place of Beehive, the following have been suggested for its components: </p>
-  <ul>
-    <li>Beehive NetUI / Page Flow - Struts 2 or Spring Web Flow</li>
-    <li>Beehive Controls - Spring Beans</li>
-    <li>Beehive WSM (web service metadata) - Axis2's implementation of JSR-181</li>
-  </ul>
-
-  <resource_table project="beehive">
-  <mail name="commits,user"/>
-  <jira/>
-  <cwiki/>
-  <svn/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork Beehive outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <p>Archived versions of Beehive may be downloaded from the 
-     <a href="https://archive.apache.org/dist/beehive/">Apache Archives</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2009-11-18
+attic_date: 2010-01-01
+attic_banner: false
+project_description: >-
+    Beehive was a simple object model built on J2EE and Struts that used annotations
+    to reduce the amount of required code.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+related_projects_text: >-
+    If you are looking for a project to use in place of Beehive, the following have been suggested for its components:
+related_projects:
+    - description: Beehive NetUI / Page Flow - Struts 2 or Spring Web Flow
+    - description: Beehive Controls - Spring Beans
+    - description: Beehive WSM (web service metadata) - Axis2's implementation of JSR-181

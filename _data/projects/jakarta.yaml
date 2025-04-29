@@ -1,56 +1,28 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Jakarta</title>
-  </properties>
-
-<body>
-
-  <section name="Jakarta">
-  <title>Jakarta</title>
-
-    <p>Founded in 1999, the Jakarta Project housed a diverse set of popular open source Java solutions. </p>
-
-    <p>In December 2011, Jakarta was retired as all of its subprojects had either become their own projects or been retired. </p>
-
-    <resource_table project="jakarta" hide_keys="true">
-      <mail name="announcements"/>
-      <mail name="general"/>
-      <mail name="site-cvs"/>
-      <mail name="notifications"/>
-      <svn/>
-    </resource_table>
-
-    <p>
-    For information on <i>Jakarta EE</i> (project under
-    the Eclipse Foundation, named in February 2018),
-    please visit <a href="https://jakarta.ee/">jakarta.ee</a> ;
-    for some background, see
-    <a href="https://javaee-guardians.io/2018/03/02/java-ee-is-officially-retired-its-now-called-jakarta-ee/">Java EE is Now Called Jakarta EE</a>
-    at <a href="https://javaee-guardians.io/">javaee-guardians.io</a>.
-    </p>
-
-  </section>
-
- </body>
-</document>
+---
+retirement_date: 2011-12-21
+attic_issue: 
+attic_date: 2011-12-01
+attic_banner: false
+project_description: >-
+    Founded in 1999, the Jakarta Project housed a diverse set of popular
+    open source Java solutions.
+additional_text: >-
+    In December 2011, Jakarta was retired as all of its subprojects had
+    either become their own projects or been retired.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - announcements
+    - general
+    - site-cvs
+    - notifications
+wiki:
+    type: CWIKI
+related_projects:
+    - name: Jakarta EE
+      url: https://jakarta.ee/
+      description: is a project under the Eclipse Foundation, named in February 2018

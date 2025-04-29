@@ -1,45 +1,20 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Xang</title>
-  </properties>
-<body>
-
-<section id="xang">
-  <title>Apache Xang</title>
-
-  <p><a href="https://xml.apache.org/xang/">Apache Xang</a> moved into the Attic in December 2009. 
-     Apache Xang was an XML Web Framework that aggregated multiple data sources, made that 
-     data URL addressable and defined custom methods to access that data. </p>
-     
-  <p>The website and downloads remain open. There was no issue tracker for the project and the 
-     mailing list was closed down. See the website at 
-     <a href="https://xml.apache.org/xang/">http://xml.apache.org/xang</a> for more information on Xang. </p>
-
-  <p>We do not know of any natural successors or potential forks for Xang. As with 
-     any project in the Attic - if you should choose to fork Xang outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2009-12-22
+attic_issue: ATTIC-44
+attic_date: 2010-02-10
+attic_banner: false
+project_type: Subproject
+project_domain: xml.apache.org/xang
+project_description: >-
+    Xang was an XML Web Framework that aggregated multiple data sources,
+    made that data URL addressable and defined custom methods to access that data.
+board_resolution: false
+board_reports: false
+downloads: false
+source_repositories:
+    - type: Subversion
+      path: xml/xang
+mailing_lists:
+    - xang-dev
+    - xang-cvs
+mailing_lists_prefix:  xml

@@ -1,44 +1,39 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
+---
+retirement_date: 2014-09-01
+attic_issue: ATTIC-133
+attic_date: 2015-07-12
+attic_banner: false
+project_type: Subproject
+project_name: Axis Savan/Java
+project_description: >-
+    Savan/Java was a Java implementation of WS-Eventing specification.
+    Savan/Java was built on top of Axis2/Java. Therefore by using Savan/Java
+    you could add WS-Eventing capability to Web services hosted using Axis2/Java.
+    Savan/Java was designed as a general publisher/subscriber tool. The
+    arcitecture was designed to abstract the general publisher/subscriber
+    features so that people could support more than one publisher/subscriber
+    mechanisms within the same infrastructure.
+project_domain: axis.apache.org/axis2/java/savan
+additional_text: >-
+    No downloads were made available. See the website for limited additional
+    information on Savan/Java. Note that the website is incorrect with regards
+    to where the source code is. Ther was no mailing list, instead you can see
+    posts related to Savan/Java in the Axis2/Java mailing list in the mail archives
+    
+board_resolution: false
+board_reports: false
+downloads: false
+archive_path: asf/axis/axis2/java/savan
+source_repositories:
+    - type: Subversion
+      path: axis/axis2/java/savan
+mailing_lists:
+    - java-dev
+    - java-commits
+    - java-user
+mailing_lists_prefix: axis
+issue_tracker:
+    type: JIRA
+    keys:
+        - SAVAN
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Axis Savan/Java</title>
-  </properties>
-<body>
-
-<section id="savan">
-  <title>Apache Axis Savan/Java</title>
-
-  <p>Apache Axis Savan/Java moved into the Attic in September 2014. Savan/Java was a Java implementation of WS-Eventing specification. Savan/Java was built on top of Axis2/Java. Therefore by using Savan/Java you could add WS-Eventing capability to Web services hosted using Axis2/Java. Savan/Java was designed as a general publisher/subscriber tool. The arcitecture was designed to abstract the general publisher/subscriber features so that people could support more than one publisher/subscriber mechanisms within the same infrastructure. </p>
-     
-  <p>The user mailing list, issue tracker and website all remain open, though the 
-     issue tracker is read-only. No downloads were made available. See the website at
-     <a href="https://axis.apache.org/axis2/java/savan/">http://axis.apache.org/axis2/java/savan</a> 
-     for limited additional information on Savan/Java. Note that the website is incorrect with regards to where 
-     the source code is. You can find the source code at <a href="https://svn.apache.org/repos/asf/axis/axis2/java/savan/">http://svn.apache.org/repos/asf/axis/axis2/java/savan/</a>. Also note the issue tracker was <a href="https://issues.apache.org/jira/browse/SAVAN">https://issues.apache.org/jira/browse/SAVAN</a>. </p>
-
-  <p>As with any project in the Attic - if you should choose to fork Savan/Java outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-</section>
-
-</body>
-</document>

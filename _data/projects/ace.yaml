@@ -1,46 +1,24 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache ACE</title>
-  </properties>
-<body>
-
-<section id="ACE">
-  <title>Apache ACE</title>
-
-  <p><a href="https://ace.apache.org">Apache ACE</a> moved into the Attic in December 2017. 
-Apache ACE was a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be. </p>
-     
-  <resource_table project="ace">
-    <mail name="commits"/>
-    <mail name="users"/>
-    <jira/>
-    <cwiki/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork ACE outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2017-12-20
+attic_issue: ATTIC-167
+attic_date: 2018-02-06
+attic_banner: true
+project_description: >-
+    ACE was a software distribution framework that allows you to centrally
+    manage and distribute software components, configuration data and other
+    artifacts to target systems. It is built using OSGi and can be deployed
+    in different topologies. The target systems are usually also OSGi based,
+    but don't have to be.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

@@ -1,48 +1,21 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Click</title>
-  </properties>
-<body>
-
-<section id="click">
-  <title>Apache Click</title>
-
-  <p><a href="https://click.apache.org">Apache Click</a> moved into the Attic in May 2014. 
-    Apache Click was a JEE web application framework, providing a natural rich client style programming model.
-  </p>
-
-  <resource_table project="click">
-    <mail name="commits"/>
-    <mail name="user"/>
-    <jira key="CLK"/>
-    <cwiki/>
-    <svn/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork Click outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2014-05-21
+attic_issue: ATTIC-131
+attic_date: 2015-09-28
+attic_banner: false
+project_description: >-
+    Click was a JEE web application framework, providing a natural
+    rich client style programming model.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

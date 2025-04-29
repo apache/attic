@@ -1,64 +1,38 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache ObJectRelationalBridge (OJB)</title>
-  </properties>
-<body>
-
-<section id="obj">
-  <title>Apache ObJectRelationalBridge (OJB)</title>
-
-  <p><a href="https://db.apache.org/ojb">Apache ObJectRelationalBridge (OJB)</a>
-     moved into the Attic in January 2011. Apache OJB was an Object/Relational
-     mapping tool that allowed transparent persistence for Java Objects against
-     relational databases.</p>
-
-  <p>The website, downloads and issue tracker all remain open, though the
-     issue tracker is read-only. The user mailing list has been closed down,
-     but old posts can be browsed in the
-     <a href="https://mail-archives.apache.org/">mail archives</a>.
-     See the website at
-     <a href="https://db.apache.org/ojb/">http://db.apache.org/ojb</a> for more
-     information on OJB.</p>
-
-  <p>If you are looking for a project to use in place of OJB, implementations
-     of the standards <a href="https://db.apache.org/jdo">Java Data Objects
-     (JDO)</a> and <a href="">Java Persistence API (JPA)</a> may be good
-     starting points. The Apache Software Foundation hosts the following
-     alternatives:
-      <ul>
-        <li><a href="https://cayenne.apache.org/">Apache Cayenne</a></li>
-        <li><a href="https://incubator.apache.org/empire-db/">Apache Empire-db</a></li>
-        <li><a href="https://openjpa.apache.org/">Apache OpenJPA</a></li>
-        <li><a href="https://db.apache.org/torque">Apache Torque</a></li>
-      </ul></p>
-
-  <p>As with any project in the Attic - if you should choose to fork OJB
-     outside of Apache, please let us know so we can link to your project.</p>
-
-  <p>Archived versions of OJB may be downloaded from the
-     <a href="https://archive.apache.org/dist/db/ojb/">Apache Archives</a>.</p>
- 
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2011-01-01
+attic_issue: ATTIC-113
+attic_date: 2011-06-28
+attic_banner: false
+project_type: Subproject
+project_name: ObJectRelationalBridge (OJB)
+project_domain: db.apache.org/ojb
+project_description: >-
+    OJB was an Object/Relational mapping tool that allowed transparent
+    persistence for Java Objects against relational databases.
+board_resolution: false
+board_reports: false
+downloads: true
+archive_path: db/ojb
+source_repositories:
+    - type: Subversion
+      path: db/ojb
+mailing_lists:
+    - ojb-dev
+    - ojb-user
+mailing_lists_prefix: db
+issue_tracker:
+    type: JIRA
+related_projects_text: >-
+    If you are looking for a project to use in place of OJB, implementations
+    of the standards Java Data Objects (JDO) and Java Persistence API (JPA)
+    may be good starting points. The Apache Software Foundation hosts the
+    following alternatives:
+related_projects:
+    - name: Apache Cayenne
+      url: https://cayenne.apache.org/
+    - name: Apache Empire-db
+      url: https://empire-db.apache.org/
+    - name: Apache OpenJPA
+      url: https://openjpa.apache.org/
+    - name: Apache Torque
+      url: https://db.apache.org/torque

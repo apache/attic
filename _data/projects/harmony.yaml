@@ -1,47 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Harmony</title>
-  </properties>
-
-<body>
-
-  <section name="Harmony">
-  <title>Apache Harmony</title>
-
-    <p>In November 2011, Apache Harmony was retired. </p>
-
-    <p>Harmony software was a modular Java runtime with class libraries and associated tools. </p>
-
-    <resource_table project="harmony">
-      <mail name='alerts'/>
-      <mail name='commits'/>
-      <jira/>
-      <svn/>
-      <cwiki/>
-    </resource_table>
-
-  </section>
-
- </body>
-</document>
+---
+retirement_date: 2011-11-16
+attic_issue: ATTIC-122
+attic_date: 2012-08-22
+attic_banner: false
+project_description: >-
+    Harmony was a modular Java runtime with class libraries and associated tools.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - alerts
+    - commits
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

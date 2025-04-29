@@ -1,66 +1,25 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Aurora</title>
-  </properties>
-<body>
-
-<section id="aurora">
-  <title>Apache Aurora</title>
-
-  <p><a href="https://aurora.apache.org/">Apache Aurora</a>
-     moved into the Attic in February 2020.
-     Apache Aurora was a Mesos framework for long-running services, cron jobs, and ad-hoc jobs.</p>
-
-  <p>The website, downloads and issue tracker all remain open, though 
-     the issue tracker is read-only. See the website at
-     <a href="https://aurora.apache.org/">http://aurora.apache.org</a>
-     for more information on Aurora.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork Aurora
-     outside of Apache, please let us know so we can link to your project.
-  </p>
-
-  <resource_table project="aurora">
-  <mail name="announcements"/>
-  <mail name="commits"/>
-  <mail name="issues"/>
-  <mail name="reviews"/>
-  <mail name="user"/>
-  <jira/>
-  <git/>
-  </resource_table>
-
-  <p>Some related projects to Aurora are:</p>
-
-  <ul>
-    <li><a href="https://github.com/aurora-scheduler/">aurora-scheduler</a> is a continuation of the project outside the ASF</li>
-  </ul>
-
-  <p>Archived versions of Aurora may be downloaded from the 
-     <a href="https://archive.apache.org/dist/aurora/">Apache Archives</a>.
-  </p>
- 
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2020-02-19
+attic_issue: ATTIC-179
+attic_date: 2021-04-05
+attic_banner: true 
+project_description: >-
+    Aurora was a Mesos framework for long-running services, cron jobs, and ad-hoc jobs.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Git
+mailing_lists:
+    - dev
+    - announcements
+    - commits
+    - issues
+    - reviews
+    - user
+issue_tracker:
+    type: JIRA
+related_projects:
+    - name: Aurora Scheduler
+      url: https://github.com/aurora-scheduler/
+      description: is a continuation of the project outside the ASF

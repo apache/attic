@@ -1,49 +1,29 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Tuscany</title>
-  </properties>
-<body>
-
-<section id="tuscany">
-  <title>Apache Tuscany</title>
-
-  <p><a href="https://tuscany.apache.org">Apache Tuscany</a> moved into the Attic in May 2016. 
-     Tuscany simplified the task of developing service-oriented architectured solutions by providing a comprehensive infrastructure for development and management, based on the <a href="https://en.wikipedia.org/wiki/Service_Component_Architecture">Service Component Architecture</a> standard. </p>
-     
-  <resource_table project="tuscany">
-    <mail name="user"/>
-    <mail name="commits"/>
-    <mail name="notification"/>
-    <jira/>
-    <cwiki key="TUSCANY,TUSCANYWIKI,TUSCANYxDOCx1x,TUSCANYxDOCx2x"/>
-    <svn/>
-    <git/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork Tuscany outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2016-05-18
+attic_issue: ATTIC-156
+attic_date: 2016-08-03
+attic_banner: false
+project_description: >-
+    Tuscany simplified the task of developing service-oriented architectured
+    solutions by providing a comprehensive infrastructure for development and
+    management, based on the Service Component Architecture standard.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+    - type: Git
+mailing_lists:
+    - dev
+    - commits
+    - user
+    - notification
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+    keys:
+        - TUSCANY
+        - TUSCANYWIKI
+        - TUSCANYxDOCx1x
+        - TUSCANYxDOCx2x

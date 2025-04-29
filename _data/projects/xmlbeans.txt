@@ -1,45 +1,21 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache XMLBeans</title>
-  </properties>
-<body>
-
-<section id="xmlbeans">
-  <title>Apache XMLBeans</title>
-
-  <p>Project <a href="https://xmlbeans.apache.org/">Apache XMLBeans</a>
-    was in the Attic from July 2013 until June 2018.
-  </p>
-
-  <p>Apache XMLBeans is a technology for accessing XML by binding it
-    to Java types.
-  </p>
-
-  <p><a href="https://xmlbeans.apache.org/">Apache XMLBeans</a>
-    is now a project of <a href="https://poi.apache.org/">Apache Poi</a>.
-  </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2013-07-17
+attic_issue: ATTIC-129
+attic_date: 2013-07-01
+attic_banner: false
+project_name: XMLBeans
+project_description: >-
+    XMLBeans is a technology for accessing XML by binding it to Java types.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

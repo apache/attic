@@ -1,49 +1,30 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Jakarta Slide</title>
-  </properties>
-
-<body>
-
-  <section name="Jakarta Slide">
-  <title>Jakarta Slide</title>
-
-    <p>Jakarta previously hosted Slide, a content repository which could serve as a basis for a content
-       management system as well as other purposes. Among its features was full WebDAV support.</p>
-
-    <p>In Novermber 2007, Slide was retired due to a lack of development community.</p>
-
-    <resource_table project="jakarta" subproject="slide">
-      <mail name="user"/>
-      <bugzilla/>
-      <svn/>
-    </resource_table>
-
-    <p>If you are looking for a WebDAV client or a server-side Content Repository, please consider the
-       <a href="https://jackrabbit.apache.org">Apache Jackrabbit</a> project as an alternative.</p>
-
-  </section>
-
- </body>
-</document>
+---
+retirement_date: 2010-04-21
+attic_issue: ATTIC-94
+attic_date: 2010-10-28
+attic_banner: false
+project_type: Subproject
+project_name: Jakarta Slide
+project_domain: jakarta.apache.org/slide
+project_description: >-
+    Jakarta previously hosted Slide, a content repository which could serve as
+    a basis for a content management system as well as other purposes. Among
+    its features was full WebDAV support.
+board_resolution: true
+board_reports: false
+downloads: true
+archive_path: jakarta/slide
+source_repositories:
+    - type: Subversion
+      path: jakarta/slide
+mailing_lists:
+    - dev
+    - user
+issue_tracker:
+    type: Bugzilla
+    keys:
+        - slide
+wiki:
+    type: CWIKI
+    keys:
+        - JAKARTASLIDE

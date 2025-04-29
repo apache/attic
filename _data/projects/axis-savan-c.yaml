@@ -1,50 +1,36 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Axis Savan/C</title>
-  </properties>
-<body>
-
-<section id="savan">
-  <title>Apache Axis Savan/C</title>
-
-  <p>Apache Axis Savan/C moved into the Attic in September 2014. Savan/C was a C implementation of WS-Eventing specification. Savan/C was built on top of Axis2/C. Therefore by using Savan/C you could add WS-Eventing capability to Web services hosted using Axis2/C. Savan/C was designed as a general publisher/subscriber tool. The arcitecture was designed to abstract the general publisher/subscriber features so that people could support more than one publisher/subscriber mechanisms within the same infrastructure. </p>
-     
-  <p>The website and downloads. There was no dedicated issue tracker, instead any issues raised 
-     were in the <a href="https://issues.apache.org/jira/browse/AXIS2C">Axis2/C</a> JIRA project. 
-     There was no mailing list, instead you 
-     can see posts related to Savan/C in the Axis2/C mailing list in the 
-     <a href="https://mail-archives.apache.org/">mail archives</a>.
-     See the website at
-     <a href="https://axis.apache.org/axis2/c/savan/">http://axis.apache.org/axis2/c/savan</a> 
-     for more information on Savan/C.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork Savan/C outside of Apache, 
-     please let us know so we can link to your project. </p>
-  
-  <p>Archived versions of Savan/C may be downloaded from the 
-     <a href="https://archive.apache.org/dist/ws/savan/c/">Apache Archives</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2014-09-01
+attic_issue: ATTIC-133
+attic_date: 2015-07-12
+attic_banner: false
+project_type: Subproject
+project_name: Axis Savan/C
+project_domain: axis.apache.org/axis2/c/savan
+project_description: >-
+    Savan/C was a C implementation of WS-Eventing specification. Savan/C was
+    built on top of Axis2/C. Therefore by using Savan/C you could add
+    WS-Eventing capability to Web services hosted using Axis2/C. 
+    Savan/C was designed as a general publisher/subscriber tool. The 
+    arcitecture was designed to abstract the general publisher/subscriber
+    features so: that people could support more than one publisher/subscriber
+    mechanisms within the same infrastructure.
+additional_text: >-
+    There was no dedicated issue tracker, instead any issues raised were in the
+    Axis2/C JIRA project (see below). There was no mailing list, instead you can
+    see posts related to Savan/C in the Axis2/C mailing lists below.
+board_resolution: false
+board_reports: false
+downloads: true
+archive_path: ws/savan/c
+source_repositories:
+    - type: Subversion
+      path: axis/axis2/c/savan
+mailing_lists:
+    - c-dev
+    - c-commits
+    - c-user
+mailing_lists_prefix: axis
+issue_tracker:
+    type: JIRA
+    keys:
+        - AXIS2C

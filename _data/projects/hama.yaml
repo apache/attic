@@ -1,61 +1,21 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Hama</title>
-  </properties>
-<body>
-
-<section id="hama">
-  <title>Apache Hama</title>
-
-  <p><a href="https://hama.apache.org/">Apache Hama</a>
-     moved into the Attic in April 2020.
-     Apache Hama was a framework for Big Data analytics based on the Bulk
-     Synchronous Parallel paradigm.</p>
-
-  <p>The website, downloads and issue tracker all remain open, though 
-     the issue tracker is read-only. See the website at
-     <a href="https://hama.apache.org/">http://hama.apache.org</a>
-     for more information on Hama.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork Hama
-     outside of Apache, please let us know so we can link to your project.
-  </p>
-
-  <resource_table project="hama">
-  <!-- by default only dev is generated -->
-  <mail name="commits"/>
-  <mail name="user"/>
-   <!-- use attribute key="" to override default JIRA -->
-  <jira/>
-  <cwiki/>
-  <git/>
-  </resource_table>
-
-  <p>Archived versions of Hama may be downloaded from the 
-     <a href="https://archive.apache.org/dist/hama/">Apache Archives</a>.
-  </p>
- 
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2020-04-15
+attic_issue: ATTIC-181
+attic_date: 2021-04-05
+attic_banner: true
+project_description: >-
+    Hama was a framework for Big Data analytics based on the Bulk Synchronous
+    Parallel paradigm.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Git
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI

@@ -1,49 +1,24 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Jakarta Regexp</title>
-  </properties>
-
-<body>
-
-  <section name="Jakarta Regexp">
-  <title>Jakarta Regexp</title>
-
-    <p>Jakarta previously hosted Regexp, a 100% Pure Java Regular Expression package.</p>
-
-    <p>As there were no new features or releases planned, the Jakarta Regexp project was retired in
-       April 2011.</p>
-
-    <resource_table project="jakarta" subproject="regexp">
-      <mail name="user"/>
-      <bugzilla/>
-      <svn/>
-    </resource_table>
-
-    <p>Jakarta Regexp users are encouraged to use similar features in newer Java versions, such
-       as <i>java.util.regexp</i></p>
-
-  </section>
-
- </body>
-</document>
+---
+retirement_date: 2011-04-20
+attic_issue: ATTIC-117
+attic_date: 2011-08-06
+attic_banner: false
+project_type: Subproject
+project_name: Jakarta Regexp
+project_domain: jakarta.apache.org/regexp
+project_description: >-
+    Jakarta previously hosted Regexp, a 100% Pure Java Regular Expression package.
+board_resolution: true
+board_reports: false
+downloads: true
+archive_path: jakarta/regexp
+source_repositories:
+    - type: Subversion
+      path: jakarta/regexp
+mailing_lists:
+    - dev
+    - user
+issue_tracker:
+    type: Bugzilla
+    keys:
+        - regexp

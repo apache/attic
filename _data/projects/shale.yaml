@@ -1,55 +1,34 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Shale</title>
-  </properties>
-<body>
-
-<section id="shale">
-  <title>Apache Shale</title>
-
-  <p><a href="https://shale.apache.org">Apache Shale</a> moved into the Attic in May 2009. 
-     Shale was a web application framework, fundamentally based on JavaServer Faces. This 
-     blog entry from Kito Mann is an excellent discussion of Shale's retirement: 
-     <a href="https://blogs.jsfcentral.com/editorsdesk/entry/shale_in_the_attic">http://blogs.jsfcentral.com/editorsdesk/entry/shale_in_the_attic</a>. </p>
-     
-  <p><a href="https://markmail.org/message/liexnvlxdlahlr74">Discussion on the mailing list</a> 
-     indicated that <a href="https://seamframework.org">Seam</a> and <a href="https://myfaces.apache.org">MyFaces</a> 
-     were the natural successors to Shale. </p>
-
-  <resource_table project="shale">
-    <mail name="commits,issues,notifications,user"/>
-    <jira/>
-    <cwiki/>
-    <svn/>
-  </resource_table>
-
-  <p>As with any project in the Attic - if you should choose to fork Shale outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <p>The Shale Test code has been forked into the MyFaces project - 
-     <a href="https://svn.apache.org/repos/asf/myfaces/test/trunk/">http://svn.apache.org/repos/asf/myfaces/test/trunk/</a>.</p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2009-05-20
+attic_issue: ATTIC-2
+attic_date: 2009-12-22
+attic_banner: false
+project_description: >-
+    Shale was a web application framework, fundamentally based on JavaServer Faces. 
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - issues
+    - notifications
+    - user
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+related_projects_text: >-
+    Discussion on the mailing list indicated that Seam and MyFaces were
+    the natural successors to Shale.
+related_projects:
+    - name: MyFaces Test
+      url: http://svn.apache.org/repos/asf/myfaces/test/trunk/
+      description: The Shale Test code has been forked into the MyFaces project
+    - name: MyFaces
+      url: https://myfaces.apache.org/
+    - name: SeamFramework
+      url: https://www.seamframework.org/
+      description:

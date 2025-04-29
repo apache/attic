@@ -1,51 +1,23 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Excalibur</title>
-  </properties>
-<body>
-
-<section id="excalibur">
-  <title>Apache Excalibur</title>
-
-  <p><a href="https://excalibur.apache.org">Apache Excalibur</a> moved into the Attic in December 2010. 
-     Apache Excalibur was a Java Inversion of Control container. 
-     </p>
-     
-  <p>We do not know of any natural successors or potential forks for Excalibur. As with 
-     any project in the Attic - if you should choose to fork Excalibur outside of Apache, 
-     please let us know so we can link to your project. </p>
-
-  <resource_table project="excalibur">
-  <mail name="scm,user"/>
-  <jira key="EXLBR,FORTRESS"/>
-  <cwiki/>
-  <svn/>
-  </resource_table>
-
-  <p>Archived versions of Excalibur may be downloaded from the 
-     <a href="https://archive.apache.org/dist/excalibur/">Apache Archives</a>. </p>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2010-12-15
+attic_issue: ATTIC-97
+attic_date: 2011-03-04
+attic_banner: false
+project_description: >-
+    Excalibur was a Java Inversion of Control container.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - scm
+    - user
+issue_tracker:
+    type: JIRA
+    keys:
+        - EXLBR
+        - FORTRESS
+wiki:
+    type: CWIKI

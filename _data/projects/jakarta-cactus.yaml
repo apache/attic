@@ -1,47 +1,26 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
+---
+retirement_date: 2011-08-01
+attic_date: 2011-08-01
+attic_banner: false
+project_type: Subproject
+project_name: Jakarta Cactus
+project_domain: jakarta.apache.org/cactus/
+project_description: >-
+    Jakarta previously hosted Cactus, a simple test framework for unit testing server-side java code.
+additional_text: >-
+    Cactus users are encouraged to switch to other techniques for testing.
+board_resolution: false
+board_reports: false
+downloads: true
+archive_path: jakarta/cactus
+source_repositories:
+    - type: Subversion
+      path: jakarta/cactus
+mailing_lists:
+    - dev
+    - user
+issue_tracker:
+    type: JIRA
+    keys:
+      - CACTUS
 
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Jakarta Cactus</title>
-  </properties>
-
-<body>
-
-  <section name="Jakarta Cactus">
-  <title>Jakarta Cactus</title>
-
-    <p>Jakarta previously hosted Cactus, a simple test framework for unit testing server-side java code. </p>
-
-    <p>In August 2011, Cactus was retired due to a lack of development community.</p>
-
-    <resource_table project="jakarta" subproject="cactus">
-      <mail name="user"/>
-      <jira/>
-      <svn/>
-    </resource_table>
-
-    <p>Cactus users are encouraged to switch to other techniques for testing.</p>
-
-  </section>
-
- </body>
-</document>

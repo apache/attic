@@ -1,48 +1,30 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
+---
+retirement_date: 2012-04-18
+attic_issue: ATTIC-146
+attic_date: 2012-04-01
+attic_banner: false
+project_name: XML
+project_description: >-
+    Founded in 1999, the Apache XML Project housed a diverse set of popular
+    open source XML solutions.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - bugs
+    - announcements
+    - general
+    - general-cvs
 
-    http://www.apache.org/licenses/LICENSE-2.0
+issue_tracker:
+    type: JIRA
+wiki:
+    type: CWIKI
+    keys:
+        - XMLBEANS
+        - XMLGRAPHICS
+        - XMLGRAPHICSBATIK
+        - XMLGRAPHICSFOP
 
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache XML</title>
-  </properties>
-
-<body>
-
-  <section name="XML">
-  <title>Apache XML</title>
-
-    <p>Founded in 1999, the Apache XML Project housed a diverse set of popular open source XML solutions. </p>
-
-    <p>In April 2012, the XML project was retired as all of its subprojects had either become their own projects or been retired. </p>
-
-    <resource_table project="xml" hide_keys="true" replace_dev="bugs">
-      <mail name="announcements"/>
-      <mail name="general"/>
-      <mail name="general-cvs"/>
-      <cwiki key="XMLBEANS,XMLGRAPHICS,XMLGRAPHICSBATIK,XMLGRAPHICSFOP"/>
-      <svn/>
-    </resource_table>
-
-
-  </section>
-
- </body>
-</document>

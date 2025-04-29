@@ -1,53 +1,24 @@
-<?xml version="1.0"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Apache Cocoon</title>
-  </properties>
-<body>
-
-<section id="cocoon">
-  <title>Apache Cocoon</title>
-
-  <p><a href="https://cocoon.apache.org/">Apache Cocoon</a>
-     moved into the Attic in 2025-01.
-     Apache Cocoon mission was Web development framework: separation of concerns, component-based.</p>
-
-  <p>The website, downloads and issue tracker all remain open, though 
-     the issue tracker is read-only. See the website at
-     <a href="https://cocoon.apache.org/">https://cocoon.apache.org</a>
-     for more information on Cocoon.</p>
-
-  <p>As with any project in the Attic - if you should choose to fork Cocoon
-     outside of Apache, please let us know so we can link to your project.
-  </p>
-
-  <resource_table project="cocoon">
-    <mail name="cvs,docs,users,users-fr"/>
-    <jira key="COCOON,COCOON3"/>
-    <cwiki/>
-    <svn/>
-  </resource_table>
-
-</section>
-
-</body>
-</document>
+---
+retirement_date: 2025-01-15
+attic_issue: ATTIC-227
+attic_date: 2025-03-23
+attic_banner: true
+project_description: >-
+    Cocoon mission was Web development framework: separation of
+    concerns, component-based.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+    - type: Subversion
+mailing_lists:
+    - dev
+    - commits
+    - user
+issue_tracker:
+    type: JIRA
+    keys:
+        - COCOON
+        - COCOON3
+wiki:
+    type: CWIKI

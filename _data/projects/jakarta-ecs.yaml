@@ -1,48 +1,26 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<!--
-  Licensed to the Apache Software Foundation (ASF) under one
-  or more contributor license agreements.  See the NOTICE file
-  distributed with this work for additional information
-  regarding copyright ownership.  The ASF licenses this file
-  to you under the Apache License, Version 2.0 (the
-  "License"); you may not use this file except in compliance
-  with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing,
-  software distributed under the License is distributed on an
-  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-  KIND, either express or implied.  See the License for the
-  specific language governing permissions and limitations
-  under the License. 
--->
-<document>
-
-  <properties>
-    <author email="general.AT.attic.apache.DOT.org">The Apache Software Foundation</author>
-    <title>Jakarta ECS</title>
-  </properties>
-
-<body>
-
-  <section name="Jakarta ECS">
-  <title>Jakarta ECS</title>
-
-    <p>Jakarta previously hosted ECS (Element Construction Set), a Java API for generating elements
-       for any of a variety of markup languages (examples included HTML 4.0 and XML).</p>
-
-    <p>In September 2010, ECS was retired due to a lack of development community.</p>
-
-    <resource_table project="jakarta" subproject="ecs">
-      <mail name="user"/>
-      <jira/>
-      <svn/>
-    </resource_table>
-
-    <p>ECS users are encouraged to switch to other techniques for markup generation.</p>
-
-  </section>
-
- </body>
-</document>
+---
+retirement_date: 2010-10-20
+attic_issue: ATTIC-95
+attic_date: 2010-10-27
+attic_banner: false
+project_type: Subproject
+project_name: Jakarta ECS
+project_domain: jakarta.apache.org/ecs
+project_description: >-
+    Jakarta previously hosted ECS (Element Construction Set), a Java API for
+    generating elements for any of a variety of markup languages (examples
+    included HTML 4.0 and XML).
+board_resolution: true
+board_reports: false
+downloads: true
+archive_path: jakarta/ecs
+source_repositories:
+    - type: Subversion
+      path: jakarta/ecs
+mailing_lists:
+    - dev
+    - user
+issue_tracker:
+    type: JIRA
+    keys:
+        - ECS
