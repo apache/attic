@@ -1,9 +1,0 @@
-# Confirm Board Resolution (/)
-# Inform [users|http://mail-archives.apache.org/mod_mbox/${tlpid}-user/] of the move to the Attic (!) 
-# Create project page on Attic site: [http://attic.apache.org/projects/${tlpid}|http://attic.apache.org/projects/${tlpid}.html] (!)
-# Ensure [original project site|http://${tlpid}.apache.org/] pages carry the Attic banner (!)
-# Update the project DOAP file (if any) or copy to [projects-override|https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/]:
-# Get infra lock down project's resources (!)
-# Announce on [announce at apache.org|http://mail-archives.apache.org/mod_mbox/www-announce/] (!)
-
-See [http://attic.apache.org/process.html#howto] for detailed instructions
