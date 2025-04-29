@@ -23,6 +23,7 @@ github:
   labels:
     - apache
     - attic
+    - Jekyll
   features:
     # disable issues management: we're using Jira https://issues.apache.org/jira/projects/ATTIC/summary
     issues: false

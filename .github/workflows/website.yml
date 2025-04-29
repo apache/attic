@@ -37,12 +37,28 @@ jobs:
           ref: asf-site
           fetch-depth: 1
           path: asf-site
+      - name: 🗂 Checkout cwiki-retired branch with minimum depth
+        uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # 3.5.3
+        with:
+          ref: cwiki-retired
+          fetch-depth: 1
+          path: cwiki-retired
+      - name: Set up Ruby
+        # Although ubuntu-latest includes ruby 3.2.2, this step is needed to set up bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.3
+          bundler-cache: true
       - name: 🔧 Build site
         run: |
-          rm -rf asf-site/output/*
-          ./build.sh -Ddocs.dest=asf-site/output
+          rm -rf _site/*
+          rm -rf cwiki-retired/*
+          ruby --version
+          bundle exec jekyll build -b /attic
+          mv _site/cwiki_retired/* cwiki-retired
+          rm -rf _site/cwiki_retired
       - name: 🚀 Add commit to the asf-site branch
-        working-directory: asf-site
+        working-directory: _site
         run: |
           echo "Running git config"
           git config user.name "GitHub Actions"
@@ -53,4 +69,17 @@ jobs:
           if git commit -m "Regenerated website based on ${GITHUB_SHA} commit"
           then
             git push origin asf-site
+          fi
+      - name: 🚀 Add commit to the cwiki-retired branch
+        working-directory: cwiki-retired
+        run: |
+          echo "Running git config"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          echo "Running git add -A"
+          git add -A .
+          echo "Running git commit"
+          if git commit -m "Regenerated website based on ${GITHUB_SHA} commit"
+          then
+            git push origin cwiki-retired
           fi

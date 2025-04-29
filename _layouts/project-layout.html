@@ -1,0 +1,196 @@
+---
+layout: page
+---
+{%- comment -%}
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to you under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+{% endcomment %}
+
+{%- assign archive_domain   = page.archive_path | default: page.project_id | prepend: "archive.apache.org/dist/" %}
+{%- assign resolution_file  = page.retirement_date | date: "%Y/board_minutes_%Y_%m_%d.txt" %}
+{%- assign resolution_locn  = resolution_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
+
+<h1>{{ page.project_apachename }}</h1>
+
+<p>
+  <a href="https://{{ page.project_domain }}/">{{ page.project_longname }}</a> retired in
+  <b>
+  {%- if page.board_resolution == true -%}
+    <a href="{{ resolution_locn }}">{{ page.retirement_date | date: "%B %Y" }}</a>
+  {%- else -%}
+    {{ page.retirement_date | date: "%B %Y" }}
+  {%- endif -%}
+  </b>
+  and the move to the Attic
+  {%- if page.attic_date %}
+    {%- if page.attic_issue %}
+      was completed in <a href="{{ page.attic_issue_link }}">{{ page.attic_date | date: "%B %Y" }}</a>.
+    {%- else %}
+      was completed in <b>{{ page.attic_date | date: "%B %Y" }}</b>.
+    {%- endif -%}
+  {%- else -%}
+    &nbsp;is <b><i>In Progress</i></b> (see <a href="{% link templates/{{ page.project_id }}.html %}">templates for {{page.project_name}}</a>).
+  {%- endif -%}
+</p>
+
+{%- if page.project_description %}
+<p>
+  {{ page.project_description }}
+</p>
+{%- endif -%}
+
+{%- if page.additional_text %}
+<p>
+  {{ page.additional_text }}
+</p>
+{%- endif %}
+
+<p>
+<table style="margin-left: auto; margin-right:auto; width:90%">
+  <tr>
+    <th>Read-only Resource</th>
+    <th>Link(s)</th>
+  </tr>
+  <tr>
+    <td>Website</td>
+    <td><a href="https://{{ page.project_domain }}/">{{ page.project_domain }}</a></td>
+  </tr>
+
+{%- if page.mailing_lists %}
+  <tr>
+    <td>Mailing List Archives</td>
+    {%- assign mailbox_prefix = page.mailing_lists_prefix | default: page.project_id %}
+    <td>
+    {%- for mail_list in page.mailing_lists %}
+      {% unless forloop.first %}| {% endunless -%}
+      <a href="https://mail-archives.apache.org/mod_mbox/{{ mailbox_prefix }}-{{ mail_list }}/">{{ mail_list }}</a>
+    {%- endfor %}
+    </td>
+  </tr>
+{%- endif %}
+
+{%- if page.source_repositories %}
+  {%- for source_repo in page.source_repositories %}
+  <tr>
+    <td>Source Code ({{ source_repo.type}})</td>
+    {%- case source_repo.type %}
+    {%- when "Subversion" %}
+      {%- assign svn_path = source_repo.path | default: page.project_id | prepend: "svn.apache.org/repos/asf/" %}
+      <td><a href="https://{{ svn_path }}/">{{ svn_path }}</a></td>
+    {%- when "Git" %}
+      {%- assign git_path = source_repo.path | default: page.project_id | prepend: "gitbox.apache.org/repos/asf#" %}
+      <td><a href="https://{{ git_path }}">{{ git_path }}</a></td>
+    {%- else %}
+      <td>??? {{ source_repo.type}} ???</td>
+    {%- endcase %}
+  </tr>
+  {%- endfor %}
+{%- endif %}
+
+{%- if page.issue_tracker.type %}
+  <tr>
+    <td>Issue Tracker ({{ page.issue_tracker.type }})</td>
+    {%- case page.issue_tracker.type %}
+    {% when "JIRA" %}
+      <td>
+      {%- for jira_key in page.issue_tracker.keys %}
+        {%- unless forloop.first %} | {% endunless %}
+        <a href="https://issues.apache.org/jira/browse/{{ jira_key }}/">{{ jira_key }}</a>
+      {%- else %}
+        {%- assign jira_key = page.project_id | upcase %}
+        <a href="https://issues.apache.org/jira/browse/{{ jira_key }}/">{{ jira_key }}</a>
+      {%- endfor %}
+      </td>
+    {% when "Bugzilla" %}
+      <td>
+      {%- for bz_key in page.issue_tracker.keys %}
+        {%- unless forloop.first %} | {% endunless %}
+        <a href="https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}">{{ bz_key }}</a>
+      {%- else %}
+        {%- assign bz_key = page.project_id | upcase %}
+        <a href="https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}">{{ bz_key }}</a>
+      {%- endfor %}
+      </td>
+
+    {%- else %}
+    <td>??? {{ page.issue_tracker.type}} ???</td>
+    {% endcase %}
+  </tr>
+{%- endif %}
+
+{%- if page.wiki.type %}
+  <tr>
+    <td>Wiki</td>
+      <td>
+    {%- case page.wiki.type -%}
+    {% when "CWIKI" %}
+      {%- for wiki_key in page.wiki.keys %}
+        {%- unless forloop.first %} | {% endunless %}
+        <a href="https://cwiki.apache.org/confluence/display/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
+      {%- else %}
+        {%- assign wiki_key = page.project_id %}
+        <a href="https://cwiki.apache.org/confluence/display/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
+      {%- endfor %}
+      </td>
+    {%- else %}
+      <td>??? {{ page.wiki.type}} ???</td>
+    {%- endcase %}
+  </tr>
+{%- endif %}
+
+{%- if page.board_reports == true %}
+  <tr>
+    <td>Board Reports</td>
+    <td><a href="https://whimsy.apache.org/board/minutes/{{ page.project_id }}.html">Minutes</a></td>
+  </tr>
+{%- endif %}
+
+{%- if page.downloads == true %}
+  <tr>
+    <td>Downloads</td>
+    <td>
+      <a href="https://{{ archive_domain }}/">{{ archive_domain }}</a> | 
+      <a href="https://{{archive_domain}}/KEYS">KEYS</a>
+    </td>
+  </tr>
+{% endif -%}
+</table>
+</p>
+
+<p>
+As with any project in the Attic - if you should choose to fork {{ project_name }} outside of Apache, please
+let us know so we can link to your project
+</p>
+
+{%- if page.related_projects %}
+  <h4>Projects related to {{project_name}}:</h4>
+  {%- if page.related_projects_text %}
+  <p>
+    {{page.related_projects_text}}
+  </p>
+  {%- endif %}
+  <p>
+  <ul>
+    {%- for related_project in page.related_projects %}
+    <li>
+       {%- if related_project.url %}
+       <a href="{{related_project.url}}">{{ related_project.name}}</a>
+       {%- endif %}
+       {{related_project.description}}
+    </li>
+    {%- endfor %}
+  </ul>
+  </p>
+{%- endif %}

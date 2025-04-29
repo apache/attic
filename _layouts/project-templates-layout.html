@@ -1,0 +1,171 @@
+---
+layout: page
+---
+{%- comment -%}
+Licensed to the Apache Software Foundation (ASF) under one or more
+contributor license agreements.  See the NOTICE file distributed with
+this work for additional information regarding copyright ownership.
+The ASF licenses this file to you under the Apache License, Version 2.0
+(the "License"); you may not use this file except in compliance with
+the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+{% endcomment %}
+
+{%- assign project_name     = page.project_name %}
+{%- assign project_domain   = page.project_domain %}
+{%- assign resolution_file  = page.retirement_date | date: "%Y/board_minutes_%Y_%m_%d.txt" %}
+{%- assign resolution_locn  = resolution_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
+{%- assign git_repositories = site.data.git-repositories.projects[page.project_id].repositories %}
+{%- assign mlists            = site.data.committee-retired.retired[page.project_id].mlists %}
+
+<h1>Templates for {{project_name}} Retirement</h1>
+<ul>
+  <li><a href="#attic-jira">Attic JIRA Template</li>
+  <li><a href="#infra-jira">Infra JIRA Template</li>
+  <li><a href="#user-email">User Email Template</li>
+  <li><a href="#announcement">Announcement Email Template</li>
+</ul>
+
+<p>
+Return to the <a href="{% link projects/{{ page.project_id }}.html %}">{{project_name}} summary</a>
+</p>
+
+<h2 id="attic-jira">Attic JIRA Template</h2>
+
+<p>
+Use the markup below to create an Attic JIRA for the project's move to the Attic:
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>
+{%- if page.board_resolution == true -%}
+# Confirm [Board Resolution|{{ resolution_locn }}] (!)
+{%- else %}
+# Confirm Board Resolution (!)
+{%- endif %}
+# Create the project YAML data file in the [_data/projects|https://github.com/apache/attic/tree/main/_data/projects] directory in the Attic site. (!)
+# Ensure the: [attic.apache.org/projects/{{ page.project_id }}|https://attic.apache.org/projects/{{ page.project_id }}.html] page has been generated(!)
+# Inform [dev|https://lists.apache.org/thread/xxxxxxxxxx] of the move to the Attic (!) 
+# Ensure [original project site|http://{{ project_domain }}/] pages carry the Attic banner (!)
+{%- if page.wiki.type and page.wiki.type == "CWIKI" %}
+# Ensure the Wiki pages (see links on the [{{ page.project_id }}|https://attic.apache.org/projects/{{ page.project_id }}.html] page) carry the Attic banner (!)
+{%- endif %}
+# Update the project DOAP file (if any) or copy to [projects-override|https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/]: (!)
+# Get infra lock down project's resources (!)
+# Announce on [announce at apache.org|http://mail-archives.apache.org/mod_mbox/www-announce/] (!)
+
+See [http://attic.apache.org/process.html#howto] for detailed instructions
+</code>
+</pre></div></div>
+
+<h2 id="infra-jira">Infra JIRA Template</h2>
+
+<p>
+Use the text below to create an Infra JIRA for the project's move to the Attic:
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>The {{ project_name }} project has retired.
+The following resources were detected for archive/removal please:
+
+Remove the distribution SVN developer directory:
+- https://dist.apache.org/repos/dist/dev/{{ page.project_id }}
+Remove the distribution SVN release directory contents:
+- https://dist.apache.org/repos/dist/release/{{ page.project_id }}
+and set up redirection to https://attic.apache.org/projects/{{ page.project_id }}.html
+
+{% if mlists -%}
+Mailing lists https://lists.apache.org/list.html?{{ page.project_id }}.apache.org:
+{%- for mail_list in mlists %}
+- {{ mail_list }}@{{ page.project_id }}.apache.org
+{%- endfor %}
+{%- endif %}
+
+{% if page.issue_tracker.type -%}
+  Make the following {{page.issue_tracker.type}} project(s) read-only and flag as retired:
+  {% case page.issue_tracker.type -%}
+  {%- when "JIRA" -%}
+    {%- for jira_key in page.issue_tracker.keys -%}
+      - https://issues.apache.org/jira/projects/{{ jira_key }}/
+    {%- else -%}
+      - https://issues.apache.org/jira/projects/{{ page.project_id | upcase }}/
+    {%- endfor %}
+  {%- when "Bugzilla" -%}
+    {%- for bz_key in page.issue_tracker.keys %}
+      - https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}
+    {%- else %}
+      - https://bz.apache.org/bugzilla/buglist.cgi?product={{ page.project_id | downcase }}
+    {%- endfor %}
+  {% endcase %}
+{%- endif %}
+
+{% if page.source_repositories -%}
+  Make the following source repositories read-only:
+  {%- for source_repo in page.source_repositories -%}
+    {% case source_repo.type -%}
+    {%- when "Subversion" %}
+      SVN: https://svn.apache.org/repos/asf/{{ source_repo.path | default: page.project_id }}
+    {%- when "Git" %}
+      {% for git_repo_hash in git_repositories -%}
+      Git: http://gitbox.apache.org/repos/asf/{{git_repo_hash[0]}}.git
+      {% else -%}
+      Git: https://gitbox.apache.org/repos/asf#{{ source_repo.path | default: page.project_id }}.git
+      {% endfor -%}
+    {%- else %}
+      {{ source_repo.type}}: ???
+    {%- endcase -%}
+  {%- endfor %}
+  Please do NOT rename the repos.
+{%- endif %}
+
+{% if page.wiki.type -%}
+  {%- case page.wiki.type -%}
+  {%- when "CWIKI" -%}
+    Make CWIKI readonly:
+    {%- for wiki_key in page.wiki.keys %}
+      https://cwiki.apache.org/confluence/display/{{ wiki_key }}
+    {%- else %}
+      https://cwiki.apache.org/confluence/display/{{ page.project_id }}/
+    {%- endfor %}
+  {%- else %}
+    {{ page.wiki.type}} ???
+  {%- endcase %}
+{%- endif %}
+
+Remove the LDAP project group: dn: cn={{ page.project_id }},ou=project,ou=groups,dc=apache,dc=org
+
+Turn off any automated builds
+</code>
+</pre></div></div>
+
+<h2 id="user-email">User Email Template</h2>
+
+<p>
+Let the users know that the PMC is moving into the Attic. Use the following text:
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>
+{%- include user-email-template.html name=project_name attic_issue=page.attic_issue %}
+</code>
+</pre></div></div>
+
+<h2 id="announcement">Announcement Email Template</h2>
+
+<p>
+Consider the following template when announcing that the project is now retired:
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>
+{%- include announce-email-template.html project_id=page.project_id name=project_name longname=page.project_apachename description=page.project_description %}
+</code>
+</pre></div></div>
+

@@ -1,0 +1,52 @@
+title: Apache Attic
+description: >- 
+    The Apache Attic was created in November 2008 to provide process and solutions
+    to make it clear when an Apache project has reached its end of life.
+url: https://attic.apache.org/
+
+include: [.htaccess]
+timezone: UTC
+repo: https://github.com/apache/attic
+
+### just-the-docs Configuration
+theme: just-the-docs
+color_scheme: attic
+heading_anchors: true
+nav_enabled: true
+aux_links_new_tab: false
+aux_links:
+  The Team:
+    - https://projects.apache.org/committee.html?attic
+  Board Minutes:
+    - https://whimsy.apache.org/board/minutes/Attic.html
+  License:
+    - https://www.apache.org/licenses/
+  Security:
+    - https://www.apache.org/security/
+  Privacy Policy:
+    - https://privacy.apache.org/policies/privacy-policy-public.html
+nav_external_links:
+    - title: Foundation 
+      url: https://apache.org/
+      opens_in_new_tab: true
+      hide_icon: true
+    - title: Donate
+      url: https://apache.org/foundation/sponsorship.html
+      opens_in_new_tab: true
+      hide_icon: true
+    - title: Thanks 
+      url: https://apache.org/foundation/sponsors/
+      opens_in_new_tab: true
+      hide_icon: true
+    - title: Incubator 
+      url: https://incubator.apache.org/
+      opens_in_new_tab: true
+      hide_icon: true
+    - title: Conference 
+      url: https://communityovercode.org/
+      opens_in_new_tab: true
+      hide_icon: true
+    - title: Events
+      url: https://events.apache.org/
+      opens_in_new_tab: true
+      hide_icon: true
