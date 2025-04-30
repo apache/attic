@@ -20,4 +20,6 @@
 
 ## Staged at: at https://attic-old-website.staged.apache.org
 staging:
-  profile: old-website_temp
+  profile: old-website
+# Should cause failure report
+xyz: ~
