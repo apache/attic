@@ -25,6 +25,8 @@ aux_links:
     - https://www.apache.org/security/
   Privacy Policy:
     - https://privacy.apache.org/policies/privacy-policy-public.html
+  Old Attic Site:
+    - https://attic-old-website.staged.apache.org
 nav_external_links:
     - title: Foundation 
       url: https://apache.org/
