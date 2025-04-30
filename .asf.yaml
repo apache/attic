@@ -20,7 +20,7 @@
 
 ## Staged at: at https://attic-old-website.staged.apache.org
 
-# Try matching profile to branch name (should not matter, but ...)
+# Looks like whoami might be required?
 staging:
-  profile: old-website-asf-site
+  profile: old-website
   whoami: old-website-asf-site
