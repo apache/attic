@@ -51,12 +51,11 @@ jobs:
           bundler-cache: true
       - name: 🔧 Build site
         run: |
-          rm -rf _site/*
-          rm -rf cwiki-retired/*
+          rm -rf asf-site/output/*
           ruby --version
-          bundle exec jekyll build -b /attic
-          mv _site/cwiki_retired/* cwiki-retired
-          rm -rf _site/cwiki_retired
+          bundle exec jekyll build -b /attic -d asf-site/output
+          mv asf-site/output/cwiki_retired/* cwiki-retired
+          rm -rf asf-site/output/cwiki_retired
       - name: 🚀 Add commit to the asf-site branch
         working-directory: _site
         run: |
