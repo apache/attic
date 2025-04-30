@@ -18,5 +18,7 @@
 # https://github.com/apache/infrastructure-asfyaml/blob/main/README.md
 ---
 
-publish:
-  whoami: asf-site
+
+## Staged at: at https://attic-old-website.staged.apache.org
+staging:
+  profile: old-website
