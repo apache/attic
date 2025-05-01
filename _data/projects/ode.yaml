@@ -19,6 +19,10 @@ mailing_lists:
     - user
 issue_trackers:
     - type: JIRA
+      keys:
+        - ODE
+        - JACOB
+        - OWC
 wiki:
     type: CWIKI
     keys:

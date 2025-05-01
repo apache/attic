@@ -19,5 +19,16 @@ mailing_lists:
     - apps-dev
     - cvs
     - phoenix-dev
+issue_trackers:
+    - type: JIRA
+      keys:
+        - AVALON
+        - AVNSHARP
+        - RUNTIME
+        - STUDIO
+        - CENTRAL
+        - PLANET
+        - TOOLS
+        - PNIX
 wiki:
     type: CWIKI

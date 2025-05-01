@@ -18,5 +18,13 @@ mailing_lists:
     - users
 issue_trackers:
     - type: JIRA
+      keys:
+        - TILES
+        - AUTOTAG
+        - TEVAL
+        - TREQ
+        - TILESSB
+        - TILESSHARED
+        - TILESSHOW
 wiki:
     type: CWIKI

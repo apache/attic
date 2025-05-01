@@ -15,5 +15,3 @@ mailing_lists:
     - dev
     - commits
     - user
-issue_trackers:
-    - type: JIRA

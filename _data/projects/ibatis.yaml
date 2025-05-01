@@ -20,6 +20,10 @@ mailing_lists:
     - user-java
 issue_trackers:
     - type: JIRA
+      keys:
+        - IBATIS
+        - IBATISNET
+        - RBATIS
 wiki:
     type: CWIKI
 related_projects_text: >-
