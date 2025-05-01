@@ -1,0 +1,66 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#   http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+name: Generate PR to add _data/projects/pid.yaml file
+
+# Manually triggered workflow to create a _data/projects/pid.yaml
+# It uses retire.rb to generate the file in a new branch: retire-<pid>
+# This is then used to create a PR against main
+
+on:
+  workflow_dispatch:
+    inputs:
+      processId:
+        required: true
+        type: string
+        description: Enter a project id, lower-case    
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  create-pull-request:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create PR for _data/projects/pid.yaml
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Validate the input id
+          PID=${{ github.event.inputs.processId }}
+          if [[ $PID =~ ^[a-z0-9-]+$ ]]
+          then
+            echo "Pid looks OK"
+          else
+            echo "Invalid projectId"
+            exit 1
+          fi
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          set -v
+          # create new branch
+          git switch -c retire-$PID
+          ruby retire.rb $PID
+          git add -A
+          git commit -m"Retire $PID"
+          # This will fail if there is an existing branch and PR
+          git push --set-upstream origin retire-$PID
+          gh pr create --title "Retire $PID" --body 'Please review the PR!' --base main --head retire-$PID
