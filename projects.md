@@ -28,7 +28,7 @@ limitations under the License.
 {%- assign list_date_fmt = "%b %Y" %}
 
 
-|Project|Tyepe|Description|Retired|
+|Project|Type|Description|Retired|
 |:------|:----|:----------|:------|
 {%- for project in projects_by_date -%}
 {%- assign retire_date = project.retirement_date  | date: list_date_fmt -%}
