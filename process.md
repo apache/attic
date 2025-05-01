@@ -41,7 +41,7 @@ to move that PMC into the Attic and gently close it down.
     failed to get enough votes.
 1. If the board approves the resolution, open an [Attic JIRA](https://issues.apache.org/jira/browse/ATTIC)
    item - 'Move ${project} to the Attic'. The Attic PMC will step in and create a detailed issue
-   description using [retire.py](https://svn.apache.org/repos/asf/attic/site/retire.py),
+   description using [`retire.py`](https://github.com/apache/attic/blob/main/retire.py),
    with other generated parts to move the project to the Attic.
    Generated issue content typically contains following steps (see ["How to"](#how-to-general-pointers) below for a description
    of each step):
@@ -59,10 +59,8 @@ on informing users step or any other useful action at project's level like modif
 
 The following are useful Git/svn/https locations:
 
-  - site (https://attic.apache.org), with its source (https://github.com/apache/attic), built to asf-site
-  - jira (https://issues.apache.org/jira/browse/ATTIC)
-  - legacy svn site [svn.apache.org/repos/asf/attic/site](https://svn.apache.org/repos/asf/attic/site)
-    ([github.com/apache/attic-site](https://github.com/apache/attic-site) mirror): cwiki_retired is last content used for now
+  - site [source](https://github.com/apache/attic), built to [`asf-site`](https://github.com/apache/attic/tree/asf-site) branch
+  - [ATTIC Jira](https://issues.apache.org/jira/browse/ATTIC)
   - permissions on svn [/repos/asf](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/asf-authorization-template#L231)
     and [/repos/infra](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/pit-authorization-template)
   - websites [svnpubsub](https://github.com/apache/infrastructure-p6/blob/production/modules/svnwcsub/files/svnwcsub.conf) and
@@ -96,13 +94,13 @@ in [YAML Format](https://en.wikipedia.org/wiki/YAML).
 
 Adding a project to the website is done by adding a YAML file for the project to the
 [_data/projects]({{site.repo}}/blob/main/_data/projects/) directory.
-This is currently a manual process, but we hope to automate it more in the future:
+This is currently a manual process, but we hope to update [`retire.py`](https://github.com/apache/attic/blob/main/retire.py) to automate it back:
   - clone the Git [Attic Repository]({{site.repo}})
   - Create the project YAML file (see the [Project Data]({% link data.md %}) page
     for help on crafting the YAML file)
   - Commit the file to your clone and open a PR request
 
-Once the PR is merged, Jekyll will automatically generate the project page.
+Once the PR is merged, GitHub Action will automatically launch Jekyll to generate the project page.
 
 Once the page is live:
   - Check the project site carries the **Attic Banner**
