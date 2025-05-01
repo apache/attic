@@ -134,3 +134,29 @@ wiki:
     type: CWIKI
 
 ```
+
+## How to test locally (DRAFT) ##
+
+Install Ruby.
+Install bundler if necessary: ```gem install bundler```
+
+If you wish to install the required Gems locally (rather than updating the system Gems),
+change the bundler installation directory:
+
+```bundle config path 'vendor/bundle' --local```
+
+Now install the required gems:
+
+```bundle install```
+
+To build the site:
+
+```bundle exec jekyll build```
+
+To build the site and make it available at http://localhost:4000/
+
+```bundle exec jekyll server```
+
+To run retire.rb:
+
+```bundle exec ruby retire.rb projectId ...```
