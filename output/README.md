@@ -90,10 +90,10 @@ mailing_lists:
     - commits
     - user
 mailing_lists_prefix:            ### [OPTIONAL] Defaults to this file name
-issue_tracker:
-    type: JIRA                   ### [REQUIRED] Valid Values: JIRA, Bugzilla
-    keys:
-      - JIRA_KEY_1               ### [OPTIONAL] Defaults to this file name
+issue_trackers:
+    - type: JIRA                 ### [REQUIRED] Valid Values: JIRA, Bugzilla
+      keys:
+        - JIRA_KEY_1             ### [OPTIONAL] Defaults to this file name
 wiki:
     type: CWIKI                  ### [REQUIRED] Valid values: CWIKI
     keys:
@@ -127,8 +127,8 @@ mailing_lists:
     - dev
     - commits
     - user
-issue_tracker:
-    type: JIRA
+issue_trackers:
+    - type: JIRA
 wiki:
     type: CWIKI
 
