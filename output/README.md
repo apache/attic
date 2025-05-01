@@ -74,10 +74,11 @@ revived_date: yyyy-mm-dd         ### [OPTIONAL] Date the project was revived - m
 project_name: [Another Name]     ### [OPTIONAL] defaults to this file name
 project_longname:                ### [OPTIONAL] defaults to this file name
 project_domain: [alt domain]     ### [OPTIONAL] defaults to this file name + ".apache.org"
-project_description: >-
-    [Project description here]
-additional_text: >-
-    [Put some text here]
+project_description: >-          ### [REQUIRED]
+    [Project description here]   ### Note that some characters - e.g. ':' - require the text to be enclosed in ''
+    [further description line]   ### text can be continued on the next line, keeping the same indentation
+additional_text: >-              ### [OPTIONAL]
+    [Put some text here]         ### Note that some characters - e.g. ':' - require the text to be enclosed in ''
 board_resolution: true           ### [REQUIRED] Valid values: true/false (link to board minutes from retirement date?)
 board_reports: true              ### [REQUIRED] Valid values: true/false (include Board Reports section?)
 downloads: true                  ### [REQUIRED] Valid values: true/false (include Downloads section?)
@@ -85,7 +86,7 @@ archive_path:                    ### [OPTIONAL] Defaults to this file name
 source_repositories:
     - type: Git                  ### [REQUIRED] Valid Values: Subversion, Git (may have both)
       path: [some/path]          ### [OPTIONAL] Defaults to this file name
-mailing_lists:
+mailing_lists:                   ### [REQUIRED] public mailing list names
     - dev
     - commits
     - user
@@ -94,7 +95,7 @@ issue_trackers:
     - type: JIRA                 ### [REQUIRED] Valid Values: JIRA, Bugzilla
       keys:
         - JIRA_KEY_1             ### [OPTIONAL] Defaults to this file name
-wiki:
+wiki:                            ### [OPTIONAL] Not all projects have a Wiki
     type: CWIKI                  ### [REQUIRED] Valid values: CWIKI
     keys:
       - WIKI_KEY_1               ### [OPTIONAL] Defaults to this file name
