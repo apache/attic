@@ -112,7 +112,7 @@ def find_wikis(pid)
     key = a['key']
     names << key if key == pid or key.start_with?(pid) or a['name'].downcase =~ /\b#{pid}\b/
   end
-  names
+  names.sort
 end
 
 # Allow for Apache prefix and (Retired) suffixes etc.
@@ -188,7 +188,8 @@ def main()
 
     mlists = get_json(LISTSAO)['lists']["#{pid}.apache.org"]&.keys
     if mlists
-      data[:mailing_lists] = mlists if mlists.size > 0
+      # ensure dev sorts first
+      data[:mailing_lists] = mlists.sort_by {|l| l == 'dev' ? 'aaa' : l} if mlists.size > 0
     else
       $stderr.puts "No mailing lists found for #{pid}"
     end
@@ -200,7 +201,7 @@ def main()
       {
         type: 'JIRA'
       }
-      tracker[:keys] = jiras if jiras.size > 1 or jiras.first != pid.upcase
+      tracker[:keys] = jiras.sort if jiras.size > 1 or jiras.first != pid.upcase
       data[:issue_trackers] << tracker
     end
 
