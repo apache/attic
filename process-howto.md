@@ -69,7 +69,9 @@ in [YAML Format](https://en.wikipedia.org/wiki/YAML).
 
 Adding a project to the website is done by adding a YAML file for the project to the
 [_data/projects]({{site.repo}}/blob/main/_data/projects/) directory.
-This is currently a manual process, but we hope to update [`retire.py`](https://github.com/apache/attic/blob/main/retire.py) to automate it back:
+
+**THIS NEEDS UPDATING, see details in process.md***
+
   - clone the Git [Attic Repository]({{site.repo}})
   - Create the project YAML file (see the [Project Data]({% link data.md %}) page
     for help on crafting the YAML file)
