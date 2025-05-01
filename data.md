@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Project Data
+title: Retired Projects Data
 parent: Process
-nav_order: 2
+nav_order: 3
 nav_exclude: false
 ---
 {%- comment -%}
@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 
-# Project Data YAML Files
+# Retired Projects Data YAML Files
 ***
 
 Much of the content on this website is generated from
@@ -30,10 +30,11 @@ Much of the content on this website is generated from
 [YAML Format](https://en.wikipedia.org/wiki/YAML). This page describe 
 the contents of how the data files are used and the attributes in the
 files:
- - [How the Data Files are Used](#how-the-data-files-are-used)
- - [Data File Attributes (YAML)](#data-file-attributes-yaml)
- - [Example YAML File](#example-yaml-file)
- - [YAML Template File](#yaml-template-file)
+- [Retired Projects Data YAML Files](#retired-projects-data-yaml-files)
+  - [How the Data Files are Used](#how-the-data-files-are-used)
+  - [Data File Attributes (YAML)](#data-file-attributes-yaml)
+  - [Example YAML File](#example-yaml-file)
+  - [YAML Template File](#yaml-template-file)
 
 ## How the Data Files are Used
 
