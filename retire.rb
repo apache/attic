@@ -29,8 +29,8 @@
 # TODO:
 # - does not check for Bugzilla issues
 # - does not check for GitHub issues
-# - Jira: excalibur/juddi - does not find all the entries
-# - Cwiki: did not find all ODE and COCOON entries
+# - Jira: juddi - does not find scout (is there an alias documented somewhere?)
+# - Cwiki: did not find ODE2
 # - aliases: does not check for previous names
 
 # Input:
@@ -53,6 +53,7 @@ require 'open3'
 # Sources
 CTTEE_RETIRED = 'https://whimsy.apache.org/public/committee-retired.json'
 CWIKI_INFO = 'https://cwiki.apache.org/confluence/rest/api/space/?type=global&limit=1000'
+# Note: Two Wikis are lower-case: labs, usergrid. Upper case does seem to be equivalent for display.
 JIRA = 'https://issues.apache.org/jira/rest/api/2/project'
 SVNURL = 'https://svn.apache.org/repos/asf/'
 GITREPOS = 'https://gitbox.apache.org/repositories.json'
@@ -114,10 +115,11 @@ def find_wikis(pid)
   names
 end
 
-# Allow for Apache prefix and (Retired) suffix etc.
+# Allow for Apache prefix and (Retired) suffixes etc.
+# returns first word, downcased
 # TODO: what about subnames?
 def canon_name(name)
-  name.downcase.sub('apache','').sub('(retired)', '').sub('(old)', '').strip
+  name.downcase.sub('apache','').gsub('(retired)', '').sub('(old)', '').strip.split.first
 end
 
 def get_jiras(pid)
@@ -193,11 +195,16 @@ def main()
     
     jiras = get_jiras pid
     if jiras.size > 0
-      data[:issue_tracker] = {
+      data[:issue_trackers] ||= []
+      tracker =
+      {
         type: 'JIRA'
       }
-      data[:issue_tracker][:keys] = jiras if jiras.size > 1 or jiras.first != pid.upcase
+      tracker[:keys] = jiras if jiras.size > 1 or jiras.first != pid.upcase
+      data[:issue_trackers] << tracker
     end
+
+    # TODO: Allow for Bugzilla and GitHub
 
     wikis = find_wikis pid
     if wikis.size > 0
@@ -207,12 +214,12 @@ def main()
       data[:wiki][:keys] = wikis if wikis.size > 1 or wikis.first != pid.upcase
     end
 
-    output = "_data/projects/#{pid}.yaml"
+    dir = ENV['OUTPUT'] || '_data/projects' # Allow override for testing
+    output = File.join(dir, "#{pid}.yaml")
     puts "Creating #{output}"
     content = YAML.safe_dump(data, permitted_classes: [Date], stringify_names: true, indentation: 4)
     # Massage the output to look more like existing files
-    tmp = content.gsub(%r{^-   }, '    - ').gsub(%r{^- }, '    - ')
-    tmp.sub!('project_description: ', "project_description: >-\n    ")
+    tmp = content.sub('project_description: ', "project_description: >-\n    ")
     File.write(output, tmp)
   end
 end

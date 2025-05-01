@@ -39,11 +39,17 @@ jobs:
     steps:
       - name: Install svn package (not included by default)
         run: |
-          sudo apt-get update
-          sudo apt-get install subversion
+          sudo apt-get -q update
+          sudo apt-get -q install subversion
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Set up Ruby
+        # Although ubuntu-latest includes ruby 3.2.2, this step is needed to set up bundler
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2.3
+          bundler-cache: true
       - name: Create PR for _data/projects/pid.yaml
         env:
           GH_TOKEN: ${{ github.token }}
@@ -62,7 +68,7 @@ jobs:
           set -v
           # create new branch
           git switch -c retire-$PID
-          ruby retire.rb $PID
+          bundle exec ruby retire.rb $PID
           git add -A
           git commit -m"Retire $PID"
           # This will fail if there is an existing branch and PR
