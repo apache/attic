@@ -98,6 +98,7 @@ DEPENDENCIES
   jekyll (~> 4.4.1)
   just-the-docs (= 0.10.1)
   psych (~> 5.2.0)
+  sass-embedded (= 1.78.0)
 
 BUNDLED WITH
    2.5.9
