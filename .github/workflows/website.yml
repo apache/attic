@@ -17,10 +17,13 @@
 
 name: Build Attic site
 
+# If the target branch is main, output is written to asf-site and cwiki-retired
+# Otherwise, the generated output is written back to the branch so it can be checked
+
 on:
   push:
-    branches: ['main']
   pull_request:
+  workflow_dispatch:
 
 jobs:
   website:
@@ -32,12 +35,14 @@ jobs:
         with:
           fetch-depth: 1
       - name: 🗂 Checkout asf-site branch with minimum depth
+        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # 3.5.3
         with:
           ref: asf-site
           fetch-depth: 1
           path: asf-site
       - name: 🗂 Checkout cwiki-retired branch with minimum depth
+        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # 3.5.3
         with:
           ref: cwiki-retired
@@ -55,9 +60,13 @@ jobs:
           rm -rf cwiki-retired/*
           ruby --version
           bundle exec jekyll build -d asf-site/output
+      - name: Move cwiki-retired out of asf-site
+        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        run: |
           mv asf-site/output/cwiki_retired/* cwiki-retired
           rm -rf asf-site/output/cwiki_retired
       - name: 🚀 Add commit to the asf-site branch
+        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         working-directory: asf-site
         run: |
           echo "Running git config"
@@ -71,6 +80,7 @@ jobs:
             git push origin asf-site
           fi
       - name: 🚀 Add commit to the cwiki-retired branch
+        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         working-directory: cwiki-retired
         run: |
           echo "Running git config"
@@ -82,4 +92,17 @@ jobs:
           if git commit -m "Regenerated website based on ${GITHUB_SHA} commit"
           then
             git push origin cwiki-retired
+          fi
+      - name: 🚀 Add commit to the branch (if not 'main')
+        if: ${{ (github.head_ref || github.ref_name) != 'main' }}
+        run: |
+          echo "Running git config"
+          git config user.name "GitHub Actions"
+          git config user.email "actions@users.noreply.github.com"
+          echo "Running git add -A"
+          git add -A .
+          echo "Running git commit"
+          if git commit -m "Regenerated website based on ${GITHUB_SHA} commit"
+          then
+            git push
           fi
