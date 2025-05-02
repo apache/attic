@@ -30,7 +30,6 @@ Much of the content on this website is generated from
 [YAML Format](https://en.wikipedia.org/wiki/YAML). This page describe 
 the contents of how the data files are used and the attributes in the
 files:
-- [Retired Projects Data YAML Files](#retired-projects-data-yaml-files)
   - [How the Data Files are Used](#how-the-data-files-are-used)
   - [Data File Attributes (YAML)](#data-file-attributes-yaml)
   - [Example YAML File](#example-yaml-file)
@@ -79,28 +78,42 @@ The project YAML files are used to generate the following:
 |attic_banner|Optional|true/false|Cause the ***Attic Banner*** to be displayed on the project's website (normally true)||
 |project_type|Optional|PMC, Subproject|Defaults to ***PMC*** (Historically Attic took in sub-projects, which is no longer the case)||
 |project_name|Optional|text|defaults to the `${project_id}` (capitialized)||
-|project_longname|Optional|text| defaults to the `${project_name}`|**ODE**: [YAML]({{site.repo}}/blob/main/_data/projects/ode.yaml)/[Page]({% link projects/ode.html %})|
-|project_domain|Optional|domain name|defaults to `${project_id}.apache.org`|**Quetzalcoatl**: [YAML]({{site.repo}}/blob/main/_data/projects/quetzalcoatl.yaml)/[Page]({% link projects/quetzalcoatl.html %})|
+|project_longname|Optional|text| defaults to the `${project_name}`|**ODE**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ode.yaml)/[Page]({% link projects/ode.html %})|
+|project_domain|Optional|domain name|defaults to `${project_id}.apache.org`|**Quetzalcoatl**: 
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/quetzalcoatl.yaml)/[Page]({% link projects/quetzalcoatl.html %})|
 |project_description|Required|text|Description of the project||
-|project_shortdesc|Optional|text|defaults either to the `description` in the `retired_projects.json` file or the first sentence of the `${project_description}`||
-|additional_text|Optional|text|Additional Text displayed on the project page below the project description|**Avalon**: [YAML]({{site.repo}}/blob/main/_data/projects/avalon.yaml)/[Page]({% link projects/avalon.html %})|
+|project_shortdesc|Optional|text|defaults either to the `description` in the `retired_projects.json`
+    {%- out %} file or the first sentence of the `${project_description}`||
+|additional_text|Optional|text|Additional Text displayed on the project page below the project description|**Avalon**: 
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/avalon.yaml)/[Page]({% link projects/avalon.html %})|
 |board_resolution|Required|true/false|If true, used to link to board minutes in combination with the `${retirement_date}`||
 |board_reports|Required|true/false|Cause a link to the project's Board Reports be shown on the project's page||
 |downloads|Required|true/false|Cause a link to the archive donwload's page for the project to be shown on the project page||
-|archive_path|Optional|path|Path to the project's download area. Defaults to the `${project_id}|**Joshua**: [YAML]({{site.repo}}/blob/main/_data/projects/joshua.yaml)/[Page]({% link projects/joshua.html %})|
+|archive_path|Optional|path|Path to the project's download area. Defaults to the `${project_id}|**Joshua**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/joshua.yaml)/[Page]({% link projects/joshua.html %})|
 |source_repositories|Optional|Array|An array of the project's sopurce respository types||
-|source_repositories: type|Required|Git, Subversion|Type of Source Respository|**Git(Any23)**: [YAML]({{site.repo}}/blob/main/_data/projects/any23.yaml)/[Page]({% link projects/any23.html %})|
-|source_repositories: path|Optional|path|Alternative respoitory path. Defaults to `${project_id}`|**Subversion(OJB)**: [YAML]({{site.repo}}/blob/main/_data/projects/ojb.yaml)/[Page]({% link projects/ojb.html %})|
+|source_repositories: type|Required|Git, Subversion|Type of Source Respository|**Git(Any23)**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/any23.yaml)/[Page]({% link projects/any23.html %})|
+|source_repositories: path|Optional|path|Alternative respoitory path. Defaults to `${project_id}`|**Subversion(OJB)**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ojb.yaml)/[Page]({% link projects/ojb.html %})|
 |mailing_lists|Optional|Array|List of the project's public mailing lists (e.g. dev, user etc)||
-|mailing_lists_prefix|Optional| |mbox_prefix if required (usually for Subprojects)|**Xang**: [YAML]({{site.repo}}/blob/main/_data/projects/xang.yaml)/[Page]({% link projects/xang.html %})|
-|issue_trackers|Optional|Array of Map|Details of the project's Issue tracker(s)|**ORO (Bugzilla)**: [YAML]({{site.repo}}/blob/main/_data/projects/jakarta-oro.yaml)/[Page]({% link projects/jakarta-oro.html %})|
-|issue_trackers: type|Required|JIRA, GitHub, Bugzilla|Type of Issue Tracker|**Aurora (GitHub,JIRA)**: [YAML]({{site.repo}}/blob/main/_data/projects/aurora.yaml)/[Page]({% link projects/aurora.html %})|
-|issue_trackers: keys|Optional|Array|List of Issue Tracker Key(s). Defaults to `${project_id}`|**Apex (JIRA)**: [YAML]({{site.repo}}/blob/main/_data/projects/apex.yaml)/[Page]({% link projects/apex.html %})|
-|wiki|Optional|Map|Details of the project's Wiki||
+|mailing_lists_prefix|Optional| |mbox_prefix if required (usually for Subprojects)|**Xang**: 
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/xang.yaml)/[Page]({% link projects/xang.html %})|
+|issue_trackers|Optional|Array of Map|Details of the project's Issue tracker(s)|**ORO (Bugzilla)**: 
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/jakarta-oro.yaml)/[Page]({% link projects/jakarta-oro.html %})|
+|issue_trackers: type|Required|JIRA, GitHub, Bugzilla|Type of Issue Tracker|**Aurora (GitHub,JIRA)**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/aurora.yaml)}/[Page]({% link projects/aurora.html %})|
+|issue_trackers: keys|Optional|Array|List of Issue Tracker Key(s). Defaults to `${project_id}`|**Apex (JIRA)**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/apex.yaml)/[Page]({% link projects/apex.html %})|
+|wiki|Optional|Map|Details of the project's Issue tracker(s)||
 |wiki: type|Required|CWIKI|Type of Wiki. CWIKI causes the ***Attic Banner*** to be displayed on the CWIKI spaces||
-|wiki: keys|Optional|Array|List of Wiki Key(s). Defaults to `${project_id}`|**Eagle**: [YAML]({{site.repo}}/blob/main/_data/projects/eagle.yaml)/[Page]({% link projects/eagle.html %})|
-|related_projects_text|Optional|text|Text displayed before the list of related projects (if any) on the project's page|**iBATIS**: [YAML]({{site.repo}}/blob/main/_data/projects/ibatis.yaml)/[Page]({% link projects/ibatis.html %})|
-|related_projects|Optional|Array of Maps|Details of Related Projects, shown at the bottom of the project page (if any)|**Hivemind**: [YAML]({{site.repo}}/blob/main/_data/projects/hivemind.yaml)/[Page]({% link projects/hivemind.html %})|
+|wiki: keys|Optional|Array|List of Wiki Key(s). Defaults to `${project_id}`|**Eagle**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/eagle.yaml)/[Page]({% link projects/eagle.html %})|
+|related_projects_text|Optional|text|Text displayed before the list of related projects (if any) on the project's page|**iBATIS**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ibatis.yaml)/[Page]({% link projects/ibatis.html %})|
+|related_projects|Optional|Array of Maps|Details of Related Projects, shown at the bottom of the project page (if any)|**Hivemind**:
+    {%- out %}[YAML]({{site.repo}}/blob/main/_data/projects/hivemind.yaml)/[Page]({% link projects/hivemind.html %})|
 |related_projects: name|Optional|text|Name of the related project||
 |related_projects: url|Optional|url|URL of the related project||
 |related_projects: description|Required|text|Description of the related project||
