@@ -52,3 +52,28 @@ nav_external_links:
       url: https://events.apache.org/
       opens_in_new_tab: true
       hide_icon: true
+
+# For Callouts, see https://just-the-docs.github.io/just-the-docs/docs/configuration/#callouts
+callouts:
+  warning:
+    title: Warning
+    color: red
+  important:
+    title: Important
+    color: blue
+  important-green:
+    title: Important
+    color: green
+  note:
+    title: Note
+    color: blue
+  note-green:
+    title: Note
+    color: green
+  tip:
+    title: Tip
+    color: blue
+  tip-green:
+    title: Tip
+    color: green
+

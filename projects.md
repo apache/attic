@@ -24,15 +24,19 @@ limitations under the License.
 <h1>Retired Projects</h1>
 ***
 
-{%- assign projects_by_date = site.data.project_array | sort_natural: "project_longname" %}
-{%- assign list_date_fmt = "%b %Y" %}
+{: .fs-5}
+This page lists all the **Projects** and **Subprojects** in The Apache Attic.
 
+{: .note}
+In the early years The Apache Attic accepted some ***Subprojects***, but this is no longer the
+case and only ***Top Level Projects*** (projects with a **PMC**) are now accepted.
 
 |Project|Type|Description|Retired|
-|:------|:----|:----------|:------|
-{%- for project in projects_by_date -%}
-{%- assign retire_date = project.retirement_date  | date: list_date_fmt -%}
-{%- assign attic_date = project.attic_date | date: list_date_fmt -%}
-{% assign proj_link = project.project_id | prepend: "projects/" | append: ".html" %}
-|{{forloop.index}}. [{{ project.project_apachename }}]({%- link {{proj_link}} -%})|{{project.project_type}}|{{project.project_shortdesc}}|{{ retire_date }}|
-{%- endfor -%}
+|:------|:---|:----------|:------|
+{%- for project in site.data.project_array | sort_natural: "project_longname" | reversed %}
+|{{forloop.index}}. [{{project.project_apachename}}](
+   {%- link {{project.project_id | prepend: "projects/" | append: ".html"}} -%}
+)|{{project.project_type}}|{{project.project_shortdesc}}|{{project.retirement_date | date: "%b %Y"}}
+{%- endfor %}
+
+
