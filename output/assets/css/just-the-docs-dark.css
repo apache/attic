@@ -7609,4 +7609,459 @@ div.opaque {
   background-color: #27262b;
 }
 
+p.warning, blockquote.warning {
+  background: rgba(221, 46, 46, 0.2);
+  border-left: 4px solid #f77e7e;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.warning::before, blockquote.warning::before {
+  color: #f77e7e;
+  content: "Warning";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.warning > .warning-title, blockquote.warning > .warning-title {
+  color: #f77e7e;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.warning-title, blockquote.warning-title {
+  background: rgba(221, 46, 46, 0.2);
+  border-left: 4px solid #f77e7e;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.warning-title > p:first-child, blockquote.warning-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #f77e7e;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.warning {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.warning > p:first-child {
+  margin-top: 0;
+}
+blockquote.warning > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.warning-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.warning-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.warning-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.important, blockquote.important {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.important::before, blockquote.important::before {
+  color: #2c84fa;
+  content: "Important";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.important > .important-title, blockquote.important > .important-title {
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.important-title, blockquote.important-title {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.important-title > p:first-child, blockquote.important-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.important {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.important > p:first-child {
+  margin-top: 0;
+}
+blockquote.important > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.important-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.important-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.important-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.important-green, blockquote.important-green {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.important-green::before, blockquote.important-green::before {
+  color: #41d693;
+  content: "Important";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.important-green > .important-green-title, blockquote.important-green > .important-green-title {
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.important-green-title, blockquote.important-green-title {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.important-green-title > p:first-child, blockquote.important-green-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.important-green {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.important-green > p:first-child {
+  margin-top: 0;
+}
+blockquote.important-green > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.important-green-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.important-green-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.important-green-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.note, blockquote.note {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.note::before, blockquote.note::before {
+  color: #2c84fa;
+  content: "Note";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.note > .note-title, blockquote.note > .note-title {
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.note-title, blockquote.note-title {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.note-title > p:first-child, blockquote.note-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.note {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.note > p:first-child {
+  margin-top: 0;
+}
+blockquote.note > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.note-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.note-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.note-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.note-green, blockquote.note-green {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.note-green::before, blockquote.note-green::before {
+  color: #41d693;
+  content: "Note";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.note-green > .note-green-title, blockquote.note-green > .note-green-title {
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.note-green-title, blockquote.note-green-title {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.note-green-title > p:first-child, blockquote.note-green-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.note-green {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.note-green > p:first-child {
+  margin-top: 0;
+}
+blockquote.note-green > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.note-green-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.note-green-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.note-green-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.tip, blockquote.tip {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.tip::before, blockquote.tip::before {
+  color: #2c84fa;
+  content: "Tip";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.tip > .tip-title, blockquote.tip > .tip-title {
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.tip-title, blockquote.tip-title {
+  background: rgba(24, 51, 133, 0.2);
+  border-left: 4px solid #2c84fa;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.tip-title > p:first-child, blockquote.tip-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #2c84fa;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.tip {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.tip > p:first-child {
+  margin-top: 0;
+}
+blockquote.tip > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.tip-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.tip-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.tip-title > p:last-child {
+  margin-bottom: 0;
+}
+
+p.tip-green, blockquote.tip-green {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.tip-green::before, blockquote.tip-green::before {
+  color: #41d693;
+  content: "Tip";
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+p.tip-green > .tip-green-title, blockquote.tip-green > .tip-green-title {
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+p.tip-green-title, blockquote.tip-green-title {
+  background: rgba(2, 110, 87, 0.2);
+  border-left: 4px solid #41d693;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12), 0 3px 10px rgba(0, 0, 0, 0.08);
+  padding: 0.8rem;
+}
+p.tip-green-title > p:first-child, blockquote.tip-green-title > p:first-child {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #41d693;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  padding-bottom: 0.125rem;
+}
+
+blockquote.tip-green {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.tip-green > p:first-child {
+  margin-top: 0;
+}
+blockquote.tip-green > p:last-child {
+  margin-bottom: 0;
+}
+
+blockquote.tip-green-title {
+  margin-left: 0;
+  margin-right: 0;
+}
+blockquote.tip-green-title > p:nth-child(2) {
+  margin-top: 0;
+}
+blockquote.tip-green-title > p:last-child {
+  margin-bottom: 0;
+}
+
 /*# sourceMappingURL=just-the-docs-dark.css.map */
