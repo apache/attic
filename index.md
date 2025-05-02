@@ -87,7 +87,7 @@ The Attic is a project as any other:
   - It is managed by a [Project Management Committee (PMC)](https://projects.apache.org/committee.html?attic).
   - Public discussions happen on a mailing list: see
      [general@attic.apache.org archive](https://lists.apache.org/list.html?general@attic.apache.org).
-    You are welcome to subscribe and engage discussion.
+    You are welcome to subscribe and engage in discussion.
     
 ### Retired Incubator Projects
 The [Apache Incubator](https://incubator.apache.org/) project is the entry path into
