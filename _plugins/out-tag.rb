@@ -27,7 +27,7 @@ module Jekyll
     end
 
     def render(context)
-      "#{@text}"
+      @text
     end
   end
 end
