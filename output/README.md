@@ -153,7 +153,7 @@ To build the site:
 
 ```bundle exec jekyll build```
 
-To build the site and make it available at http://localhost:4000/
+To build the site and make it available at http://127.0.0.1:4000/
 
 ```bundle exec jekyll server```
 
