@@ -96,7 +96,7 @@ The project YAML files are used to generate the following:
 |issue_trackers|Optional|Array of Map|Details of the project's Issue tracker(s)|**ORO (Bugzilla)**: [YAML]({{site.repo}}/blob/main/_data/projects/jakarta-oro.yaml)/[Page]({% link projects/jakarta-oro.html %})|
 |issue_trackers: type|Required|JIRA, GitHub, Bugzilla|Type of Issue Tracker|**Aurora (GitHub,JIRA)**: [YAML]({{site.repo}}/blob/main/_data/projects/aurora.yaml)/[Page]({% link projects/aurora.html %})|
 |issue_trackers: keys|Optional|Array|List of Issue Tracker Key(s). Defaults to `${project_id}`|**Apex (JIRA)**: [YAML]({{site.repo}}/blob/main/_data/projects/apex.yaml)/[Page]({% link projects/apex.html %})|
-|wiki|Optional|Map|Details of the project's Issue tracker(s)||
+|wiki|Optional|Map|Details of the project's Wiki||
 |wiki: type|Required|CWIKI|Type of Wiki. CWIKI causes the ***Attic Banner*** to be displayed on the CWIKI spaces||
 |wiki: keys|Optional|Array|List of Wiki Key(s). Defaults to `${project_id}`|**Eagle**: [YAML]({{site.repo}}/blob/main/_data/projects/eagle.yaml)/[Page]({% link projects/eagle.html %})|
 |related_projects_text|Optional|text|Text displayed before the list of related projects (if any) on the project's page|**iBATIS**: [YAML]({{site.repo}}/blob/main/_data/projects/ibatis.yaml)/[Page]({% link projects/ibatis.html %})|
