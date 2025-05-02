@@ -33,7 +33,7 @@ case and only ***Top Level Projects*** (projects with a **PMC**) are now accepte
 
 |Project|Type|Description|Retired|
 |:------|:---|:----------|:------|
-{%- for project in site.data.project_array | sort_natural: "project_longname" | reversed %}
+{%- for project in site.data.project_array %}
 |{{forloop.index}}. [{{project.project_apachename}}](
    {%- link {{project.project_id | prepend: "projects/" | append: ".html"}} -%}
 )|{{project.project_type}}|{{project.project_shortdesc}}|{{project.retirement_date | date: "%b %Y"}}
