@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How To
+title: Attic Process
 parent: Process
 nav_order: 2
 ---

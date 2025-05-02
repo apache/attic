@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resolution
+title: Board Resolution
 parent: Process
 nav_exclude: false
 nav_order: 1

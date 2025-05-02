@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Retired Projects Data
+title: Data Reference (YAML)
 parent: Process
 nav_order: 3
 nav_exclude: false
@@ -22,7 +22,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 
-# Retired Projects Data YAML Files
+# Data Reference (YAML)
 ***
 
 Much of the content on this website is generated from
