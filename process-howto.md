@@ -24,7 +24,9 @@ limitations under the License.
 # Attic Process: How To
 ***
 
-- [Attic Process: How To](#attic-process-how-to)
+{: .fs-5}
+The sections below describe *How To* complete the various tasks of retiring a project and moving it to The Apache Attic:
+
   - [1. Confirm Board Resolution](#1-confirm-board-resolution)
   - [2. Create project page on Attic site:](#2-create-project-page-on-attic-site)
   - [3. Inform users of the move to the Attic](#3-inform-users-of-the-move-to-the-attic)
