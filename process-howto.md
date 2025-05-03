@@ -117,8 +117,8 @@ The files referenced are in [https://svn.apache.org/repos/asf/comdev/projects.ap
 
 Identify whether the project has a DOAP file (see the <comdev repo>/projects.apache.org/data/projects.xml file)
 and update the rdf file with:
-- PMC to the Attic and
-- add a category of _retired_ (keep original cateogires, as they remain valid for the project)
+- PMC to the Attic,
+- and add _retired_ category (keep original categories, as they remain valid for the project)
 
 ```
 pmc change:    <asfext:pmc rdf:resource="http://attic.apache.org" />
