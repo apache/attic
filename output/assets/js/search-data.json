@@ -127,7 +127,7 @@
   },"18": {
     "doc": "Process",
     "title": "2. If the board approves the resolution",
-    "content": "The Attic team will open an Attic JIRA item - ‘Move ${project} to the Attic’. Generated issue content typically contains following steps (see “How to” for a description of each step that the Attic team will follow): . | # Confirm Board Resolution | # Create project page on Attic site: https://attic.apache.org/projects/$project.html | # Inform users of the move to the Attic | # Update the project DOAP files (if any) or copy to projects-override | # Get infra lock down project’s resources | # Announce on announce at apache.org | . The Attic team will then execute the steps: getting help from terminating project is welcome, particularly on informing users step or any other useful action at project’s level like modifying DOAP. ",
+    "content": "The Attic team will open an Attic JIRA item - Move ${project} to the Attic. Issue content typically contains following steps: . | # Confirm Board Resolution | # Create project page on Attic site: https://attic.apache.org/projects/${project}.html | # Inform users of the move to the Attic | # Update the project DOAP files (if any) or copy to projects-override | # Get infra lock down project’s resources | # Announce on announce at apache.org | . See Attic Process: How To for a description of each step that the Attic team will follow. Getting help from terminating project is welcome, particularly on informing users step or any other useful action at project’s level like modifying DOAP file. Don’t hesitate to discuss through the Jira issue. ",
     "url": "/process.html#2-if-the-board-approves-the-resolution",
     
     "relUrl": "/process.html#2-if-the-board-approves-the-resolution"
