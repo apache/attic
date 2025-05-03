@@ -43,16 +43,18 @@ to move that PMC into the Attic and gently close it down.
     failed to get enough votes.
 
 ## 2. If the board approves the resolution
-The Attic team will open an [Attic JIRA](https://issues.apache.org/jira/browse/ATTIC) item - 'Move ${project} to the Attic'.
+The Attic team will open an [Attic JIRA](https://issues.apache.org/jira/browse/ATTIC) item - `Move ${project} to the Attic`.
 
-Generated issue content typically contains following steps (see ["How to"](process-howto.html) for a description
-of each step that the Attic team will follow):
+Issue content typically contains following steps:
    - \# Confirm Board Resolution
-   - \# Create project page on Attic site: https://attic.apache.org/projects/$project.html
+   - \# Create project page on Attic site: https://attic.apache.org/projects/${project}.html
    - \# Inform users of the move to the Attic
    - \# Update the project DOAP files (if any) or copy to [projects-override](https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/)
    - \# Get infra lock down project's resources
    - \# Announce on [announce at apache.org](https://lists.apache.org/list?announce@apache.org:lte=1M:%22is%20now%20retired%22)
 
-The Attic team will then execute the steps: getting help from terminating project is welcome, particularly
-on informing users step or any other useful action at project's level like modifying DOAP.
+See [Attic Process: How To](process-howto.html) for a description of each step that the Attic team will follow.
+
+Getting help from terminating project is welcome, particularly
+on informing users step or any other useful action at project's level like modifying DOAP file.
+Don't hesitate to discuss through the Jira issue.
