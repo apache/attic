@@ -107,8 +107,8 @@ thread if it does exist.
 ## 4. Update the project DOAP file (if any):
 **https://projects.apache.org/project.html?${project}**
 
-The DOAP files (used for [projects directory](https://projects.apache.org/projects.html)) are referenced in [projects.apache.org `data/projects.xml`]
-(https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml),
+The DOAP files (used for [projects directory](https://projects.apache.org/projects.html)) are referenced
+in [projects.apache.org `data/projects.xml`](https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml),
 which every Apache committer can update (in [svn](https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data)).
 
 Identify whether the project being terminated has a DOAP `.rdf` file,
