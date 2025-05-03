@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Attic Process",
     "title": "Attic Process: How To",
-    "content": ". | Attic Process: How To . | 1. Confirm Board Resolution | 2. Create project page on Attic site: | 3. Inform users of the move to the Attic | 4. Update the project DOAP file (if any): | 5. Get infra lock down project’s resources | 6. Announce on announce@apache.org | . | . The following are useful Git/svn/https locations: . | site source, built to asf-site branch | ATTIC Jira | permissions on svn /repos/asf and /repos/infra | websites svnpubsub and infra-reports#sitesource | . ",
+    "content": ". The sections below describe How To complete the various tasks of retiring a project and moving it to The Apache Attic: . | 1. Confirm Board Resolution | 2. Create project page on Attic site: | 3. Inform users of the move to the Attic | 4. Update the project DOAP file (if any): | 5. Get infra lock down project’s resources | 6. Announce on announce@apache.org | . The following are useful Git/svn/https locations: . | site source, built to asf-site branch | ATTIC Jira | permissions on svn /repos/asf and /repos/infra | websites svnpubsub and infra-reports#sitesource | . ",
     "url": "/process-howto.html#attic-process-how-to",
     
     "relUrl": "/process-howto.html#attic-process-how-to"
