@@ -67,5 +67,5 @@ of each step that the Attic team will follow):
    - \# Get infra lock down project's resources
    - \# Announce on [announce at apache.org](https://lists.apache.org/list?announce@apache.org:lte=1M:%22is%20now%20retired%22)
 
-The Attic PMC will then execute the steps: getting help from terminating project is welcome, particularly
+The Attic team will then execute the steps: getting help from terminating project is welcome, particularly
 on informing users step or any other useful action at project's level like modifying DOAP.

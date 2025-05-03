@@ -112,13 +112,14 @@ thread if it does exist.
 ## 4. Update the project DOAP file (if any):
 **https://projects.apache.org/project.html?${project}**
 
-The files referenced are in [https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk]
-(https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk), which every Apache committer can update.
+The DOAP files (used for [projects directory](https://projects.apache.org/projects.html)) are referenced in [projects.apache.org `data/projects.xml`]
+(https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml),
+which every Apache committer can update (in [svn](https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data)).
 
-Identify whether the project has a DOAP file (see the <comdev repo>/projects.apache.org/data/projects.xml file)
-and update the rdf file with:
-- PMC to the Attic,
-- and add _retired_ category (keep original categories, as they remain valid for the project)
+Identify whether the project being terminated has a DOAP `.rdf` file,
+and update the DOAP `.rdf` file:
+1. change PMC to the Attic,
+2. add [_retired_](https://projects.apache.org/projects.html?category#retired) category (keep original categories, as they remain valid for the project)
 
 ```
 pmc change:    <asfext:pmc rdf:resource="http://attic.apache.org" />
@@ -126,7 +127,7 @@ add category:  <category rdf:resource="http://projects.apache.org/category/retir
 ```
 
 You can use `script/project2attic.py` to prepare the update that you'll just need to
-review and commit
+review and commit.
 
 ## 5. Get infra lock down project's resources
 
