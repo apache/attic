@@ -27,9 +27,9 @@ limitations under the License.
 
 <h1>Templates for {{project_name}} Retirement</h1>
 <ul>
-  <li><a href="#attic-jira">Attic JIRA Template</li>
-  <li><a href="#infra-jira">Infra JIRA Template</li>
+  <li><a href="#attic-jira">ATTIC Jira Template</li>
   <li><a href="#user-email">User Email Template</li>
+  <li><a href="#infra-jira">INFRA Jira Template</li>
   <li><a href="#announcement">Announcement Email Template</li>
 </ul>
 
@@ -37,10 +37,10 @@ limitations under the License.
 Return to the <a href="{% link projects/{{ page.project_id }}.html %}">{{project_name}} summary</a>
 </p>
 
-<h2 id="attic-jira">Attic JIRA Template</h2>
+<h2 id="attic-jira">ATTIC Jira Template</h2>
 
 <p>
-Use the markup below to create an Attic JIRA for the project's move to the Attic:
+Use the markup below to create an [ATTIC](https://issues.apache.org/jira/projects/ATTIC) Jira issue for the project's move to the Attic:
 </p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
@@ -61,14 +61,26 @@ Use the markup below to create an Attic JIRA for the project's move to the Attic
 # Get infra lock down project's resources (!)
 # Announce on [announce at apache.org|http://mail-archives.apache.org/mod_mbox/www-announce/] (!)
 
-See [http://attic.apache.org/process.html#howto] for detailed instructions
+See [https://attic.apache.org/process-howto.html] for detailed instructions
 </code>
 </pre></div></div>
 
-<h2 id="infra-jira">Infra JIRA Template</h2>
+<h2 id="user-email">User Email Template</h2>
 
 <p>
-Use the text below to create an Infra JIRA for the project's move to the Attic:
+Let the users know that the PMC is moving into the Attic. Use the following text:
+</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
+<code>
+{%- include user-email-template.html name=project_name attic_issue=page.attic_issue %}
+</code>
+</pre></div></div>
+
+<h2 id="infra-jira">INFRA Jira Template</h2>
+
+<p>
+Use the text below to create an [INFRA](https://issues.apache.org/jira/projects/INFRA) Jira issue for the project's move to the Attic:
 </p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
@@ -143,18 +155,6 @@ Make the following Bugzilla project(s) read-only and flag as retired:
 Remove the LDAP project group: dn: cn={{ page.project_id }},ou=project,ou=groups,dc=apache,dc=org
 
 Turn off any automated builds
-</code>
-</pre></div></div>
-
-<h2 id="user-email">User Email Template</h2>
-
-<p>
-Let the users know that the PMC is moving into the Attic. Use the following text:
-</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight">
-<code>
-{%- include user-email-template.html name=project_name attic_issue=page.attic_issue %}
 </code>
 </pre></div></div>
 
