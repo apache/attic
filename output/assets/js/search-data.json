@@ -85,7 +85,7 @@
   },"12": {
     "doc": "Attic Process",
     "title": "4. Update the project DOAP file (if any):",
-    "content": "https://projects.apache.org/project.html?${project} . The DOAP files (used for projects directory) are referenced in [projects.apache.org data/projects.xml] (https://github.com/apache/comdev-projects/blob/trunk/data/projects.xml), which every Apache committer can update (in svn). Identify whether the project being terminated has a DOAP .rdf file, and update the DOAP .rdf file: . | change PMC to the Attic, | add retired category (keep original categories, as they remain valid for the project) | . pmc change: &lt;asfext:pmc rdf:resource=\"http://attic.apache.org\" /&gt; add category: &lt;category rdf:resource=\"http://projects.apache.org/category/retired\" /&gt; . You can use script/project2attic.py to prepare the update that you’ll just need to review and commit. ",
+    "content": "https://projects.apache.org/project.html?${project} . The DOAP files (used for projects directory) are referenced in projects.apache.org data/projects.xml, which every Apache committer can update (in svn). Identify whether the project being terminated has a DOAP .rdf file, and update the DOAP .rdf file: . | change PMC to the Attic, | add retired category (keep original categories, as they remain valid for the project) | . pmc change: &lt;asfext:pmc rdf:resource=\"http://attic.apache.org\" /&gt; add category: &lt;category rdf:resource=\"http://projects.apache.org/category/retired\" /&gt; . You can use script/project2attic.py to prepare the update that you’ll just need to review and commit. ",
     "url": "/process-howto.html#4-update-the-project-doap-file-if-any",
     
     "relUrl": "/process-howto.html#4-update-the-project-doap-file-if-any"
