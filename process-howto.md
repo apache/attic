@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Attic Process: How To
+title: Attic Process - How To
 parent: Process
 nav_order: 2
 ---
@@ -21,7 +21,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 
-# Attic Process: How To
+# Attic Process - How To
 ***
 
 {: .fs-5}
