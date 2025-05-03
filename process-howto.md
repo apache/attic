@@ -25,7 +25,7 @@ limitations under the License.
 ***
 
 {: .fs-5}
-The sections below describe *How To* complete the various tasks of retiring a project and moving it to The Apache Attic:
+The sections below describe *How To* complete the various tasks to be done by Attic team for retiring a project and moving it to The Apache Attic:
 
   - [1. Confirm Board Resolution](#1-confirm-board-resolution)
   - [2. Create project page on Attic site:](#2-create-project-page-on-attic-site)
@@ -36,7 +36,7 @@ The sections below describe *How To* complete the various tasks of retiring a pr
 
 The following are useful Git/svn/https locations:
 
-  - site [source](https://github.com/apache/attic), built to [`asf-site`](https://github.com/apache/attic/tree/asf-site) branch
+  - Attic site [source](https://github.com/apache/attic)
   - [ATTIC Jira](https://issues.apache.org/jira/browse/ATTIC)
   - permissions on svn [/repos/asf](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/asf-authorization-template#L231)
     and [/repos/infra](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/pit-authorization-template)
@@ -65,28 +65,23 @@ and its rendered HTML in [asf-site](https://github.com/apache/www-site/tree/asf-
 ## 2. Create project page on Attic site:
 **https://attic.apache.org/projects/${project}.html**
 
-The Attic Website uses [Jekyll](https://github.com/jekyll/jekyll), which generates the
-[Project Pages]({% link projects.md %}) from [project data files]({{site.repo}}/blob/main/_data/projects/)
-in [YAML Format](https://en.wikipedia.org/wiki/YAML).
+You can create a PR for the `$project.yaml` file using the GitHub Action
+[Generate PR to add _data/projects/pid.yaml file](https://github.com/apache/attic/actions/workflows/retire.yml).
 
-Adding a project to the website is done by adding a YAML file for the project to the
-[_data/projects]({{site.repo}}/blob/main/_data/projects/) directory.
+Click on 'Run workflow' and enter the lower case project id.
+If the id is valid, the workflow will create a PR to add the YAML file.
 
-**THIS NEEDS UPDATING, see details in process.md***
+Once the PR has been checked and applied, the site will be regenerated.
+The project details will be found at https://attic.apache.org/projects/$project.html
+and associated retirement WIP templates at https://attic.apache.org/templates/$project.html
 
-  - clone the Git [Attic Repository]({{site.repo}})
-  - Create the project YAML file (see the [Project Data]({% link data.md %}) page
-    for help on crafting the YAML file)
-  - Commit the file to your clone and open a PR request
+A sample Attic Jira template can be found on that page.
 
-Once the PR is merged, GitHub Action will automatically launch Jekyll to generate the project page.
-
-Once the page is live:
+Once the page is live and Jira issue is created, follow steps and update issue state:
   - Check the project site carries the **Attic Banner**
   - Check any CWIKI spaces carry the  **Attic Banner**
   - Use the project's [Template Page]({% link tracking.md %}) to help with:
     - Creating the Attic JIRA
-    - Creating the Infra JIRA
     - Templates for User & Announcement Emails
 
 ## 3. Inform users of the move to the Attic
