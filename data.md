@@ -27,9 +27,8 @@ limitations under the License.
 
 Much of the content on this website is generated from
 [project data files]({{site.repo}}/blob/main/_data/projects/) in
-[YAML Format](https://en.wikipedia.org/wiki/YAML). This page describe 
-the contents of how the data files are used and the attributes in the
-files:
+[YAML Format](https://en.wikipedia.org/wiki/YAML). This page describes
+how the data files are used and the contents of the files:
   - [How the Data Files are Used](#how-the-data-files-are-used)
   - [Data File Attributes (YAML)](#data-file-attributes-yaml)
   - [Example YAML File](#example-yaml-file)
@@ -77,7 +76,8 @@ The project YAML files are used to generate the following:
 |attic_date|Optional|yyyy-mm-dd|Date the move to the Attic was completed||
 |attic_banner|Optional|true/false|Cause the ***Attic Banner*** to be displayed on the project's website (normally true)||
 |project_type|Optional|PMC, Subproject|Defaults to ***PMC*** (Historically Attic took in sub-projects, which is no longer the case)||
-|project_name|Optional|text|defaults to the `${project_id}` (capitialized)||
+|project_name|Optional|text|defaults to the `${project_id}` (capitialized)|**ODE**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ode.yaml)/[Page]({% link projects/ode.html %})|
 |project_longname|Optional|text| defaults to the `${project_name}`|**ODE**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ode.yaml)/[Page]({% link projects/ode.html %})|
 |project_domain|Optional|domain name|defaults to `${project_id}.apache.org`|**Quetzalcoatl**: 
@@ -90,9 +90,9 @@ The project YAML files are used to generate the following:
 |board_resolution|Required|true/false|If true, used to link to board minutes in combination with the `${retirement_date}`||
 |board_reports|Required|true/false|Cause a link to the project's Board Reports be shown on the project's page||
 |downloads|Required|true/false|Cause a link to the archive donwload's page for the project to be shown on the project page||
-|archive_path|Optional|path|Path to the project's download area. Defaults to the `${project_id}|**Joshua**:
+|archive_path|Optional|path|Path to the project's download area. Defaults to the `${project_id}`|**Joshua**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/joshua.yaml)/[Page]({% link projects/joshua.html %})|
-|source_repositories|Optional|Array|An array of the project's sopurce respository types||
+|source_repositories|Optional|Array|An array of the project's source respositories||
 |source_repositories: type|Required|Git, Subversion|Type of Source Respository|**Git(Any23)**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/any23.yaml)/[Page]({% link projects/any23.html %})|
 |source_repositories: path|Optional|path|Alternative respoitory path. Defaults to `${project_id}`|**Subversion(OJB)**:
