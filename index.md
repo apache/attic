@@ -50,7 +50,7 @@ Project Management Committee (PMC) decides it would like to move the project, or
 Apache Software Foundation's board dissolves the PMC and chooses to move the project.
 
 First step is to add a suitable resolution to the next board agenda: see the
-[Template Board Resolution]({% link resolution.md %}).
+[Board Resolution Template]({% link resolution.md %}).
 
 Once the submitted resolution has been approved during a board meeting, the Attic project starts
 executing the move.
