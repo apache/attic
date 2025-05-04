@@ -74,7 +74,7 @@ Once the PR has been checked and applied, the site will be regenerated.
 The project details will be found at [https://attic.apache.org/projects/${project}.html](https://attic.apache.org/projects/)
 and associated retirement WIP templates at [https://attic.apache.org/templates/${project}.html](https://attic.apache.org/templates/)
 
-A sample ARRIC Jira template can be found on that page.
+A sample ATTIC Jira template can be found on that page.
 Note that the project YAML file will need to be updated to add the ATTIC Jira issue number once it has been created.
 
 Once the page is live and Jira issue is created, follow steps and update issue state:
