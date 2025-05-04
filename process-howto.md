@@ -70,12 +70,14 @@ You can create a PR for the `$project.yaml` file using the GitHub Action
 
 Click on 'Run workflow' and enter the lower case project id.
 If the id is valid, the workflow will create a PR to add the YAML file.
+The workflow will also build a preview version of the website from the PR branch.
 
 Once the PR has been checked and applied, the site will be regenerated.
 The project details will be found at https://attic.apache.org/projects/$project.html
 and associated retirement WIP templates at https://attic.apache.org/templates/$project.html
 
 A sample Attic Jira template can be found on that page.
+Note that the project YAML file will need to be updated to add the Attic Jira issue number once it has been created.
 
 Once the page is live and Jira issue is created, follow steps and update issue state:
   - Check the project site carries the **Attic Banner**
