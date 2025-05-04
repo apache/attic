@@ -36,8 +36,6 @@ The sections below describe *How To* complete the various tasks to be done by At
 
 The following are useful Git/svn/https locations:
 
-  - Attic site [source](https://github.com/apache/attic)
-  - [ATTIC Jira](https://issues.apache.org/jira/browse/ATTIC)
   - permissions on svn [/repos/asf](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/asf-authorization-template#L231)
     and [/repos/infra](https://github.com/apache/infrastructure-p6/blob/production/modules/subversion_server/files/authorization/pit-authorization-template)
   - websites [svnpubsub](https://github.com/apache/infrastructure-p6/blob/production/modules/svnwcsub/files/svnwcsub.conf) and
@@ -123,12 +121,12 @@ pmc change:    <asfext:pmc rdf:resource="http://attic.apache.org" />
 add category:  <category rdf:resource="http://projects.apache.org/category/retired" />
 ```
 
-You can use `script/project2attic.py` to prepare the update that you'll just need to
+You can use [`script/project2attic.py`](https://github.com/apache/comdev-projects/blob/trunk/scripts/project2attic.py) to prepare the update that you'll just need to
 review and commit.
 
 ## 5. Get infra lock down project's resources
 
-Open an [Infrastructure JIRA](https://issues.apache.org/jira/browse/INFRA) issue identifying
+Open an [Infrastructure Jira](https://issues.apache.org/jira/browse/INFRA) issue identifying
 the resources that need turning off/making read only.
 
 Once the project page is live on the Attic website, you can use the project's
