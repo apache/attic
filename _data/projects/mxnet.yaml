@@ -1,24 +1,27 @@
 ---
 retirement_date: 2023-09-20
-attic_issue: ATTIC-216
-attic_date: 2024-02-14
+attic_issue: ATTIC-nnn
+attic_date:
 attic_banner: true
 project_name: MXNet
 project_description: >-
-    MXNet was a flexible and efficient library for Deep Learning.
+    MXNet was a a flexible and efficient library for Deep Learning.
 board_resolution: true
 board_reports: true
 downloads: true
 source_repositories:
-    - type: Git
+-   type: Git
 mailing_lists:
-    - dev
-    - commits
-    - discuss-archive
-    - events
-    - issues
-    - user
+- dev
+- commits
+- discuss-archive
+- events
+- issues
+- user
 issue_trackers:
-    - type: JIRA
+-   type: JIRA
+    keys:
+    - MXNET
+    - MXNETTEST
 wiki:
     type: CWIKI
