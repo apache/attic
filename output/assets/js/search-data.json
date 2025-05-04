@@ -57,7 +57,7 @@
   },"8": {
     "doc": "Attic Process - How To",
     "title": "Attic Process - How To",
-    "content": ". The sections below describe How To complete the various tasks to be done by Attic team for retiring a project and moving it to The Apache Attic: . | 1. Confirm Board Resolution | 2. Create project page on Attic site: | 3. Inform users of the move to the Attic | 4. Update the project DOAP file (if any): | 5. Get infra lock down project’s resources | 6. Announce on announce@apache.org | . The following are useful Git/svn/https locations: . | Attic site source | ATTIC Jira | permissions on svn /repos/asf and /repos/infra | websites svnpubsub and infra-reports#sitesource | . ",
+    "content": ". The sections below describe How To complete the various tasks to be done by Attic team for retiring a project and moving it to The Apache Attic: . | 1. Confirm Board Resolution | 2. Create project page on Attic site: | 3. Inform users of the move to the Attic | 4. Update the project DOAP file (if any): | 5. Get infra lock down project’s resources | 6. Announce on announce@apache.org | . The following are useful Git/svn/https locations: . | permissions on svn /repos/asf and /repos/infra | websites svnpubsub and infra-reports#sitesource | . ",
     "url": "/process-howto.html#attic-process---how-to",
     
     "relUrl": "/process-howto.html#attic-process---how-to"
@@ -92,7 +92,7 @@
   },"13": {
     "doc": "Attic Process - How To",
     "title": "5. Get infra lock down project’s resources",
-    "content": "Open an Infrastructure JIRA issue identifying the resources that need turning off/making read only. Once the project page is live on the Attic website, you can use the project’s Template Page to get project specific content for the Infrastructure JIRA. Typically, it contains steps like following, that need to be tweaked based on assets of the retired project: . | Make source control Git|Svn read-only | Remove files from dist.apache.org/repos/dist/[release|dev] | Closing down of dev@, commits@ and private@ etc. mailing lists | Close down the user mailing list (unless still active - in which case propose a moderator to Infra) | Make JIRA|Bugzilla read-only | Make the wiki (if any) read-only | Delete LDAP group(s) | Turn off automated builds | . ",
+    "content": "Open an Infrastructure Jira issue identifying the resources that need turning off/making read only. Once the project page is live on the Attic website, you can use the project’s Template Page to get project specific content for the Infrastructure JIRA. Typically, it contains steps like following, that need to be tweaked based on assets of the retired project: . | Make source control Git|Svn read-only | Remove files from dist.apache.org/repos/dist/[release|dev] | Closing down of dev@, commits@ and private@ etc. mailing lists | Close down the user mailing list (unless still active - in which case propose a moderator to Infra) | Make JIRA|Bugzilla read-only | Make the wiki (if any) read-only | Delete LDAP group(s) | Turn off automated builds | . ",
     "url": "/process-howto.html#5-get-infra-lock-down-projects-resources",
     
     "relUrl": "/process-howto.html#5-get-infra-lock-down-projects-resources"
