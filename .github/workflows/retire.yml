@@ -27,7 +27,11 @@ on:
       processId:
         required: true
         type: string
-        description: Enter a project id, lower-case    
+        description: Enter a project id, lower-case
+      comment:
+        required: false
+        type: string
+        description: Optional comment for PR body
 
 permissions:
   contents: write
@@ -73,4 +77,7 @@ jobs:
           git commit -m"Retire $PID"
           # This will fail if there is an existing branch and PR
           git push --set-upstream origin retire-$PID
-          gh pr create --title "Retire $PID" --body 'Please review the PR!' --base main --head retire-$PID
+          {
+            echo "Please review the PR!"
+            echo "${{ github.event.inputs.comment }}"
+          } | gh pr create --title "Retire $PID" --body-file - --base main --head retire-$PID
