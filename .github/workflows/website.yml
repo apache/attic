@@ -96,12 +96,35 @@ jobs:
       - name: 🚀 Add commit to the branch (if not 'main')
         if: ${{ (github.head_ref || github.ref_name) != 'main' }}
         run: |
+          BRANCH="${{ (github.head_ref || github.ref_name) }}"
+          SITE="${{ (github.head_ref || github.ref_name) }}-site"
+          echo "branch: $BRANCH => site: $SITE"
           echo "Running git config"
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
-          # Allow branch to serve as staging site
+          # ensure access to existing branches (i.e. allow for depth=1)
+          git fetch --tags -- origin +refs/heads/*:refs/remotes/origin/*
+          if git switch $SITE
+          then
+            echo "updating existing $SITE"
+          else
+            echo "creating orphan $SITE"
+            git switch --orphan $SITE
+            # Need gitignore
+            git checkout ${BRANCH} -- .gitignore
+            # create staging site
+            {
+              echo "staging:"
+              echo "  profile: $BRANCH"
+              echo "  whoami: $SITE"
+            } >.asf.yaml
+            git add -A .
+            git commit -m "Init staging site $SITE"
+            git push --set-upstream origin $SITE
+          fi
           rm -rf output
           mv asf-site/output .
+          git add -f output # override .gitignore
           rm -rf asf-site
           echo "Running git add -A"
           git add -A .
