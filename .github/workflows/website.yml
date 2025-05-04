@@ -99,6 +99,10 @@ jobs:
           echo "Running git config"
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
+          # Allow branch to serve as staging site
+          rm -rf output
+          mv asf-site/output .
+          rm -rf asf-site
           echo "Running git add -A"
           git add -A .
           echo "Running git commit"
