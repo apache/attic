@@ -82,6 +82,9 @@ jobs:
           {
             echo "Please review the PR!"
             echo "${{ github.event.inputs.comment }}"
+            echo ""
+            echo "The staging build for this PR can be found at:"
+            echo "https://attic-retire-$PID.staged.apache.org"
           } | gh pr create --title "Retire $PID" --body-file - --base main --head retire-$PID
           # Trigger the site build
           gh workflow run website.yml --ref retire-$PID
