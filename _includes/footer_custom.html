@@ -19,11 +19,9 @@ limitations under the License.
 Licensed under the <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0</a>.
 <br />Apache and the Apache feather logo are trademarks of The Apache Software Foundation.</p>
 
-{% if page.layout == 'project-layout' -%}
-  {% capture path %}{{ page.path | replace: "html", "yaml" | prepend: "_data/"}}{% endcapture %}
-{% elsif page.layout == 'project-templates-layout' %}
-  {% assign path = '_layouts/project-templates-layout.html' -%} 
+{% if page.layout == 'project-layout' or page.layout == 'project-templates-layout' -%}
+  {% capture path %}{{  page.layout  | prepend: "_layouts/" | append: ".html"}}{% endcapture %}
 {% else -%}
-  {% assign path = page.path -%} 
+  {% assign path = page.path %} 
 {% endif -%}
 <div class="d-flex mt-2"> <p class="text-small text-grey-dk-000 mb-0"> <a href="{{ site.repo }}/edit/main/{{ path }}" id="edit-this-page">Improve this page</a> </p> </div>

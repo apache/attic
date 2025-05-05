@@ -15,8 +15,15 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 
+{%- if page.layout == 'project-layout' or page.layout == 'project-templates-layout' %}
+  {% capture path %}{{  page.layout  | prepend: "_layouts/" | append: ".html"}}{% endcapture %}
+{%- else %}
+  {% assign path = page.path %} 
+{%- endif %}
 <nav aria-label="Main" id="site-nav-custom" class="site-nav">
 <ul class="nav-list">
+	<li class="nav-list-item"><button class="btn"><a href="{{ site.repo }}/edit/main/{{ path }}" id="edit-this-page">Improve this page</a></button></li>
+	<li class="nav-list-item">&nbsp;</li>
 	<li class="nav-list-item"><a class="acevent" data-format="square"> </a></li>
 </ul>
 </nav>
