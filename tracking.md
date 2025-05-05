@@ -42,8 +42,7 @@ used to track the move.
 {% assign no_of_years = 20 %}
 
 {% for year in site.data.years_array limit: no_of_years -%}
-{% capture mod -%}{{forloop.index0 | modulo: 10}}{%- endcapture -%} 
-{%- if mod == '0' %}<br />{% endif %}[{{year['year']}}](#attic-{{year['year']}}){: .btn style="font-family:SFMono-Regular;" }&nbsp;
+[{{year['year']}}](#attic-{{year['year']}}){: .btn style="font-family:SFMono-Regular;" }&nbsp;
 {%- endfor -%}
 
 
