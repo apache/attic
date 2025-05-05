@@ -45,15 +45,13 @@ to move that PMC into the Attic and gently close it down.
 ## 2. If the board approves the resolution
 The Attic team will open an [Attic JIRA](https://issues.apache.org/jira/browse/ATTIC) item - `Move ${project} to the Attic`.
 
-Issue content typically contains following steps:
-   - \# Confirm Board Resolution
-   - \# Create project page on Attic site: https://attic.apache.org/projects/${project}.html
-   - \# Inform users of the move to the Attic
-   - \# Update the project DOAP files (if any) or copy to [projects-override](https://svn.apache.org/repos/asf/comdev/projects.apache.org/trunk/data/projects-override/)
-   - \# Get infra lock down project's resources
-   - \# Announce on [announce at apache.org](https://lists.apache.org/list?announce@apache.org:lte=1M:%22is%20now%20retired%22)
-
-See [Attic Process - How To](process-howto.html) for a description of each step that the Attic team will follow.
+Issue content typically contains the following steps (click for a description of each step of the process):
+   1. [Confirm Board Resolution](process-howto.html#1-confirm-board-resolution)
+   1. [Create project page on Attic site](process-howto.html#2-create-project-page-on-attic-site)
+   1. [Inform users of the move to the Attic](process-howto.html#3-inform-users-of-the-move-to-the-attic)
+   1. [Update the project DOAP files (if any)](process-howto.html#4-update-the-project-doap-file-if-any)
+   1. [Get Infra to lock down project resources](process-howto.html#5-get-infra-to-lock-down-project-resources)
+   1. [Announce on *announce AT apache.org*](process-howto.html#6-announce-on-announce-at-apacheorg)
 
 Getting help from terminating project is welcome, particularly
 on informing users step or any other useful action at project's level like modifying DOAP file.

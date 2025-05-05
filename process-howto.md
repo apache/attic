@@ -27,12 +27,12 @@ limitations under the License.
 {: .fs-5}
 The sections below describe *How To* complete the various tasks to be done by Attic team for retiring a project and moving it to The Apache Attic:
 
-  - [1. Confirm Board Resolution](#1-confirm-board-resolution)
-  - [2. Create project page on Attic site:](#2-create-project-page-on-attic-site)
-  - [3. Inform users of the move to the Attic](#3-inform-users-of-the-move-to-the-attic)
-  - [4. Update the project DOAP file (if any):](#4-update-the-project-doap-file-if-any)
-  - [5. Get infra lock down project's resources](#5-get-infra-lock-down-projects-resources)
-  - [6. Announce on announce@apache.org](#6-announce-on-announceapacheorg)
+  1. [Confirm Board Resolution](#1-confirm-board-resolution)
+  1. [Create project page on Attic site:](#2-create-project-page-on-attic-site)
+  1. [Inform users of the move to the Attic](#3-inform-users-of-the-move-to-the-attic)
+  1. [Update the project DOAP file (if any)](#4-update-the-project-doap-file-if-any)
+  1. [Get Infra to lock down project's resources](#5-get-infra-to-lock-down-project-resources)
+  1. [Announce on *announce AT apache.org*](#6-announce-on-announce-at-apacheorg)
 
 The following are useful Git/svn/https locations:
 
@@ -63,8 +63,8 @@ and its rendered HTML in [asf-site](https://github.com/apache/www-site/tree/asf-
 ## 2. Create project page on Attic site:
 **https://attic.apache.org/projects/${project}.html**
 
-You can create a PR for the `${project}.yaml` file using the GitHub Action
-[Generate PR to add _data/projects/pid.yaml file](https://github.com/apache/attic/actions/workflows/retire.yml).
+You can create a PR for the `${project}.yaml` file using the GitHub Action:
+[Create PR to add YAML file](https://github.com/apache/attic/actions/workflows/retire.yml){: .btn .fs-3 .v-align-bottom}
 
 Click on 'Run workflow' and enter the lower case project id.
 If the id is valid, the workflow will create a PR to add the YAML file.
@@ -124,7 +124,7 @@ add category:  <category rdf:resource="http://projects.apache.org/category/retir
 You can use [`script/project2attic.py`](https://github.com/apache/comdev-projects/blob/trunk/scripts/project2attic.py) to prepare the update that you'll just need to
 review and commit.
 
-## 5. Get infra lock down project's resources
+## 5. Get Infra to lock down project resources
 
 Open an [Infrastructure Jira](https://issues.apache.org/jira/browse/INFRA) issue identifying
 the resources that need turning off/making read only.
@@ -144,7 +144,7 @@ Typically, it contains steps like following, that need to be tweaked based on as
   - Delete LDAP group(s)
   - Turn off automated builds
 
-## 6. Announce on announce@apache.org
+## 6. Announce on *announce AT apache.org*
 
 Announce that the project [is now retired](https://lists.apache.org/list?announce@apache.org:lte=1M:%22is%20now%20retired%22).
 
