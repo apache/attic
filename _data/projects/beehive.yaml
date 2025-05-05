@@ -1,6 +1,7 @@
 ---
 retirement_date: 2009-11-18
-attic_date: 2010-01-01
+attic_issue: ATTIC-55
+attic_date: 2010-02-10
 attic_banner: false
 project_description: >-
     Beehive was a simple object model built on J2EE and Struts that used annotations

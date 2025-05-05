@@ -1,6 +1,7 @@
 ---
-retirement_date: 2011-08-01
-attic_date: 2011-08-01
+retirement_date: 2011-08-06
+attic_issue: ATTIC-120
+attic_date: 2011-08-07
 attic_banner: false
 project_type: Subproject
 project_name: Jakarta Cactus
