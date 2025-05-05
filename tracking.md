@@ -27,7 +27,12 @@ limitations under the License.
 # The Apache Attic Process Tracking
 ***
 
-**Useful links:**
+This page lists projects in *Retirement Date* order and shows the *Completion Date* of the project's
+move to the Attic along with the [Attic JIRA](https://issues.apache.org/jira/projects/ATTIC) ticket
+used to track the move.
+{: .fs-5}
+
+### Useful links:
 
   - [Board Minutes Calendar](https://www.apache.org/foundation/board/calendar.html) to find "Terminate" resolutions
   - [Projects Directory](https://projects.apache.org/) to check
