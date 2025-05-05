@@ -20,5 +20,6 @@ mailing_lists:
     - user
 issue_trackers:
     - type: JIRA
+    - type: GitHub
 wiki:
     type: CWIKI
