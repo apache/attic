@@ -27,7 +27,7 @@ limitations under the License.
 # The Apache Attic Process Tracking
 ***
 
-This page lists projects in *Retirement Date* order and shows the *Completion Date* of the project's
+This page lists projects in descending *Retirement Date* order and shows the *Completion Date* of the project's
 move to the Attic along with the [Attic JIRA](https://issues.apache.org/jira/projects/ATTIC) ticket
 used to track the move.
 {: .fs-5}
@@ -39,12 +39,29 @@ used to track the move.
   - [Open Jira issues](https://issues.apache.org/jira/issues/?jql=status%20in%20(Open%2C%20%22In%20Progress%22%2C%20Reopened)%20AND%20labels%20%3D%20retire-project)
   - [Retirement Process Documentation]({% link process.md %})
 
-|Retirement Month|Completed|Project|Tracking|
-|:-------------|:-------------|:-------------|:-------------|
-{%- for project in projects_by_date -%}
-{%- assign retire_date = project.retirement_date  | date: list_date_fmt -%}
-{%- assign attic_date = project.attic_date | date: list_date_fmt -%}
-{% assign proj_link = project.project_id | prepend: "projects/" | append: ".html" %}
-|{{ retire_date }}|{{ attic_date }}|[{{ project.project_apachename }}]({%- link {{proj_link}} -%})|[{{ project.attic_issue }}]({{ project.attic_issue_link }})|
+{% assign no_of_years = 20 %}
+
+{% for year in site.data.years_array limit: no_of_years -%}
+{% capture mod -%}{{forloop.index0 | modulo: 10}}{%- endcapture -%} 
+{%- if mod == '0' %}<br />{% endif %}[{{year['year']}}](#attic-{{year['year']}}){: .btn style="font-family:SFMono-Regular;" }&nbsp;
 {%- endfor -%}
+
+
+{% for year in site.data.years_array limit: no_of_years %}
+
+### Attic {{year['year']}}
+
+|Retirement Month|Completed|Project|Tracking|Type|
+|:---------------|:--------|:------|:-------|:---|
+{% for project in year.projects %}
+{%- out | %}{{ project.retirement_date  | date: list_date_fmt }}|{{ project.attic_date | date: list_date_fmt }}
+    {%- out -%}|[{{ project.project_apachename }}]({%- link {{project.project_id | prepend: "projects/" | append: ".html"}} -%})
+    {%- out -%}|[{{ project.attic_issue }}]({{ project.attic_issue_link }})|{{project.project_type}}|
+{% else -%}
+{%- out | %} &nbsp; | &nbsp; | &nbsp; | &nbsp; |
+{% endfor %}
+
+
+{% endfor %}
+
 

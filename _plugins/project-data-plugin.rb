@@ -63,6 +63,31 @@ module ProjectDataPlugin
 
       site.data['project_array'] = projects.sort_by { |project| project['project_name_lower'] }
       
+      ## Initialize Array of years from 2009 onwards
+      current_year = Time.new.year
+      years = Array.new
+      year = Hash.new
+      year['year'] = 2004.to_s
+      year['projects'] = Array.new
+      years.push(year)
+      for i in 2009..current_year do
+        year = Hash.new
+        year['year'] = i.to_s
+        year['projects'] = Array.new
+        years.push(year)
+      end
+      
+      ## Populate the projects in the Array
+      projects = site.data['project_array'].sort_by { |project| project['retirement_date']}.reverse
+      projects.each do | project|
+        year = project['retirement_date'].year
+        i = year - 2008
+        if i < 0
+          i = 0
+        end
+        years[i]['projects'].push(project)
+      end
+      site.data['years_array'] = years.sort_by { |year| year['year'] }.reverse
     end
   end
 end
