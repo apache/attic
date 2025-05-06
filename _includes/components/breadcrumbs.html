@@ -20,10 +20,11 @@ limitations under the License.
 {%- else %}
   {% assign path = page.path %} 
 {%- endif %}
-<nav aria-label="Main" id="site-nav-custom" class="site-nav">
-<ul class="nav-list">
-	<li class="nav-list-item"><button class="btn"><a href="{{ site.repo }}/edit/main/{{ path }}" id="edit-this-page">Improve this page</a></button></li>
-	<li class="nav-list-item">&nbsp;</li>
-	<li class="nav-list-item"><a class="acevent" data-format="square"> </a></li>
-</ul>
+<nav aria-label="Breadcrumb" class="breadcrumb-nav float: right">
+<p align="right">
+  <ol class="breadcrumb-nav-list">
+       <li class="breadcrumb-nav-list-item"><a href="{{ site.repo }}/tree/main/{{ path }}">View page source</a></li>
+       <li class="breadcrumb-nav-list-item"><a href="{{ site.repo }}/edit/main/{{ path }}">Improve this page</a></li>
+  </ol>
+</p>
 </nav>

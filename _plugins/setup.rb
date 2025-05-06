@@ -47,4 +47,13 @@ module Setup
       end
     end
   end
+  # Massage page to insert acevent class
+  Jekyll::Hooks.register :pages, :post_render do |page|
+    if page.relative_path =~ %r{\.(md|html)$}
+      page.output.gsub!(
+        %r{<a href="http://localhost/#acevent" class="nav-list-link external"},
+        '<a class="nav-list-link acevent" data-format="square"'
+      )
+    end
+  end
 end

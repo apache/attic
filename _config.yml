@@ -52,6 +52,10 @@ nav_external_links:
       url: https://events.apache.org/
       opens_in_new_tab: true
       hide_icon: true
+    - title: ~
+      # Dummy entry for acevent
+      url: 'http://localhost/#acevent'
+      hide_icon: true
 
 # For Callouts, see https://just-the-docs.github.io/just-the-docs/docs/configuration/#callouts
 callouts:
