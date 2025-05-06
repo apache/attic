@@ -25,7 +25,9 @@ aux_links:
     - https://www.apache.org/security/
   Privacy Policy:
     - https://privacy.apache.org/policies/privacy-policy-public.html
-  Old Attic Site:
+  Analytics:
+    - https://analytics.apache.org/index.php?module=CoreHome&action=index&idSite=78&period=day&date=today
+  Old Site:
     - https://attic-old-website.staged.apache.org
 nav_external_links:
     - title: Foundation 
