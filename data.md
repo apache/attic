@@ -36,7 +36,7 @@ how the data files are used and the contents of the files:
 
 ## How the Data Files are Used
 
-The project YAML files are used to generate the following:
+The [project YAML files]({{site.repo}}/blob/main/_data/projects/) are used to generate the following:
 
  - **Project Pages**
    - A [Project Page]({% link projects.md %}) is generated for each *retired project* which has details
