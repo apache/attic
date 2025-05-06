@@ -2,7 +2,7 @@
 layout: page
 title: Process
 has_toc: false
-nav_order: 2
+nav_order: 20
 ---
 {%- comment -%}
 Licensed to the Apache Software Foundation (ASF) under one or more
