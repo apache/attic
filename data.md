@@ -93,9 +93,9 @@ The project YAML files are used to generate the following:
 |archive_path|Optional|path|Path to the project's download area. Defaults to the `${project_id}`|**Joshua**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/joshua.yaml)/[Page]({% link projects/joshua.html %})|
 |source_repositories|Optional|Array|An array of the project's source respositories||
-|source_repositories: type|Required|Git, Subversion|Type of Source Respository|**Git(Any23)**:
+|source_repositories: type|Required|Git, Subversion|Type of Source Respository|**Any23(Git)**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/any23.yaml)/[Page]({% link projects/any23.html %})|
-|source_repositories: path|Optional|path|Alternative respoitory path. Defaults to `${project_id}`|**Subversion(OJB)**:
+|source_repositories: path|Optional|path|Alternative respoitory path. Defaults to `${project_id}`|**OJB(Subversion)**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ojb.yaml)/[Page]({% link projects/ojb.html %})|
 |mailing_lists|Optional|Array|List of the project's public mailing lists (e.g. dev, user etc)||
 |mailing_lists_prefix|Optional| |mbox_prefix if required (usually for Subprojects)|**Xang**: 
@@ -106,10 +106,10 @@ The project YAML files are used to generate the following:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/aurora.yaml)}/[Page]({% link projects/aurora.html %})|
 |issue_trackers: keys|Optional|Array|List of Issue Tracker Key(s). Defaults to `${project_id}`|**Apex (JIRA)**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/apex.yaml)/[Page]({% link projects/apex.html %})|
-|wiki|Optional|Map|Details of the project's Issue tracker(s)||
+|wiki|Optional|Map|Details of the project's Wiki(s)||
 |wiki: type|Required|CWIKI|Type of Wiki. CWIKI causes the ***Attic Banner*** to be displayed on the CWIKI spaces||
-|wiki: keys|Optional|Array|List of Wiki Key(s). Defaults to `${project_id}`|**Eagle**:
-    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/eagle.yaml)/[Page]({% link projects/eagle.html %})|
+|wiki: keys|Optional|Array|List of Wiki Key(s). Defaults to `${project_id}`|**Oltu**:
+    {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/oltu.yaml)/[Page]({% link projects/oltu.html %})|
 |related_projects_text|Optional|text|Text displayed before the list of related projects (if any) on the project's page|**iBATIS**:
     {%- out %} [YAML]({{site.repo}}/blob/main/_data/projects/ibatis.yaml)/[Page]({% link projects/ibatis.html %})|
 |related_projects|Optional|Array of Maps|Details of Related Projects, shown at the bottom of the project page (if any)|**Hivemind**:
