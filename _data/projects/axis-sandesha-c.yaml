@@ -22,3 +22,7 @@ archive_path: ws/sandesha2/c
 source_repositories:
     - type: Subversion
       path: axis/axis2/c/sandesha
+related_projects:
+    - name: axis.apache.org
+      url: https://axis.apache.org/
+      description: Sandesha2/C was a sub-project of Apache Axis
