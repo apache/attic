@@ -4,7 +4,7 @@ attic_issue: ATTIC-2
 attic_date: 2009-12-22
 attic_banner: false
 project_description: >-
-    Shale was a web application framework, fundamentally based on JavaServer Faces. 
+    Shale was a web application framework, fundamentally based on JavaServer Faces.
 board_resolution: true
 board_reports: true
 downloads: true

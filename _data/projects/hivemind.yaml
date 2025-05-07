@@ -29,6 +29,6 @@ related_projects:
     - name: Tapestry IoC
       url: https://tapestry.apache.org/ioc.html
       description: Discussion on the mailing list indicated that this was the natural successor to HiveMind.
-    - name: Gaderian 
+    - name: Gaderian
       url: https://ops4j1.jira.com/wiki/spaces/gaderian/
       description: is one fork that has been created

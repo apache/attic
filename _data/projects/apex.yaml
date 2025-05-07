@@ -2,7 +2,7 @@
 retirement_date: 2019-09-18
 attic_issue: ATTIC-177
 attic_date: 2021-04-05
-attic_banner: true 
+attic_banner: true
 project_description: >-
     Apex was a unified platform for big data stream and batch processing. Use cases included
     ingestion, ETL, real-time analytics, alerts and real-time actions.

@@ -4,8 +4,8 @@ attic_issue: ATTIC-162
 attic_date: 2017-02-18
 attic_banner: false
 project_description: >-
-    Stratos was a highly-extensible Platform-as-a-Service (PaaS) framework 
-    that helped run Apache Tomcat, PHP, and MySQL applications, and could 
+    Stratos was a highly-extensible Platform-as-a-Service (PaaS) framework
+    that helped run Apache Tomcat, PHP, and MySQL applications, and could
     be extended to support many more environments on all major cloud infrastructures.
 board_resolution: true
 board_reports: true
