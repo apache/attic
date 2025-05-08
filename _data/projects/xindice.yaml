@@ -3,6 +3,7 @@ retirement_date: 2011-08-01
 attic_issue: ATTIC-121
 attic_date: 2012-08-22
 attic_banner: false
+project_type: Subproject
 project_domain: xml.apache.org/xindice
 project_description: >-
     Xindice was a native XML database.
@@ -19,3 +20,7 @@ mailing_lists:
 mailing_lists_prefix: xml
 wiki:
     type: CWIKI
+related_projects:
+    - name: xml.apache.org
+      url: https://xml.apache.org/
+      description: Xindice was a subproject of Apache XML

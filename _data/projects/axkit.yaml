@@ -3,6 +3,7 @@ retirement_date: 2009-08-19
 attic_issue: ATTIC-34
 attic_date: 2009-08-31
 attic_banner: false
+project_type: Subproject
 project_domain: axkit.org
 project_description: >-
     AxKit was an XML Application Server for Apache. It provided on-the-fly
@@ -12,3 +13,7 @@ board_reports: false # Axkit was part of XML, so no separate reports
 board_resolution: true # retirement is mentioned in the board report
 downloads: true
 archive_path: xml/axkit
+related_projects:
+    - name: xml.apache.org
+      url: https://xml.apache.org/
+      description: AxKit was a subproject of Apache XML
