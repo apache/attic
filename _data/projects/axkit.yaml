@@ -4,7 +4,6 @@ attic_issue: ATTIC-34
 attic_date: 2009-08-31
 attic_banner: false
 project_type: Subproject
-project_domain: axkit.org
 project_description: >-
     AxKit was an XML Application Server for Apache. It provided on-the-fly
     conversion from XML to any format, such as HTML, WAP or text using either W3C
