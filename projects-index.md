@@ -30,7 +30,7 @@ limitations under the License.
 [{{project.project_name}}]({%- link {{project.project_id | prepend: "projects/" | append: ".html"}} %} "{{project.project_shortdesc}}"){: .btn style="font-family:SFMono-Regular;" }&nbsp;
 {% endfor -%}
 
-## [Retired Sub-Projects]({% link subprojects.md %})
+## Retired Sub-Projects
 
 {% assign subproject_array = site.data.project_array |  where: "project_type", "Subproject" -%}
 {%- for project in subproject_array -%}
