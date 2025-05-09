@@ -82,3 +82,9 @@ callouts:
   tip-green:
     title: Tip
     color: green
+
+mermaid:
+  # Version of mermaid library
+  # See available version from https://cdn.jsdelivr.net/npm/mermaid/
+  #version: "11.6.0"
+  path: "/assets/js/mermaid.min.js"

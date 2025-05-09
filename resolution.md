@@ -3,7 +3,7 @@ layout: page
 title: Board Resolution
 parent: Process
 nav_exclude: false
-nav_order: 1
+nav_order: 20
 ---
 {%- comment -%}
 Licensed to the Apache Software Foundation (ASF) under one or more

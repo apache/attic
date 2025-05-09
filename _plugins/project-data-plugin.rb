@@ -31,6 +31,7 @@ module ProjectDataPlugin
     
     def generate(site)
       
+      Jekyll.logger.info "ProjectDataPlugin: Starting processing project data"
       projects = Array.new
       
       site.data['projects'].each do | projectId, project|
@@ -66,28 +67,32 @@ module ProjectDataPlugin
       ## Initialize Array of years from 2009 onwards
       current_year = Time.new.year
       years = Array.new
-      year = Hash.new
-      year['year'] = 2004.to_s
-      year['projects'] = Array.new
-      years.push(year)
+      years.push({'year' => '2004'})
       for i in 2009..current_year do
-        year = Hash.new
-        year['year'] = i.to_s
-        year['projects'] = Array.new
-        years.push(year)
+        years.push({'year' => i.to_s})
       end
       
       ## Populate the projects in the Array
       projects = site.data['project_array'].sort_by { |project| project['retirement_date']}.reverse
       projects.each do | project|
-        year = project['retirement_date'].year
-        i = year - 2008
+        i = project['retirement_date'].year - 2008
         if i < 0
           i = 0
+        end
+        if years[i]['projects'].nil?
+          years[i]['projects'] = Array.new
+          years[i]['p_count'] = 0
+          years[i]['s_count'] = 0
+        end
+        if project['project_type'] == 'Subproject'
+          years[i]['s_count'] = years[i]['s_count'] + 1
+        else
+          years[i]['p_count'] = years[i]['p_count'] + 1
         end
         years[i]['projects'].push(project)
       end
       site.data['years_array'] = years.sort_by { |year| year['year'] }.reverse
+      Jekyll.logger.info "ProjectDataPlugin: Processed " + projects.size.to_s + " projects in " + years.size.to_s + " years"
     end
   end
 end

@@ -2,7 +2,7 @@
 layout: page
 title: Attic Process - How To
 parent: Process
-nav_order: 2
+nav_order: 30
 ---
 {%- comment -%}
 Licensed to the Apache Software Foundation (ASF) under one or more
