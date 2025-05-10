@@ -118,6 +118,7 @@ jobs:
               echo "  profile: $BRANCH"
               echo "  whoami: $SITE"
             } >.asf.yaml
+            echo "https://attic-$BRANCH.staged.apache.org/\n\nbuilt from \`$BRANCH\` branch https://github.com/apache/attic/tree/$BRANCH" > README.md
             git add -A .
             git commit -m "Init staging site $SITE"
             git push --set-upstream origin $SITE
