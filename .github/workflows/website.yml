@@ -18,7 +18,7 @@
 name: Build Attic site
 
 # If the target branch is main, output is written to asf-site and cwiki-retired
-# Otherwise, the generated output is written back to the branch so it can be checked
+# Otherwise, output site is written to $branch-site branch that is staged to https://attic-$branch.staged.apache.org/ for review
 
 on:
   push:
@@ -89,16 +89,16 @@ jobs:
           echo "Running git add -A"
           git add -A .
           echo "Running git commit"
-          if git commit -m "Regenerated website based on ${GITHUB_SHA} commit"
+          if git commit -m "Regenerated cwiki flags based on ${GITHUB_SHA} commit"
           then
             git push origin cwiki-retired
           fi
-      - name: 🚀 Add commit to the branch (if not 'main')
+      - name: 🚀 Add commit to the site staging *-site branch
         if: ${{ (github.head_ref || github.ref_name) != 'main' }}
         run: |
           BRANCH="${{ (github.head_ref || github.ref_name) }}"
           SITE="${{ (github.head_ref || github.ref_name) }}-site"
-          echo "branch: $BRANCH => site: $SITE"
+          echo "branch: $BRANCH => site: $SITE = https://attic-$BRANCH.staged.apache.org/"
           echo "Running git config"
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
