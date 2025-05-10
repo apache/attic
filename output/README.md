@@ -22,15 +22,19 @@
 This is the source code for the website at [attic.apache.org](https://attic.apache.org)
 which manages ASF projects which have retired.
 
+Issue tracking: https://issues.apache.org/jira/projects/ATTIC
+
+Mailing list: general@attic.apache.org https://lists.apache.org/list.html?general@attic.apache.org
+
+## Overview
+
 This site uses [Jekyll](https://github.com/jekyll/jekyll), which is a static site generator,
 with the [Just The Docs](https://just-the-docs.github.io/just-the-docs/) Theme. See:
  - [The Jekyll Docs](https://jekyllrb.com/docs/) on how to install Jekyll and build this
 site locally.
  - [Just The Docs](https://just-the-docs.github.io/just-the-docs/) on configuring the theme
 
-## Overview
-
-The [Attic Website](https://attic.apache.org) is composed of the following:
+Source is composed of the following:
 
   - Simple `markdown` pages such as the _home_ (`index.md`) and _Process_ (`process.md`) pages.
   - A `yaml` file for each project in the `_data/projects` directory which contains all the
