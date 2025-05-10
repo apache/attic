@@ -27,12 +27,39 @@ limitations under the License.
 {: .fs-5}
 The sections below describe *How To* complete the various tasks to be done by Attic team for retiring a project and moving it to The Apache Attic:
 
-  1. [Confirm Board Resolution](#1-confirm-board-resolution)
-  1. [Create project page on Attic site:](#2-create-project-page-on-attic-site)
-  1. [Inform users of the move to the Attic](#3-inform-users-of-the-move-to-the-attic)
-  1. [Update the project DOAP file (if any)](#4-update-the-project-doap-file-if-any)
-  1. [Get Infra to lock down project's resources](#5-get-infra-to-lock-down-project-resources)
-  1. [Announce on *announce AT apache.org*](#6-announce-on-announce-at-apacheorg)
+```mermaid
+graph TD;
+    accTitle: the Attic Process
+    accDescr: Attic process diagram which shows the steps of moving a Retired Project to the Attic
+    RESL("`1 **Confirm Board Resolution**`")
+    JIRA("`**Create ATTIC Jira**
+        (to manage the move)`")
+    PROJ("`2 **Create Project Page**
+        on Attic Site`")
+    USER("`3 **Inform Users**
+        of move to Attic`")
+    DOAP("`4 **Update Project DOAP**
+        file (if any)`")
+    LOCK("`5 **Lock Down Resources**
+        (create INFRA Jira ticket)`")
+    ANNC("`6 **Announce**
+        *announce AT apache.org*`")
+    RESL-->JIRA;
+    RESL-->PROJ;
+    JIRA<-->PROJ;
+    PROJ-->USER;
+    PROJ-->DOAP;
+    PROJ-->LOCK;
+    USER-->ANNC;
+    DOAP-->ANNC;
+    LOCK-->ANNC;
+    click RESL "#1-confirm-board-resolution"
+    click PROJ "#2-create-project-page-on-attic-site"
+    click USER "#3-inform-users-of-the-move-to-the-attic"
+    click DOAP "#4-update-the-project-doap-file-if-any"
+    click LOCK "#5-get-infra-to-lock-down-project-resources"
+    click ANNC "#6-announce-on-announce-at-apacheorg"
+```
 
 The following are useful Git/svn/https locations:
 
