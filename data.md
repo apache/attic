@@ -59,11 +59,12 @@ The [project YAML files]({{site.repo}}/blob/main/_data/projects/) are used to ge
     - Setting the `attic_banner=true` attribute causes the ***"This project has
       retired"*** banner to be displayed on all the pages of the project's website.
       It does this by generating a file in the
-      ***[flagged](https://github.com/niallkp/attic-justthedocs/tree/asf-site/flagged)*** directory.
+      ***[flagged]({{site.repo}}/tree/asf-site/output/flagged)*** directory.
  - **CWIKI Banners**
     - Adding a `wiki` configuration with `type=CWIKI` causes the ***"This project has retired"*** banner to
       be displayed on all pages of the project's CWIKI spaces. It does this by generating a file in
-      the ***[cwiki_retired](https://github.com/niallkp/attic-justthedocs/tree/cwiki-retired)*** directory.
+      the `cwiki_retired` directory which gets automatically pushed to the 
+      ***[cwiki-retired]({{site.repo}}/tree/cwiki-retired)*** branch.
   
   
 ## Data File Attributes (YAML)
