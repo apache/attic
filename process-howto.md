@@ -40,25 +40,29 @@ graph TD;
         of move to Attic`")
     DOAP("`4 **Update Project DOAP**
         file (if any)`")
-    LOCK("`5 **Lock Down Resources**
+    SOCL("`5 **Update social media**
+        (if any)`")
+    LOCK("`6 **Lock Down Resources**
         (create INFRA Jira ticket)`")
-    ANNC("`6 **Announce**
+    ANNC("`7 **Announce**
         *announce AT apache.org*`")
     RESL-->JIRA;
     RESL-->PROJ;
     JIRA<-->PROJ;
     PROJ-->USER;
     PROJ-->DOAP;
-    PROJ-->LOCK;
-    USER-->ANNC;
-    DOAP-->ANNC;
+    PROJ-->SOCL;
+    USER-->LOCK;
+    DOAP-->LOCK;
+    SOCL-->LOCK;
     LOCK-->ANNC;
     click RESL "#1-confirm-board-resolution"
     click PROJ "#2-create-project-page-on-attic-site"
     click USER "#3-inform-users-of-the-move-to-the-attic"
     click DOAP "#4-update-the-project-doap-file-if-any"
-    click LOCK "#5-get-infra-to-lock-down-project-resources"
-    click ANNC "#6-announce-on-announce-at-apacheorg"
+    click SOCL "#5-update-social-media-if-any"
+    click LOCK "#6-get-infra-to-lock-down-project-resources"
+    click ANNC "#7-announce-on-announce-at-apacheorg"
 ```
 
 The following are useful Git/svn/https locations:
@@ -151,7 +155,18 @@ add category:  <category rdf:resource="http://projects.apache.org/category/retir
 You can use [`script/project2attic.py`](https://github.com/apache/comdev-projects/blob/trunk/scripts/project2attic.py) to prepare the update that you'll just need to
 review and commit.
 
-## 5. Get Infra to lock down project resources
+## 5. Update Social Media (if any)
+
+Contact the retiring project's members to know if there is a social media profile associated.
+
+In that case, ask them to:
+1. Update social media profiles:  
+   Change the profile name (not handle) from "Apache Foo" to "Apache Foo (Attic)".  
+   Update the profile messaging to read “Apache Foo (Attic) is no longer an active project. Visit Apache.org to learn more."
+2. Provide ASF Marketing & Publicity with social media access:  
+   Once social media changes have been made, email <a href="mailto:press@apache.org">press@apache.org</a> to discuss with the ASF Marketing & Publicity team the best way to share social media credentials for safekeeping.
+
+## 6. Get Infra to lock down project resources
 
 Open an [Infrastructure Jira](https://issues.apache.org/jira/browse/INFRA) issue identifying
 the resources that need turning off/making read only.
@@ -171,7 +186,7 @@ Typically, it contains steps like following, that need to be tweaked based on as
   - Delete LDAP group(s)
   - Turn off automated builds
 
-## 6. Announce on *announce AT apache.org*
+## 7. Announce on *announce AT apache.org*
 
 Announce that the project [is now retired](https://lists.apache.org/list?announce@apache.org:lte=1M:%22is%20now%20retired%22).
 

@@ -50,8 +50,9 @@ Issue content typically contains the following steps (click for a description of
    1. [Create project page on Attic site](process-howto.html#2-create-project-page-on-attic-site)
    1. [Inform users of the move to the Attic](process-howto.html#3-inform-users-of-the-move-to-the-attic)
    1. [Update the project DOAP files (if any)](process-howto.html#4-update-the-project-doap-file-if-any)
-   1. [Get Infra to lock down project resources](process-howto.html#5-get-infra-to-lock-down-project-resources)
-   1. [Announce on *announce AT apache.org*](process-howto.html#6-announce-on-announce-at-apacheorg)
+   1. [Update social media (if any)](process-howto.html#5-update-social-media-if-any)
+   1. [Get Infra to lock down project resources](process-howto.html#6-get-infra-to-lock-down-project-resources)
+   1. [Announce on *announce AT apache.org*](process-howto.html#7-announce-on-announce-at-apacheorg)
 
 Getting help from terminating project is welcome, particularly
 on informing users step or any other useful action at project's level like modifying DOAP file.
