@@ -37,7 +37,7 @@ github:
     - ATTIC
 
 notifications:
-  commits: general@attic.apache.org
+  commits: commits@attic.apache.org
   pullrequests: general@attic.apache.org
   jira_options: link label worklog
   jobs: general@attic.apache.org
