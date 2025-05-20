@@ -4,11 +4,13 @@ attic_issue: ATTIC-113
 attic_date: 2011-06-28
 attic_banner: false
 project_type: Subproject
-project_name: ObJectRelationalBridge (OJB)
-project_domain: db.apache.org/ojb
+project_name: DB ObJectRelationalBridge (OJB)
+project_domain: db.apache.org
 project_description: >-
     OJB was an Object/Relational mapping tool that allowed transparent
     persistence for Java Objects against relational databases.
+additional_tex: >-
+    The website appears to have been removed.
 board_resolution: false
 board_reports: false
 downloads: true
@@ -36,3 +38,6 @@ related_projects:
       url: https://openjpa.apache.org/
     - name: Apache Torque
       url: https://db.apache.org/torque
+    - name: Apache DB
+      url: https://db.apache.org/
+      description: OJB was a subproject of Apache DB

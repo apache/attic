@@ -24,3 +24,6 @@ related_projects:
     - name: amused
       url: https://52north.org/communities/sensorweb/amused/
       description: is a fork of Muse
+    - name: Apache Web Services
+      url: https://ws.apache.org/
+      description: Muse was a subproject of Apache Web Services

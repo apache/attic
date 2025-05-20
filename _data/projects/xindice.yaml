@@ -4,6 +4,7 @@ attic_issue: ATTIC-121
 attic_date: 2012-08-22
 attic_banner: false
 project_type: Subproject
+project_name: XML Xindice
 project_domain: xml.apache.org/xindice
 project_description: >-
     Xindice was a native XML database.

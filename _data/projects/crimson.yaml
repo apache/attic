@@ -4,6 +4,7 @@ attic_issue: ATTIC-84
 attic_date: 2010-10-27
 attic_banner: false
 project_type: Subproject
+project_name: XML Crimson
 project_description: >-
     Crimson was a Java XML parser which supports XML 1.0 via various APIs.
 project_domain: xml.apache.org/crimson
@@ -20,3 +21,6 @@ related_projects:
     - name: Download Xerces
       url: https://archive.apache.org/dist/xerces/
       description: from the Apache archives.
+    - name: xml.apache.org
+      url: https://xml.apache.org/
+      description: Crimson was a subproject of Apache XML
