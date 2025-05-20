@@ -1,7 +1,7 @@
 ---
 retirement_date: 2025-03-19
 attic_issue: ATTIC-236
-attic_date:
+attic_date: 2025-05-20
 attic_banner: true
 project_description: >-
     Gora was an ORM framework for column stores such as Apache HBase
