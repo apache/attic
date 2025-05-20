@@ -4,6 +4,7 @@ attic_issue: ATTIC-44
 attic_date: 2010-02-10
 attic_banner: false
 project_type: Subproject
+project_name: XML Xang
 project_domain: xml.apache.org/xang
 project_description: >-
     Xang was an XML Web Framework that aggregated multiple data sources,
@@ -18,3 +19,7 @@ mailing_lists:
     - xang-dev
     - xang-cvs
 mailing_lists_prefix:  xml
+related_projects:
+    - name: xml.apache.org
+      url: https://xml.apache.org/
+      description: Xang was a subproject of Apache XML

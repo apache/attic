@@ -3,6 +3,7 @@ retirement_date: 2009-08-19
 attic_issue: ATTIC-34
 attic_date: 2009-08-31
 attic_banner: false
+project_name: XML AxKit
 project_type: Subproject
 project_description: >-
     AxKit was an XML Application Server for Apache. It provided on-the-fly
