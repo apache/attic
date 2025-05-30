@@ -24,6 +24,3 @@ wiki:
     type: CWIKI
     keys:
         - XMLBEANS
-        - XMLGRAPHICS
-        - XMLGRAPHICSBATIK
-        - XMLGRAPHICSFOP
