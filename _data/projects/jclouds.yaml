@@ -1,0 +1,26 @@
+---
+retirement_date: 2025-06-18
+attic_issue: ATTIC-244
+attic_date:
+attic_banner: true
+project_name: jclouds
+project_shortdesc: A multi-cloud toolkit for the Java platform
+project_description: >-
+    jclouds was an open source multi-cloud toolkit for the Java platform that
+    gives you the freedom to create applications that are portable across
+    clouds while giving you full control to use cloud-specific features.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Subversion
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- notifications
+- user
+issue_trackers:
+-   type: JIRA
+wiki:
+    type: CWIKI
