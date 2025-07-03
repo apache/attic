@@ -17,7 +17,7 @@ mailing_lists:
     - tech
 issue_trackers:
     - type: JIRA
-      keys:
+      keys:e9fcde45-a420-49c4-b614-f6ffc1d72de7
         - LABS
         - HTTPDRAFT
 wiki:
