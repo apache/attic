@@ -24,3 +24,8 @@ issue_trackers:
 -   type: JIRA
 wiki:
     type: CWIKI
+related_projects:
+    - name: Apache OpenDAL
+      url: https://opendal.apache.org/
+      description: For users of BlobStore, Apache OpenDAL provides one data access layer for all storage backends, which serves similar functionality.
+
