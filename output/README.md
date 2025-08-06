@@ -34,6 +34,8 @@ with the [Just The Docs](https://just-the-docs.github.io/just-the-docs/) Theme. 
 site locally.
  - [Just The Docs](https://just-the-docs.github.io/just-the-docs/) on configuring the theme
 
+The site is built by the GitHub Workflow Action [website.yml](https://github.com/apache/attic/blob/main/.github/workflows/website.yml)
+
 Source is composed of the following:
 
   - Simple `markdown` pages such as the _home_ (`index.md`) and _Process_ (`process.md`) pages.
