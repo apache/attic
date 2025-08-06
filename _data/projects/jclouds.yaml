@@ -1,7 +1,7 @@
 ---
 retirement_date: 2025-06-18
 attic_issue: ATTIC-244
-attic_date:
+attic_date: 2025-08-06
 attic_banner: true
 project_name: jclouds
 project_shortdesc: A multi-cloud toolkit for the Java platform
