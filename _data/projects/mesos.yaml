@@ -1,10 +1,10 @@
 ---
-retirement_date: 2025-08-20
-attic_issue: ATTIC-245
+retirement_date: []
+attic_issue: ATTIC-nnn
 attic_date:
 attic_banner: true
 project_description: >-
-    Mesos was a cluster manager that provides efficient resource
+    Mesos was a a cluster manager that provides efficient resource
     isolation and sharing across distributed applications.
 board_resolution: true
 board_reports: true
@@ -24,11 +24,3 @@ issue_trackers:
 -   type: JIRA
 wiki:
     type: CWIKI
-related_projects:
-    - name: Clusterd
-      url: https://github.com/m3scluster/clusterd
-      description: >-
-        is a fork of Apache Mesos being maintained by Andreas Peters who would be very
-        grateful for any help in continuing to maintain Mesos.
-
-
