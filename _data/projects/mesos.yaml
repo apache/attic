@@ -1,0 +1,26 @@
+---
+retirement_date: 2025-08-20
+attic_issue: ATTIC-245
+attic_date:
+attic_banner: true
+project_description: >-
+    Mesos was a cluster manager that provides efficient resource
+    isolation and sharing across distributed applications.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Subversion
+-   type: Git
+mailing_lists:
+- dev
+- builds
+- commits
+- issues
+- modules
+- reviews
+- user
+issue_trackers:
+-   type: JIRA
+wiki:
+    type: CWIKI
