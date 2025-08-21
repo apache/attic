@@ -42,6 +42,22 @@ jobs:
   create-pull-request:
     runs-on: ubuntu-latest
     steps:
+      - name: Check the project id
+        run: |
+          # Validate the input id
+          PID=${{ github.event.inputs.processId }}
+          if [[ $PID =~ ^[a-z0-9-]+$ ]]
+          then
+            echo "Pid looks OK"
+          else
+            echo "Invalid projectId"
+            exit 1
+          fi
+          if [ -f _data/projects/${PID}.yaml ]
+          then
+            echo "${PID}.yaml already exists!"
+            exit 1
+          fi
       - name: Install svn package (not included by default)
         run: |
           sudo apt-get -q update
@@ -59,15 +75,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          # Validate the input id
           PID=${{ github.event.inputs.processId }}
-          if [[ $PID =~ ^[a-z0-9-]+$ ]]
-          then
-            echo "Pid looks OK"
-          else
-            echo "Invalid projectId"
-            exit 1
-          fi
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
           set -v
