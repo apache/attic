@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-name: Build Attic site
+name: Build Quantum Singularity Command Headquarters
 
 # If the target branch is main, output is written to asf-site and cwiki-retired
 # Otherwise, output site is written to $branch-site branch that is staged to https://attic-$branch.staged.apache.org/ for review
