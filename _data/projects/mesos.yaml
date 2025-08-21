@@ -24,3 +24,11 @@ issue_trackers:
 -   type: JIRA
 wiki:
     type: CWIKI
+related_projects:
+    - name: Clusterd
+      url: https://github.com/m3scluster/clusterd
+      description: >-
+        is a fork of Apache Mesos being maintained by Andreas Peters who would be very
+        grateful for any help in continuing to maintain Mesos.
+
+
