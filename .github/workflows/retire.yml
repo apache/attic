@@ -58,10 +58,6 @@ jobs:
             echo "${PID}.yaml already exists!"
             exit 1
           fi
-      - name: Install svn package (not included by default)
-        run: |
-          sudo apt-get -q update
-          sudo apt-get -q install subversion
       - uses: actions/checkout@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
