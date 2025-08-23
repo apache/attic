@@ -48,7 +48,6 @@
 require 'yaml'
 require 'net/http'
 require 'uri'
-require 'open3'
 
 # Sources
 CTTEE_RETIRED = 'https://whimsy.apache.org/public/committee-retired.json'
@@ -85,24 +84,10 @@ def get_json(url, key=nil)
 end
 
 def has_svn(pid)
-  cmd = ['svn', 'ls', SVNURL + pid]
-  _out, _err, status = Open3.capture3(*cmd)
-  status.success?
+  url = SVNURL + pid + '/trunk' # ignore site-only repos
+  res = get_url(url)
+  return res.code == 200
 end
-
-# TODO: replace with full date from committee-retired when implemented
-def get_board_date(yyyymm)
-  cmd = ['svn', 'ls', MINUTES+yyyymm[0,4]]
-  out, err, status = Open3.capture3(*cmd)
-  if status.success?
-    m = out.split("\n").select {|l| l.include? yyyymm.sub('-','_')}.map {|d| d[14,10].gsub('_', '-')}
-    return m # e.g. 2011-11 has two dates
-  else
-    p err
-    return yyyymm
-  end
-end
-
 
 # "key": "GMOxDOC21es",
 # "name": " Apache Geronimo v2.1 - ES  ",
@@ -153,17 +138,28 @@ def main()
   (ARGV - not_retired).each do |pid|
     puts "Processing #{pid}"
     meta = retirees[pid]
-    bdates = get_board_date(meta['retired']).map{|d| Date.parse(d)}
-    bdates = bdates.first if bdates.size == 1
+    retired_date = Date.parse(meta['retired_date'])
+    display_name = meta['display_name']
+    description = meta['description'].chomp('.') # we add a full-stop later
+    # Allow for desc. starting with a or an or a vowel
+    if description =~ %r{^[aA]n? } # starts with A or an?
+      description.sub!(/^A/, 'a') # downcase
+      sep = ' was '
+    elsif description =~ /^[AEIOUaeiou]/ # Vowel
+      sep = ' was an '
+    else
+      sep = ' was '
+    end
+    project_description = display_name + sep + description + '.'
     data = {
-      retirement_date: bdates,
+      retirement_date: retired_date,
       attic_issue: 'ATTIC-nnn',
       attic_date: nil,
       attic_banner: true,
       # revived_date: nil,
-      project_name: meta['display_name'],
+      project_name: display_name,
       # project_longname: Where to find this?,
-      project_description: meta['display_name'] + ' was a ' + meta['description'] + '.',
+      project_description: project_description,
       board_resolution: true,
       board_reports: true,   
       downloads: true, # check if there are any?
