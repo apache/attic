@@ -1,0 +1,36 @@
+---
+retirement_date: 2025-09-24
+attic_issue: ATTIC-247
+attic_date:
+attic_banner: true
+project_description: >-
+    Portals was Portal technology.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Git
+mailing_lists:
+- bridges-commits
+- bridges-dev
+- bridges-user
+- commits
+- general
+- jetspeed-dev
+- jetspeed-user
+- pluto-dev
+- pluto-scm
+- pluto-user
+- portalapps-dev
+- portalapps-user
+- wsrp4j-dev
+- wsrp4j-user
+issue_trackers:
+-   type: JIRA
+    keys:
+    - APA
+    - PB
+    - PLUTO
+    - PORTALS
+wiki:
+    type: CWIKI
