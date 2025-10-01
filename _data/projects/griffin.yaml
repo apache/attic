@@ -1,0 +1,22 @@
+---
+retirement_date: 2025-09-24
+attic_issue: ATTIC-246
+attic_date:
+attic_banner: true
+project_description: >-
+    Griffin was a data quality solution for big data, including both
+    streaming and batch mode. It offered an unified process to measure data quality
+    from different perspectives.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- users
+issue_trackers:
+-   type: JIRA
+wiki:
+    type: CWIKI
