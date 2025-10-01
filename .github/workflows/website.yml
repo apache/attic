@@ -22,8 +22,9 @@ name: Build Attic site
 
 on:
   push:
-    branches-ignore:
-      - 'dependabot/*' # Don't need to build dependabot for both push and PR
+    # only build main on push. This is to avoid double builds on PRs and consequent failures.
+    branches:
+      - main
   pull_request:
   workflow_dispatch:
 
