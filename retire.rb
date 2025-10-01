@@ -224,5 +224,8 @@ end
 if __FILE__ == $0
   JIRAS = get_json(JIRA)
   WIKIS = get_json(CWIKI_INFO, 'results')
+  if WIKIS.nil?
+    raise IOError.new "Failed to fetch WIKI names - is the Wiki down?"
+  end
   main
 end
