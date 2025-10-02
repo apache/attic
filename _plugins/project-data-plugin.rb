@@ -34,6 +34,7 @@ module ProjectDataPlugin
       Jekyll.logger.info "ProjectDataPlugin: Starting processing project data"
       projects = Array.new
       
+      # the projects hash is created by Jekyll from the _data/projects directory contents
       site.data['projects'].each do | projectId, project|
         project['project_id'] = projectId
         project['project_name'] =  project.fetch("project_name", projectId.capitalize())
@@ -62,6 +63,7 @@ module ProjectDataPlugin
         projects.push(project)
       end
 
+      # This converts the projects hash to an array
       site.data['project_array'] = projects.sort_by { |project| project['project_name_lower'] }
       
       ## Initialize Array of years from 2009 onwards
