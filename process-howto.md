@@ -91,6 +91,8 @@ This automatically removes VP entry on [https://www.apache.org/foundation/leader
 ([src](https://github.com/apache/www-site/blob/main/content/index.ezmd#L304)): see [www-site](https://github.com/apache/www-site)
 and its rendered HTML in [asf-site](https://github.com/apache/www-site/tree/asf-site) branch.
 
+Create initial [ATTIC Jira issue](https://issues.apache.org/jira/projects/ATTIC/) to start tracking retirement process and add former PMC Chair for information about next steps where their help may be necessary.
+
 ## 2. Create project page on Attic site:
 **https://attic.apache.org/projects/${project}.html**
 
@@ -106,9 +108,9 @@ The project details will be found at [https://attic.apache.org/projects/${projec
 and associated retirement WIP templates at [https://attic.apache.org/templates/${project}.html](https://attic.apache.org/templates/)
 
 A sample ATTIC Jira template can be found on that page.
-Note that the project YAML file will need to be updated to add the ATTIC Jira issue number once it has been created.
+Note that the project YAML file will need to be updated to add the [ATTIC Jira issue](https://issues.apache.org/jira/projects/ATTIC/) number created in previous step.
 
-Once the page is live and Jira issue is created, follow steps and update issue state:
+Once the page is live and Jira issue is updated with the tracking template, follow steps and update issue state:
   - Check the project site carries the **Attic Banner**
   - Check any CWIKI spaces carry the  **Attic Banner**
   - Use the project's [Template Page]({% link tracking.md %}) to help with:
