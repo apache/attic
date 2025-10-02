@@ -15,7 +15,7 @@
 #
 #--------------------------------------------------------
 #
-# Generates the Retried Project pages.
+# Generates the Retired Project pages.
 #
 # Process each yaml file in the "_data/projects" folder and generates
 # a page per project using the project's yaml file and the 
