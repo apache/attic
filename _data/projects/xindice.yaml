@@ -17,7 +17,7 @@ source_repositories:
       path: xml/xindice
 mailing_lists:
     - xindice-dev
-    - uxindice-ser
+    - xindice-user
 mailing_lists_prefix: xml
 wiki:
     type: CWIKI
