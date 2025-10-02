@@ -20,7 +20,3 @@ mailing_lists:
 
 issue_trackers:
     - type: JIRA
-wiki:
-    type: CWIKI
-    keys:
-        - XMLBEANS
