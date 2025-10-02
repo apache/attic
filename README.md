@@ -82,3 +82,7 @@ To build the site and make it available at http://127.0.0.1:4000/
 To run retire.rb:
 
 ```bundle exec ruby retire.rb projectId ...```
+
+## Testing the Attic banner and CSP using Docker
+
+There is a Docker build for testing the Attic banner and CSP at https://github.com/apache/attic-docker
