@@ -1,3 +1,4 @@
+# XMLBEANS was revived and is now maintained by the POI project
 ---
 retirement_date: 2013-07-17
 attic_issue: ATTIC-129
