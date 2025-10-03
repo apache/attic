@@ -24,6 +24,9 @@
 # This plugin is set to "highest" priority so that it runs before any other
 # plugins and the projects array is therefore available to them.
 #
+
+require 'json'
+
 module ProjectDataPlugin
   class ProjectDataGenerator < Jekyll::Generator
     
@@ -32,6 +35,9 @@ module ProjectDataPlugin
     def generate(site)
       
       Jekyll.logger.info "ProjectDataPlugin: Starting processing project data"
+
+      File.write(File.join(site.dest, 'projects.json'), JSON.pretty_generate(site.data['projects'].sort.to_h))
+
       projects = Array.new
       
       # the projects hash is created by Jekyll from the _data/projects directory contents
