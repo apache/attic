@@ -6,6 +6,7 @@ url: https://attic.apache.org/
 
 include: [.htaccess]
 exclude: [README.md, retire.rb]
+keep_files: [projects.json]
 timezone: UTC
 repo: https://github.com/apache/attic
 

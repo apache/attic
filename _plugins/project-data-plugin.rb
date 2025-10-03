@@ -36,6 +36,7 @@ module ProjectDataPlugin
       
       Jekyll.logger.info "ProjectDataPlugin: Starting processing project data"
 
+      FileUtils.mkdir_p(site.dest) # might not exist yet
       File.write(File.join(site.dest, 'projects.json'), JSON.pretty_generate(site.data['projects'].sort.to_h))
 
       projects = Array.new
