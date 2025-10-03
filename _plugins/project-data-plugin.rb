@@ -70,7 +70,6 @@ module ProjectDataPlugin
         projects.push(project)
       end
 
-      # This converts the projects hash to an array
       site.data['project_array'] = projects.sort_by { |project| project['project_name_lower'] }
       
       ## Initialize Array of years from 2009 onwards
