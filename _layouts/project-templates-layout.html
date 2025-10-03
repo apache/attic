@@ -144,7 +144,7 @@ Make the following Bugzilla project(s) read-only and flag as retired:
   {%- when "CWIKI" -%}
     Make CWIKI readonly:
     {%- for wiki_key in page.wiki.keys %}
-      https://cwiki.apache.org/confluence/display/{{ wiki_key }}
+      https://cwiki.apache.org/confluence/display/{{ wiki_key }}/
     {%- else %}
       https://cwiki.apache.org/confluence/display/{{ page.project_id }}/
     {%- endfor %}
