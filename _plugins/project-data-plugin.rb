@@ -36,9 +36,6 @@ module ProjectDataPlugin
       
       Jekyll.logger.info "ProjectDataPlugin: Starting processing project data"
 
-      FileUtils.mkdir_p(site.dest) # might not exist yet
-      File.write(File.join(site.dest, 'projects.json'), JSON.pretty_generate(site.data['projects'].sort.to_h))
-
       projects = Array.new
       
       # the projects hash is created by Jekyll from the _data/projects directory contents
@@ -67,8 +64,42 @@ module ProjectDataPlugin
         if project['project_type'].nil?
           project['project_type'] = 'PMC'
         end
+        # each repo type currently has at most one path
+        project['source_repositories']&.each do |repo|
+          if %w{Subversion Git}.include? repo['type']
+            unless repo.include? 'path'
+              repo['path'] = projectId
+            end
+          else
+            puts "Unexpected repo #{repo}"
+          end
+        end
+        # each tracker can include multiple keys
+        project['issue_trackers']&.each do |tracker|
+          if tracker['type'] == 'JIRA'
+            unless tracker.include? 'keys'
+              tracker['keys'] = [projectId.upcase]
+            end
+          elsif %w{GitHub Bugzilla}.include? tracker['type']
+            unless tracker.include? 'keys'
+              tracker['keys'] = [projectId]
+            end
+          else
+            puts "Unexpected tracker #{tracker}"
+          end
+        end
+        # There can only be one wiki but it can have multiple keys        
+        wiki = project.fetch('wiki', nil)
+        if wiki and wiki['type'] == 'CWIKI'
+          unless wiki.include? 'keys'
+            wiki['keys'] = [projectId.upcase]
+          end
+        end
         projects.push(project)
       end
+
+      FileUtils.mkdir_p(site.dest) # might not exist yet
+      File.write(File.join(site.dest, 'projects.json'), JSON.pretty_generate(site.data['projects'].sort.to_h))
 
       site.data['project_array'] = projects.sort_by { |project| project['project_name_lower'] }
       
