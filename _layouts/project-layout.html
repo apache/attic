@@ -117,7 +117,7 @@ limitations under the License.
       <td>
       {%- for github_key in issue_tracker.keys %}
         {%- unless forloop.first %} | {% endunless %}
-        <a href="https://github.com/apache/{{ github_key }}//issues?q=is%3Aissue">{{ github_key }}</a>
+        <a href="https://github.com/apache/{{ github_key }}/issues?q=is%3Aissue">{{ github_key }}</a>
       {%- else %}
         {%- assign github_key = page.project_id %}
         <a href="https://github.com/apache/{{ github_key }}/issues?q=is%3Aissue">{{ github_key }}</a>
