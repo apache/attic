@@ -80,9 +80,13 @@ module ProjectDataPlugin
             unless tracker.include? 'keys'
               tracker['keys'] = [projectId.upcase]
             end
-          elsif %w{GitHub Bugzilla}.include? tracker['type']
+          elsif tracker['type'] == 'GitHub'
             unless tracker.include? 'keys'
               tracker['keys'] = [projectId]
+            end
+          elsif tracker['type'] == 'Bugzilla'
+            unless tracker.include? 'keys'
+              raise Exception.new "Bugzilla key must be provided"
             end
           else
             puts "Unexpected tracker #{tracker}"
@@ -102,7 +106,7 @@ module ProjectDataPlugin
       File.write(File.join(site.dest, 'projects.json'), JSON.pretty_generate(site.data['projects'].sort.to_h))
 
       site.data['project_array'] = projects.sort_by { |project| project['project_name_lower'] }
-      
+
       ## Initialize Array of years from 2009 onwards
       current_year = Time.new.year
       years = Array.new
