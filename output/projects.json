@@ -2007,7 +2007,7 @@
       {
         "type": "Bugzilla",
         "keys": [
-          "oro"
+          "ORO"
         ]
       }
     ],
@@ -2045,7 +2045,7 @@
       {
         "type": "Bugzilla",
         "keys": [
-          "regexp"
+          "Regexp"
         ]
       }
     ],
@@ -2083,7 +2083,7 @@
       {
         "type": "Bugzilla",
         "keys": [
-          "slide"
+          "Slide"
         ]
       }
     ],
@@ -2127,7 +2127,7 @@
       {
         "type": "Bugzilla",
         "keys": [
-          "taglibs"
+          "Taglibs"
         ]
       }
     ],
@@ -2566,7 +2566,7 @@
       {
         "type": "Bugzilla",
         "keys": [
-          "lenya"
+          "Lenya"
         ]
       }
     ],
