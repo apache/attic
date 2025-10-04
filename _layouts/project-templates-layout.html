@@ -107,15 +107,11 @@ Mailing lists https://lists.apache.org/list.html?{{ page.project_id }}.apache.or
 Make the following JIRA project(s) read-only and flag as retired:
     {%- for jira_key in issue_tracker.keys %}
       - https://issues.apache.org/jira/projects/{{ jira_key }}/
-    {%- else %}
-      - https://issues.apache.org/jira/projects/{{ page.project_id | upcase }}/
     {%- endfor %}
   {%- when "Bugzilla" %}
 Make the following Bugzilla project(s) read-only and flag as retired:
     {%- for bz_key in issue_tracker.keys %}
       - https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}
-    {%- else %}
-      - https://bz.apache.org/bugzilla/buglist.cgi?product={{ page.project_id | downcase }}
     {%- endfor %}
   {% endcase %}
 {%- endfor %}
@@ -125,12 +121,12 @@ Make the following Bugzilla project(s) read-only and flag as retired:
   {%- for source_repo in page.source_repositories -%}
     {% case source_repo.type -%}
     {%- when "Subversion" %}
-      SVN: https://svn.apache.org/repos/asf/{{ source_repo.path | default: page.project_id }}
+      SVN: https://svn.apache.org/repos/asf/{{ source_repo.path }}
     {%- when "Git" %}
       {% for git_repo_hash in git_repositories -%}
       Git: http://gitbox.apache.org/repos/asf/{{git_repo_hash[0]}}.git
       {% else -%}
-      Git: https://gitbox.apache.org/repos/asf#{{ source_repo.path | default: page.project_id }}.git
+      Git: https://gitbox.apache.org/repos/asf#{{ source_repo.path }}.git
       {% endfor -%}
     {%- else %}
       {{ source_repo.type}}: ???
@@ -145,8 +141,6 @@ Make the following Bugzilla project(s) read-only and flag as retired:
     Make CWIKI readonly:
     {%- for wiki_key in page.wiki.keys %}
       https://cwiki.apache.org/confluence/display/{{ wiki_key }}/
-    {%- else %}
-      https://cwiki.apache.org/confluence/display/{{ page.project_id }}/
     {%- endfor %}
   {%- else %}
     {{ page.wiki.type}} ???

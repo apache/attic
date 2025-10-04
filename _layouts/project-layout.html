@@ -87,10 +87,10 @@ limitations under the License.
     <td>Source Code ({{ source_repo.type}})</td>
     {%- case source_repo.type %}
     {%- when "Subversion" %}
-      {%- assign svn_path = source_repo.path | default: page.project_id | prepend: "svn.apache.org/repos/asf/" %}
+      {%- assign svn_path = source_repo.path | prepend: "svn.apache.org/repos/asf/" %}
       <td><a href="https://{{ svn_path }}/">{{ svn_path }}</a></td>
     {%- when "Git" %}
-      {%- assign git_path = source_repo.path | default: page.project_id | prepend: "gitbox.apache.org/repos/asf#" %}
+      {%- assign git_path = source_repo.path | prepend: "gitbox.apache.org/repos/asf#" %}
       <td><a href="https://{{ git_path }}">{{ git_path }}</a></td>
     {%- else %}
       <td>??? {{ source_repo.type}} ???</td>
@@ -108,9 +108,6 @@ limitations under the License.
       {%- for jira_key in issue_tracker.keys %}
         {%- unless forloop.first %} | {% endunless %}
         <a href="https://issues.apache.org/jira/browse/{{ jira_key }}/">{{ jira_key }}</a>
-      {%- else %}
-        {%- assign jira_key = page.project_id | upcase %}
-        <a href="https://issues.apache.org/jira/browse/{{ jira_key }}/">{{ jira_key }}</a>
       {%- endfor %}
       </td>
     {% when "GitHub" %}
@@ -118,18 +115,12 @@ limitations under the License.
       {%- for github_key in issue_tracker.keys %}
         {%- unless forloop.first %} | {% endunless %}
         <a href="https://github.com/apache/{{ github_key }}/issues?q=is%3Aissue">{{ github_key }}</a>
-      {%- else %}
-        {%- assign github_key = page.project_id %}
-        <a href="https://github.com/apache/{{ github_key }}/issues?q=is%3Aissue">{{ github_key }}</a>
       {%- endfor %}
       </td>
     {% when "Bugzilla" %}
       <td>
       {%- for bz_key in issue_tracker.keys %}
         {%- unless forloop.first %} | {% endunless %}
-        <a href="https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}">{{ bz_key }}</a>
-      {%- else %}
-        {%- assign bz_key = page.project_id | upcase %}
         <a href="https://bz.apache.org/bugzilla/buglist.cgi?product={{ bz_key }}">{{ bz_key }}</a>
       {%- endfor %}
       </td>
@@ -148,9 +139,6 @@ limitations under the License.
     {% when "CWIKI" %}
       {%- for wiki_key in page.wiki.keys %}
         {%- unless forloop.first %} | {% endunless %}
-        <a href="https://cwiki.apache.org/confluence/display/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
-      {%- else %}
-        {%- assign wiki_key = page.project_id %}
         <a href="https://cwiki.apache.org/confluence/display/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
       {%- endfor %}
       </td>
