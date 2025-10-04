@@ -27,7 +27,7 @@ mailing_lists:
 issue_trackers:
     - type: Bugzilla
       keys:
-        - taglibs
+        - Taglibs
 wiki:
     type: CWIKI
     keys:

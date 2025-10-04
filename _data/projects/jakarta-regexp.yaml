@@ -21,4 +21,4 @@ mailing_lists:
 issue_trackers:
     - type: Bugzilla
       keys:
-        - regexp
+        - Regexp

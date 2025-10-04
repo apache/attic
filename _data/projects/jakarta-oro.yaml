@@ -24,4 +24,4 @@ mailing_lists:
 issue_trackers:
     - type: Bugzilla
       keys:
-        - oro
+        - ORO

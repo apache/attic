@@ -18,5 +18,7 @@ mailing_lists:
     - user
 issue_trackers:
     - type: Bugzilla
+      keys:
+        - Lenya
 wiki:
     type: CWIKI

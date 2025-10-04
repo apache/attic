@@ -23,7 +23,7 @@ mailing_lists:
 issue_trackers:
     - type: Bugzilla
       keys:
-        - slide
+        - Slide
 wiki:
     type: CWIKI
     keys:
