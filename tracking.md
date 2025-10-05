@@ -21,7 +21,6 @@ See the License for the specific language governing permissions and
 limitations under the License.
 {% endcomment %}
 
-{%- assign projects_by_date = site.data.project_array | sort: "retirement_date" | reverse %}
 {%- assign list_date_fmt = "%b %Y" %}
 
 # The Apache Attic Process Tracking
