@@ -12,6 +12,10 @@ repo: https://github.com/apache/attic
 
 ### just-the-docs Configuration
 theme: just-the-docs
+compress_html:
+  # Don't remove all line-feeds in HTML output, as removal make comparisons much harder
+  # The total file size increases by less than 5%
+  blanklines: true
 color_scheme: attic
 heading_anchors: true
 nav_enabled: true
