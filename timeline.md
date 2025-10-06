@@ -27,8 +27,8 @@ limitations under the License.
 
 The following timeline shows Projects retiring for each year (including Sub-Projects, if any).
 
-{% assign sorted_years = site.data.years_array |  sort: 'year' -%}
 {% assign no_of_years = 20 -%}
+{% assign sorted_years = site.data.years_array |  sort: 'year' -%}
 {% assign first = sorted_years | size | minus: no_of_years | at_least: 0 -%}
 
 
@@ -46,4 +46,4 @@ timeline
 
 
 {: .note}
-This is currently configured to show the last **{{ no_of_years}} years** of retirements (easily changed through the `$no_of_years` variable).
+This is currently configured to show the last **{{ no_of_years}} years** of retirements (easily changed through the `no_of_years` variable).
