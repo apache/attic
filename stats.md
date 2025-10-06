@@ -30,7 +30,8 @@ The following graph shows the number of Projects retiring for each year (**NOT**
 {% assign sorted_years = site.data.years_array |  sort: 'year' -%}
 {% assign no_of_years = 20 -%}
 {% assign first = sorted_years | size | minus: no_of_years | at_least: 0 -%}
-{% assign p_counts = sorted_years | map: "p_count" %}
+{% assign trimmed_years = sorted_years | slice: first, 100  %}
+{% assign p_counts = trimmed_years | map: "p_count" %}
 {% assign count_max = 0 -%}
 {%- for year in sorted_years offset: first -%}
     {% assign count_max = count_max | at_least: year['p_count'] -%}
@@ -39,7 +40,7 @@ The following graph shows the number of Projects retiring for each year (**NOT**
 ```mermaid
 xychart-beta
     title "Project Retirements by Year"
-    x-axis "Year" [{{ sorted_years | map: "year" | join: ', ' }}]
+    x-axis "Year" [{{ trimmed_years | map: "year" | join: ', ' }}]
     y-axis "Number of Projects" 0 --> {{count_max | plus: 2 | at_least: 10}}
     bar [{{ p_counts | join: ', ' }}]
     line [{{ p_counts | join: ', ' }}]
