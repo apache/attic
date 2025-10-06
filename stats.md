@@ -30,7 +30,7 @@ The following graph shows the number of Projects retiring for each year (**NOT**
 {% assign sorted_years = site.data.years_array |  sort: 'year' -%}
 {% assign no_of_years = 20 -%}
 {% assign first = sorted_years | size | minus: no_of_years | at_least: 0 -%}
-{% assign second = first | plus: 1 -%}
+{% assign p_counts = sorted_years | map: "p_count" %}
 {% assign count_max = 0 -%}
 {%- for year in sorted_years offset: first -%}
     {% assign count_max = count_max | at_least: year['p_count'] -%}
@@ -39,21 +39,12 @@ The following graph shows the number of Projects retiring for each year (**NOT**
 ```mermaid
 xychart-beta
     title "Project Retirements by Year"
-    x-axis "Year" [{{ sorted_years[first]['year']}}
-     {%- for year in sorted_years offset: second -%}
-       {{ year['year'] | prepend: ', '}}
-     {%- endfor %}]
+    x-axis "Year" [{{ sorted_years | map: "year" | join: ', ' }}]
     y-axis "Number of Projects" 0 --> {{count_max | plus: 2 | at_least: 10}}
-    bar [{{ sorted_years[first]['p_count']}}
-     {%- for year in sorted_years offset: second -%}
-       {{ year['p_count'] | prepend: ', '}}
-     {%- endfor %}]
-    line [{{ sorted_years[first]['p_count']}}
-     {%- for year in sorted_years offset: second -%}
-       {{ year['p_count'] | prepend: ', '}}
-     {%- endfor %}]
+    bar [{{ p_counts | join: ', ' }}]
+    line [{{ p_counts | join: ', ' }}]
 ```
 
 {: .note}
-This is currently configured to show the last **{{ no_of_years}} years** of retirements (easily changed through the `$no_of_years` variable).
+This is currently configured to show the last **{{ no_of_years}} years** of retirements (easily changed through the `no_of_years` variable).
 
