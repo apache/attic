@@ -27,15 +27,13 @@ limitations under the License.
 
 The following graph shows the number of Projects retiring for each year (**NOT** including **Sub-Projects**).
 
-{% assign sorted_years = site.data.years_array |  sort: 'year' -%}
 {% assign no_of_years = 20 -%}
-{% assign first = sorted_years | size | minus: no_of_years | at_least: 0 -%}
-{% assign trimmed_years = sorted_years | slice: first, 100  %}
-{% assign p_counts = trimmed_years | map: "p_count" %}
-{% assign count_max = 0 -%}
-{%- for year in sorted_years offset: first -%}
-    {% assign count_max = count_max | at_least: year['p_count'] -%}
-{%- endfor %}
+{% assign count_years = site.data.years_array | size -%}
+{% assign no_of_years_possible = no_of_years | at_most: count_years -%}
+{% assign first = count_years | minus: no_of_years_possible | at_least: 0 -%}
+{% assign trimmed_years = site.data.years_array |  sort: 'year' | slice: first, no_of_years_possible  -%}
+{% assign p_counts = trimmed_years | map: "p_count" -%}
+{% assign count_max = p_counts | max_mum -%}
 
 ```mermaid
 xychart-beta
