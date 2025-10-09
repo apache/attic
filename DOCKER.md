@@ -20,7 +20,8 @@ To enable/disable the Attic banner, create/delete the directory (not a file!):
 Alternatively, define the variable VAR_ATTIC=yes
 
 If the banner does not display correctly (e.g. it may be partially hidden under the menu bar),
-you can try to see if any of the existing filter overrides work. Just use the relevant sitename
+you can try to see if any of the existing filter overrides work.
+Use one of the shorthand style names (currently _a, _b ..._e) as the VAR_NAME value
 in the docker command below instead of the target sitename.
 You can quickly check all the existing overrides using this method.
 
@@ -31,7 +32,7 @@ If not available, such pages will fail to load, but the site should otherwise wo
 Start:
 `[VAR_DYN=/path/to/closer_cgi/files] VAR_HTML=/path/to/website VAR_NAME=sitename [VAR_ATTIC=yes] docker compose up`
 
-browse to localhost:8000
+Browse to localhost:8000
 
 Start shell (container must be running):
 `docker compose exec attic_lua_csp /bin/bash`
