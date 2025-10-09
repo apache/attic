@@ -1,0 +1,18 @@
+services:
+  attic_lua_csp:
+    image: attic_lua_csp
+    build: .
+    ports: 
+      - "8000:80"
+    volumes:
+      # Pick up the closer.lua script etc.
+      # (e.g. set this to a checkout of infrastructure-p6/modules/closer_cgi/files)
+      - ${VAR_DYN:-.}:/var/www/dyn
+      # Needs to match xxx.apache.org or closer.lua reverts to default template
+      - ${VAR_HTML:-./_docker/www}:/var/www/site.apache.org
+      - ${VAR_LOG:-./_docker/log}:/var/log/apache2
+    environment:
+      # Pass in site name
+      - VAR_NAME=${VAR_NAME:-localhost}
+      # Act as though _ATTIC directory is present (if yes)
+      - VAR_ATTIC=${VAR_ATTIC:-no}

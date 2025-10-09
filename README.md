@@ -85,4 +85,5 @@ To run retire.rb:
 
 ## Testing the Attic banner and CSP using Docker
 
-There is a Docker build for testing the Attic banner and CSP at https://github.com/apache/attic-docker
+There is a [Docker build](DOCKER.md) for testing the Attic banner and CSP
+

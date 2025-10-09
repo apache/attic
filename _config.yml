@@ -5,7 +5,7 @@ description: >-
 url: https://attic.apache.org/
 
 include: [.htaccess]
-exclude: [README.md, retire.rb]
+exclude: [README.md, retire.rb, DOCKER.md, compose.yaml, Dockerfile]
 keep_files: [projects.json]
 timezone: UTC
 repo: https://github.com/apache/attic

@@ -1,0 +1,6 @@
+# Ignore everything initially
+**
+
+# Allow what we want
+!_docker/**
+!scripts/attic_filter.lua
