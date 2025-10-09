@@ -3,7 +3,7 @@
     "retirement_date": "2017-02-27",
     "attic_issue": "ATTIC-163",
     "attic_date": "2017-04-04",
-    "attic_banner": false,
+    "attic_banner": true,
     "project_description": "Abdera was a project to build a functionally-complete, high-performance implementation of the IETF Atom Syndication Format (RFC 4287) and Atom Publishing Protocol (RFC 5023) specifications.",
     "board_resolution": true,
     "board_reports": true,
