@@ -38,12 +38,14 @@ local OVERRIDES = {
   twill = 'c',
   eagle = 'd',
   metamodel = 'e',
+  abdera = 'f',
   -- Shorthand names for testing using VAR_NAME override
   _a = 'a',
   _b = 'b',
   _c = 'c',
   _d = 'd',
-  _e = 'e'
+  _e = 'e',
+  _f = 'f',
 }
 
 function output_filter(r)
@@ -103,6 +105,9 @@ function output_filter(r)
         elseif style == 'e'
         then
             output = bucket:gsub('</nav>', div..'</nav>', 1):gsub('<div class="topNav">', divnew..'<div class="topNav">', 1)
+        elseif style == 'f' -- old-style Java and project websites
+        then
+            output = bucket:gsub('<body>', '<body>'..div, 1):gsub('<A NAME="navbar_top">', divnew..'<A NAME="navbar_top">', 1)
         else
             output = bucket
         end
