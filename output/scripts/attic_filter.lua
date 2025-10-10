@@ -39,6 +39,7 @@ local OVERRIDES = {
   eagle = 'd',
   metamodel = 'e',
   abdera = 'f',
+  wink = 'f',
   -- Shorthand names for testing using VAR_NAME override
   _a = 'a',
   _b = 'b',
