@@ -125,8 +125,9 @@ function output_filter(r)
             output = bucket:gsub('<A NAME="navbar_top">', divnew..'<A NAME="navbar_top">', 1)
         elseif style == 'i' -- Javadoc fixup only
         then
-            local javadoc = '<!-- ========= START OF TOP NAVBAR ======= -->'
-            output = bucket:gsub(javadoc, javadoc..divnew, 1)
+            -- '-' is a pattern meta-character so has to be escaped
+            local javadoc = '(<!%-%- ========= START OF TOP NAVBAR ======= %-%->)'
+            output = bucket:gsub(javadoc, "%1" .. divnew, 1)
         else
             output = bucket
         end
