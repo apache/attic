@@ -125,8 +125,8 @@ function output_filter(r)
             output = bucket:gsub('<A NAME="navbar_top">', divnew..'<A NAME="navbar_top">', 1)
         elseif style == 'i' -- Javadoc fixup only
         then
-            local javadoc = '<div class="topNav">'
-            output = bucket:gsub(javadoc, divnew..javadoc, 1)
+            local javadoc = '<!-- ========= START OF TOP NAVBAR ======= -->'
+            output = bucket:gsub(javadoc, javadoc..divnew, 1)
         else
             output = bucket
         end
