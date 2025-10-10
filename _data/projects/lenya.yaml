@@ -2,7 +2,7 @@
 retirement_date: 2015-04-22
 attic_issue: ATTIC-136
 attic_date: 2015-07-14
-attic_banner: false
+attic_banner: true
 project_description: >-
     Lenya was an Open Source Java/XML Content Management System that came with
     revision control, multi-site management, scheduling, search, WYSIWYG
