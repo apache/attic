@@ -24,3 +24,7 @@ issue_trackers:
         - COCOON3
 wiki:
     type: CWIKI
+related_projects:
+    - name: HeroDevs Never Ending Support for Cocoon
+      url: https://www.herodevs.com/support/apache-cocoon-nes
+      description: is a set of commercial patches for CVEs of the project outside the ASF
