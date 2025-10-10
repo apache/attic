@@ -41,6 +41,9 @@ local OVERRIDES = {
   abdera = 'f',
   wink = 'f',
   tiles = 'g',
+  lenya = 'h',
+  whirr = 'h',
+  mrunit = 'i',
   -- Shorthand names for testing using VAR_NAME override
   _a = 'a',
   _b = 'b',
@@ -49,6 +52,8 @@ local OVERRIDES = {
   _e = 'e',
   _f = 'f',
   _g = 'g',
+  _h = 'h',
+  _i = 'i',
 }
 
 function output_filter(r)
@@ -115,6 +120,13 @@ function output_filter(r)
             local body = '<body class="topBarEnabled">'
             local javadoc = '<div class="topNav">'
             output = bucket:gsub(body, body..div, 1):gsub(javadoc, divnew..javadoc, 1)
+        elseif style == 'h' -- old-style Javadoc fixup only
+        then
+            output = bucket:gsub('<A NAME="navbar_top">', divnew..'<A NAME="navbar_top">', 1)
+        elseif style == 'i' -- Javadoc fixup only
+        then
+            local javadoc = '<div class="topNav">'
+            output = bucket:gsub(javadoc, divnew..javadoc, 1)
         else
             output = bucket
         end
