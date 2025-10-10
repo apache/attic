@@ -40,6 +40,7 @@ local OVERRIDES = {
   metamodel = 'e',
   abdera = 'f',
   wink = 'f',
+  tiles = 'g',
   -- Shorthand names for testing using VAR_NAME override
   _a = 'a',
   _b = 'b',
@@ -47,6 +48,7 @@ local OVERRIDES = {
   _d = 'd',
   _e = 'e',
   _f = 'f',
+  _g = 'g',
 }
 
 function output_filter(r)
@@ -77,7 +79,6 @@ function output_filter(r)
     -- add header:
     -- special processing needed for some hosts
     local style = OVERRIDES[host]
-    -- if host == 'predictionio' or host == 'eagle' or host == 'metamodel' or host == 'mxnet' or host == 'twill'
     if style
     then
         coroutine.yield('')
@@ -109,6 +110,11 @@ function output_filter(r)
         elseif style == 'f' -- old-style Java and project websites
         then
             output = bucket:gsub('<body>', '<body>'..div, 1):gsub('<A NAME="navbar_top">', divnew..'<A NAME="navbar_top">', 1)
+        elseif style == 'g'
+        then
+            local body = '<body class="topBarEnabled">'
+            local javadoc = '<div class="topNav">'
+            output = bucket:gsub(body, body..div, 1):gsub(javadoc, divnew..javadoc, 1)
         else
             output = bucket
         end
