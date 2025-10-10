@@ -1,7 +1,7 @@
 ---
 retirement_date: 2025-08-20
 attic_issue: ATTIC-245
-attic_date:
+attic_date: 2025-10-10
 attic_banner: true
 project_description: >-
     Mesos was a cluster manager that provides efficient resource
