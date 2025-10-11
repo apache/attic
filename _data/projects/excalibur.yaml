@@ -2,7 +2,7 @@
 retirement_date: 2010-12-15
 attic_issue: ATTIC-97
 attic_date: 2011-03-04
-attic_banner: false
+attic_banner: true
 project_description: >-
     Excalibur was a Java Inversion of Control container.
 board_resolution: true
