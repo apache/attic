@@ -44,6 +44,7 @@ local OVERRIDES = {
   lenya = 'h',
   whirr = 'h',
   mrunit = 'i',
+  excalibur = 'i',
   -- Shorthand names for testing using VAR_NAME override
   _a = 'a',
   _b = 'b',
