@@ -38,6 +38,7 @@ local OVERRIDES = {
   twill = 'c',
   eagle = 'd',
   metamodel = 'e',
+  griffin = 'e',
   abdera = 'f',
   wink = 'f',
   tiles = 'g',
