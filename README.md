@@ -57,6 +57,10 @@ Source is composed of the following:
 Data for retired projects is stored in YAML, which are described on the Attic
 [Data Reference (YAML)](https://attic.apache.org/data.html) page.
 
+## Attic banner description
+
+For a description of how the Attic banners are managed, please see [BANNER.md](BANNER.md)
+
 ## How to test locally (DRAFT) ##
 
 Install Ruby.
