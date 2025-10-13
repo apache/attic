@@ -11,8 +11,9 @@ function output_filter_wrapper(r)
     s['content_type'] = r.content_type
     s['hostname'] = os.getenv('VAR_NAME') or 'localhost'
     -- For local debugging, also add the following:
-    s['warn'] = function(self, txt)
-        r:warn(txt)
-    end
+    s['warn'] = function(self, txt) r:warn(txt) end
+    s['info'] = function(self, txt) r:info(txt) end
+    -- Show that wrapper has been invoked
+    s:info("Wrapper: " .. s.hostname .. " " .. s.content_type)
     output_filter(s) -- call with updated settings
 end
