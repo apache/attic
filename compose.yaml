@@ -16,3 +16,9 @@ services:
       - VAR_NAME=${VAR_NAME:-localhost}
       # Act as though _ATTIC directory is present (if yes)
       - VAR_ATTIC=${VAR_ATTIC:-no}
+      # if defined, use as the source for pages
+      # e.g. https://attic.apache.org/
+      # Can also use svn and GH raw input
+      - VAR_HOSTURL=${VAR_HOSTURL:-}
+      # log level for webserver
+      - VAR_LEVEL=${VAR_LEVEL:-info}

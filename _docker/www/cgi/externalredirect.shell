@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+# Script to redirect to external website source
+
+# strip trailing slash (if any). The request URI starts with /, and // can cause issues
+VAR_HOSTURL=${VAR_HOSTURL%/}
+echo "$0: ${VAR_HOSTURL} ${REQUEST_URI}" >&2 # log
+
+# We need to capture the header and body separately, as the body may be binary
+HDR=/tmp/hdr$$
+BDY=/tmp/bdy$$
+
+# VAR_HOSTURL could be:
+# - https://HOST.apache.org
+# - https://svn-master.apache.org/repos/asf/HOST/site/trunk
+# - https://raw.githubusercontent.com/apache/attic/refs/heads/asf-site/output
+
+if [[ $VAR_HOSTURL =~ githubusercontent && ${REQUEST_URI} =~ /$ ]] # GH needs a name
+then
+    REQUEST_URI=${REQUEST_URI}index.html
+fi
+
+curl -sSD $HDR -o $BDY ${VAR_HOSTURL}${REQUEST_URI}
+
+# return the headers:
+# drop HTTP prefix (not a valid header)
+# Also drop CSP as it is applied locally
+# Further, fix up GH raw replies
+if [[ $VAR_HOSTURL =~ githubusercontent ]] # GH returns everything as text/plain
+then
+    case "$REQUEST_URI" in
+        *.css) NEW=css;;
+        *.html) NEW=html;;
+        *.js) NEW=application/javascript;;
+        *) NEW=plain;;
+    esac
+    grep -v '^HTTP/' $HDR | grep -vi '^content-security-policy' | sed -e "s!text/plain!text/${NEW}!"
+else
+    grep -v '^HTTP/' $HDR | grep -vi '^content-security-policy'
+fi
+
+# Return the body
+cat $BDY

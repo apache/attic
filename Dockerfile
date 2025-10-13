@@ -24,6 +24,8 @@ RUN apt-get update && DEBIAN_FRONTEND='noninteractive' apt-get install -y \
     
 RUN echo "ServerName apache-lua.local" > /etc/apache2/conf-enabled/servername.conf
 
+RUN DEBIAN_FRONTEND='noninteractive' apt-get install -y curl
+
 COPY _docker/000-default.conf /etc/apache2/sites-enabled/000-default.conf
 COPY scripts/attic_filter.lua /etc/apache2/conf-enabled/attic_filter.lua
 COPY _docker/wrapper.lua /etc/apache2/conf-enabled/wrapper.lua
