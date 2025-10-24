@@ -2460,6 +2460,43 @@
     "project_shortdesc": "Java implementation of the Universal Description, Discovery, and Integration specification",
     "project_type": "PMC"
   },
+  "kibble": {
+    "retirement_date": "2025-10-15",
+    "attic_issue": "ATTIC-250",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_description": "Kibble was an interactive project activity analyzer and aggregator.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "kibble"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "KIBBLE"
+      ]
+    },
+    "project_id": "kibble",
+    "project_name": "Kibble",
+    "project_name_lower": "kibble",
+    "project_longname": "Kibble",
+    "project_apachename": "Apache Kibble",
+    "project_domain": "kibble.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-250",
+    "project_shortdesc": "an interactive project activity analyzer and aggregator",
+    "project_type": "PMC"
+  },
   "labs": {
     "retirement_date": "2020-08-19",
     "attic_issue": "ATTIC-188",
@@ -4180,6 +4217,37 @@
     "project_domain": "tiles.apache.org",
     "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-173",
     "project_shortdesc": "A templating framework for web application user interfaces",
+    "project_type": "PMC"
+  },
+  "trafficcontrol": {
+    "retirement_date": "2025-10-15",
+    "attic_issue": "ATTIC-249",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_name": "Traffic Control",
+    "project_description": "Traffic Control allowed the building of a large scale content delivery network. Built around Apache Traffic Server as the caching software, Traffic Control implemented all the core functions of a modern CDN.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "trafficcontrol"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "project_id": "trafficcontrol",
+    "project_name_lower": "traffic control",
+    "project_longname": "Traffic Control",
+    "project_apachename": "Apache Traffic Control",
+    "project_domain": "trafficcontrol.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-249",
+    "project_shortdesc": "building, monitoring, configuring, and provisioning a large scale content delivery network (CDN)",
     "project_type": "PMC"
   },
   "trafodion": {
