@@ -1,0 +1,19 @@
+---
+retirement_date: 2025-10-15
+attic_issue: ATTIC-250
+attic_date:
+attic_banner: true
+project_description: >-
+    Kibble was an interactive project activity analyzer and aggregator.
+board_resolution: true
+board_reports: true
+downloads: false
+source_repositories:
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- issues
+- users
+wiki:
+    type: CWIKI
