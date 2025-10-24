@@ -1,0 +1,20 @@
+---
+retirement_date: 2025-10-15
+attic_issue: ATTIC-249
+attic_date:
+attic_banner: true
+project_name: Traffic Control
+project_description: >-
+    Traffic Control allowed the building of a large scale content delivery
+    network. Built around Apache Traffic Server as the caching software,
+    Traffic Control implemented all the core functions of a modern CDN.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- issues
+- users
