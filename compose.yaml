@@ -22,3 +22,5 @@ services:
       - VAR_HOSTURL=${VAR_HOSTURL:-}
       # log level for webserver
       - VAR_LEVEL=${VAR_LEVEL:-info}
+      # Optional veride for CSP
+      - CSP_PROJECT_DOMAINS=${CSP_PROJECT_DOMAINS:-}

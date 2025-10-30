@@ -79,8 +79,11 @@ Start the container and run bash rather than the webserver:
 
 ## Changing the Content-Security-Policy
 
-To make changes to the CSP, edit the 
-file [_docker/000-default.conf#L9-L17](https://github.com/apache/attic-docker/blob/main/_docker/000-default.conf#L9-L17)
+To change the local CSP exceptions, define the variable CSP_PROJECT_DOMAINS, for example:
+`VAR_HOSTURL=https://.../ VAR_NAME=sitename CSP_PROJECT_DOMAINS="host1 host2" docker compose up`
+
+To make changes to the base CSP, edit the 
+file [_docker/000-default.conf#L9-L17](https://github.com/apache/attic/blob/main/_docker/000-default.conf#L9-L17)
 Then rebuild the image (should be very quick) and restart.
 
 ## Variables used to customise the container
