@@ -92,5 +92,6 @@ Then rebuild the image (should be very quick) and restart.
 - VAR_ATTIC: set to 'yes' to enable banner processing (default 'no')
 - VAR_LEVEL: webserver log level (e.g. debug, tracen) (default 'info')
 - VAR_DYN: (optional) path to closer_cgi files
-- VAR_HTML: path to website source (defaults to internal website with single page)
-- VAR_HOSTURL: (optional) if defined, must point to website base url, e.g. https://attic. apache.org/
+- VAR_HTML: (optional) path to website source (defaults to internal website with single page)
+- VAR_HOSTURL: (optional) if defined, must point to website base url, e.g. https://attic.apache.org/
+- CSP_PROJECT_DOMAINS: (optional) if defined, will set CSP_PROJECT_DOMAINS in the webserver
