@@ -3430,7 +3430,7 @@
   "portals": {
     "retirement_date": "2025-09-24",
     "attic_issue": "ATTIC-247",
-    "attic_date": null,
+    "attic_date": "2025-11-07",
     "attic_banner": true,
     "project_description": "Portals was Portal technology.",
     "board_resolution": true,
