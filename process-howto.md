@@ -111,7 +111,7 @@ A sample ATTIC Jira template can be found on that page.
 Note that the project YAML file will need to be updated to add the [ATTIC Jira issue](https://issues.apache.org/jira/projects/ATTIC/) number created in previous step.
 
 Once the page is live and Jira issue is updated with the tracking template, follow steps and update issue state:
-  - Check the project site carries the **Attic Banner**
+  - Check the project site carries the **Attic Banner**, eventually adding a new exception to [attic_filter.lua](https://github.com/apache/attic/blob/main/scripts/attic_filter.lua)
   - Check any CWIKI spaces carry the  **Attic Banner**
   - Use the project's [Template Page]({% link tracking.md %}) to help with:
     - Creating the INFRA Jira
