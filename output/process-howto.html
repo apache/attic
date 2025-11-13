@@ -332,7 +332,10 @@ and associated retirement WIP templates at <a href="https://attic.apache.org/tem
 Note that the project YAML file will need to be updated to add the <a href="https://issues.apache.org/jira/projects/ATTIC/">ATTIC Jira issue</a> number created in previous step.</p>
 <p>Once the page is live and Jira issue is updated with the tracking template, follow steps and update issue state:</p>
 <ul>
-  <li>Check the project site carries the <strong>Attic Banner</strong>, eventually adding a new exception to <a href="https://github.com/apache/attic/blob/main/scripts/attic_filter.lua">attic_filter.lua</a></li>
+  <li>Check the project site carries the <strong>Attic Banner</strong>, if necessary adding a new exception to <a href="https://github.com/apache/attic/blob/main/scripts/attic_filter.lua">attic_filter.lua</a>.
+Note that changes to the filter are not detected as changes to the website by the caching system.
+To bypass the cache, append a query such as <code class="language-plaintext highlighter-rouge">?timestamp</code> to the URL, e.g. <code class="language-plaintext highlighter-rouge">https://attic.apache.org/?123445567</code>.
+Once the banner is showing correctly, let Infra know so the cache for the site can be cleared.</li>
   <li>Check any CWIKI spaces carry the  <strong>Attic Banner</strong></li>
   <li>Use the project’s <a href="/tracking.html">Template Page</a> to help with:
     <ul>
