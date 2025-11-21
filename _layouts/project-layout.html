@@ -19,13 +19,18 @@ limitations under the License.
 {% endcomment %}
 
 {%- assign archive_domain   = page.archive_path | default: page.project_id | prepend: "archive.apache.org/dist/" %}
+{%- assign establish_file  = page.established_date | date: "%Y/board_minutes_%Y_%m_%d.txt" %}
+{%- assign establish_locn  = establish_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
 {%- assign resolution_file  = page.retirement_date | date: "%Y/board_minutes_%Y_%m_%d.txt" %}
 {%- assign resolution_locn  = resolution_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
 
 <h1>{{ page.project_apachename }}</h1>
 
 <p>
-  <a href="https://{{ page.project_domain }}/">{{ page.project_longname }}</a> retired in
+  <a href="https://{{ page.project_domain }}/">{{ page.project_longname }}</a>
+  {%- if page.established_date %}
+     became a <i>Top Level Project</i> in <b><a href="{{ establish_locn }}">{{ page.established_date | date: "%B %Y" }}</a></b>, 
+  {%- endif %}  retired in
   <b>
   {%- if page.board_resolution == true -%}
     <a href="{{ resolution_locn }}">{{ page.retirement_date | date: "%B %Y" }}</a>

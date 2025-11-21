@@ -72,6 +72,7 @@ The [project YAML files]({{site.repo}}/blob/main/_data/projects/) are used to ge
 |Attribute|Required?|Format/Values|Description|Examples|
 |:--------|:--------|:------------|:----------|:-------|
 |project_id|**GENERATED**| - |Generated from the YAML file name, without the `.yaml` suffix ||
+|established_date|Optional|yyyy-mm-dd|Date the project was created as a TLP (date of board meeting)||
 |retirement_date|Required|yyyy-mm-dd|Date the project retired (date of board meeting)||
 |attic_issue|Optional|ATTIC-nnn|The [Attic JIRA](https://issues.apache.org/jira/projects/ATTIC/) ID managing the projects retirement||
 |attic_date|Optional|yyyy-mm-dd|Date the move to the Attic was completed||
