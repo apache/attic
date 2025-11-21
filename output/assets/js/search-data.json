@@ -22,14 +22,14 @@
   },"3": {
     "doc": "Data Reference (YAML)",
     "title": "Example YAML File",
-    "content": "Below is an example, of a YAML file for Any23 which generates the Any23 Project Page. retirement_date: 2023-06-21 attic_issue: ATTIC-215 attic_date: 2023-10-01 attic_banner: true project_description: &gt;- The mission of Apache Any23 (Anything to Triples) was the creation and maintenance of software related to automatic crawling, parsing, analyzing, producing, validating and converting RDF (Resource Description Framework) data. board_resolution: true board_reports: true downloads: true source_repositories: - type: Git mailing_lists: - dev - commits - user issue_trackers: - type: JIRA wiki: type: CWIKI . ",
+    "content": "Below is an example, of a YAML file for Any23 which generates the Any23 Project Page. established_date: 2012-08-28 retirement_date: 2023-06-21 attic_issue: ATTIC-215 attic_date: 2023-10-01 attic_banner: true project_description: &gt;- The mission of Apache Any23 (Anything to Triples) was the creation and maintenance of software related to automatic crawling, parsing, analyzing, producing, validating and converting RDF (Resource Description Framework) data. board_resolution: true board_reports: true downloads: true source_repositories: - type: Git mailing_lists: - dev - commits - user issue_trackers: - type: JIRA wiki: type: CWIKI . ",
     "url": "/data.html#example-yaml-file",
     
     "relUrl": "/data.html#example-yaml-file"
   },"4": {
     "doc": "Data Reference (YAML)",
     "title": "YAML Template File",
-    "content": "The following is a standard starter template for a YAML file: . retirement_date: yyyy-mm-dd attic_issue: ATTIC-nnn attic_date: attic_banner: true project_description: &gt;- [put the project description here] board_resolution: true board_reports: true downloads: true source_repositories: - type: Git mailing_lists: - dev - commits - user issue_trackers: - type: JIRA wiki: type: CWIKI . ",
+    "content": "The following is a standard starter template for a YAML file: . established_date: yyyy-mm-dd retirement_date: yyyy-mm-dd attic_issue: ATTIC-nnn attic_date: attic_banner: true project_description: &gt;- [put the project description here] board_resolution: true board_reports: true downloads: true source_repositories: - type: Git mailing_lists: - dev - commits - user issue_trackers: - type: JIRA wiki: type: CWIKI . ",
     "url": "/data.html#yaml-template-file",
     
     "relUrl": "/data.html#yaml-template-file"
