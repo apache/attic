@@ -152,6 +152,7 @@ def main()
     end
     project_description = display_name + sep + description + '.'
     data = {
+      established_date: 'yyyy-mm-dd',
       retirement_date: retired_date,
       attic_issue: 'ATTIC-nnn',
       attic_date: nil,

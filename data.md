@@ -126,6 +126,7 @@ Below is an example, of a [YAML file for Any23]({{site.repo}}/blob/main/_data/pr
 which generates the [Any23 Project Page]({% link projects/any23.html %}).
 
 ```yaml
+established_date: 2012-08-28
 retirement_date: 2023-06-21
 attic_issue: ATTIC-215
 attic_date: 2023-10-01
@@ -154,6 +155,7 @@ wiki:
 The following is a standard starter template for a YAML file:
 
 ```yaml
+established_date: yyyy-mm-dd
 retirement_date: yyyy-mm-dd
 attic_issue: ATTIC-nnn
 attic_date:
