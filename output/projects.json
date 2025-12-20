@@ -3223,6 +3223,51 @@
     "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-113",
     "project_shortdesc": "OJB was an Object/Relational mapping tool that allowed transparent persistence for Java Objects against relational databases."
   },
+  "olingo": {
+    "established_date": "2014-03-19",
+    "retirement_date": "2025-12-17",
+    "attic_issue": "ATTIC-251",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_description": "Olingo was a Java library that implements the Open Data Protocol (OData). ",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "olingo"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OLINGO"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "OLINGO"
+      ]
+    },
+    "project_id": "olingo",
+    "project_name": "Olingo",
+    "project_name_lower": "olingo",
+    "project_longname": "Olingo",
+    "project_apachename": "Apache Olingo",
+    "project_domain": "olingo.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-251",
+    "project_shortdesc": "OASIS OData protocol libraries",
+    "project_type": "PMC"
+  },
   "oltu": {
     "established_date": "2013-01-16",
     "retirement_date": "2018-03-21",
