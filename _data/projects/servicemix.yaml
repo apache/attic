@@ -1,0 +1,36 @@
+---
+established_date: 2007-09-19
+retirement_date: 2026-03-18
+attic_issue: ATTIC-252
+attic_date:
+attic_banner: true
+project_name: ServiceMix
+project_description: >-
+    ServiceMix was an Enterprise Service Bus.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- issues
+- users
+issue_trackers:
+-   type: JIRA
+    keys:
+    - SM
+    - SMX4
+    - SMX4KNL
+    - SMX4NMR
+    - SMXCOMP
+wiki:
+    type: CWIKI
+    keys:
+    - SM
+    - SMX3
+    - SMX4
+    - SMX4KNL
+    - SMX4NMR
+    - SMXCOMP
