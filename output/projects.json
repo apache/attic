@@ -3857,6 +3857,61 @@
     "project_shortdesc": "Fine grained authorization to data and metadata in Apache Hadoop",
     "project_type": "PMC"
   },
+  "servicemix": {
+    "established_date": "2007-09-19",
+    "retirement_date": "2026-03-18",
+    "attic_issue": "ATTIC-252",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_name": "ServiceMix",
+    "project_description": "ServiceMix was an Enterprise Service Bus.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "servicemix"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SM",
+          "SMX4",
+          "SMX4KNL",
+          "SMX4NMR",
+          "SMXCOMP"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SM",
+        "SMX3",
+        "SMX4",
+        "SMX4KNL",
+        "SMX4NMR",
+        "SMXCOMP"
+      ]
+    },
+    "project_id": "servicemix",
+    "project_name_lower": "servicemix",
+    "project_longname": "ServiceMix",
+    "project_apachename": "Apache ServiceMix",
+    "project_domain": "servicemix.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-252",
+    "project_shortdesc": "Enterprise Service Bus",
+    "project_type": "PMC"
+  },
   "shale": {
     "established_date": "2006-06-27",
     "retirement_date": "2009-05-20",
