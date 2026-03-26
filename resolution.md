@@ -52,10 +52,10 @@ A project's chair should include this in the agenda for the next board meeting:
        RESOLVED, that the Apache {PROJECT} PMC is hereby terminated.
 ```  
 
-Whimsy provides a tool to easily add such a resolution to the next board agenda:
+There is a tool to easily add such a resolution to the next board agenda:
 
-  - Go to [Whimsy Board Agenda](https://whimsy.apache.org/board/agenda/) tool
-  - Select the 'add item' button at the bottom
+  - Go to the [Board Agenda Tool](https://agenda.apache.org/)
+  - Click the 'Add Item' button on the right
   - Select the 'Terminate Project' button from the list
   - Enter the project details
 
