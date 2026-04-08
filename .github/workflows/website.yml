@@ -37,14 +37,14 @@ jobs:
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # v3.5.3
         with:
           fetch-depth: 1
-      - name: 🗂 Checkout asf-site branch with minimum depth
+      - name: 🗂 Checkout asf-site branch with minimum depth (main only)
         if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # 3.5.3
         with:
           ref: asf-site
           fetch-depth: 1
           path: asf-site
-      - name: 🗂 Checkout cwiki-retired branch with minimum depth
+      - name: 🗂 Checkout cwiki-retired branch with minimum depth (main only)
         if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9  # 3.5.3
         with:
@@ -63,12 +63,12 @@ jobs:
           rm -rf cwiki-retired/*
           ruby --version
           bundle exec jekyll build -d asf-site/output
-      - name: Move cwiki-retired out of asf-site
+      - name: Move cwiki-retired out of asf-site (main only)
         if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         run: |
           mv asf-site/output/cwiki_retired/* cwiki-retired
           rm -rf asf-site/output/cwiki_retired
-      - name: 🚀 Add commit to the asf-site branch
+      - name: 🚀 Add commit to the asf-site branch (main only)
         if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         working-directory: asf-site
         run: |
@@ -82,7 +82,7 @@ jobs:
           then
             git push origin asf-site
           fi
-      - name: 🚀 Add commit to the cwiki-retired branch
+      - name: 🚀 Add commit to the cwiki-retired branch (main only)
         if: ${{ (github.head_ref || github.ref_name) == 'main' }}
         working-directory: cwiki-retired
         run: |
@@ -96,7 +96,7 @@ jobs:
           then
             git push origin cwiki-retired
           fi
-      - name: 🚀 Add commit to the site staging *-site branch
+      - name: 🚀 Add commit to the site staging *-site branch (except main)
         if: ${{ (github.head_ref || github.ref_name) != 'main' }}
         run: |
           BRANCH="${{ (github.head_ref || github.ref_name) }}"
