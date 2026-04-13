@@ -77,6 +77,7 @@ The following are useful Git/svn/https locations:
 Check previous Board minutes to confirm the "terminate" resolution passed. The minutes are available from the following sources:
 
   - The private [committers@a.o mailing list](https://lists.apache.org/list.html?committers@apache.org:lte=2M:ASF%20Board%20Meeting) (requires login)
+  - [Board Agenda Tool](https://agenda.apache.org/) (requires login)
   - Previously published [Board meeting minutes](https://www.apache.org/foundation/board/calendar.html)
   - Whimsy has a public list of [Board Minutes by topic](https://whimsy.apache.org/board/minutes/)
 
