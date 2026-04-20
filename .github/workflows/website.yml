@@ -113,8 +113,8 @@ jobs:
           else
             echo "creating orphan $SITE"
             git switch --orphan $SITE
-            # Need gitignore
-            git checkout ${BRANCH} -- .gitignore
+            # Need gitignore- git checkout ${BRANCH} -- .gitignore
++ git checkout origin/${BRANCH} -- .gitignore
             # create staging site
             {
               echo "staging:"
