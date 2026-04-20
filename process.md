@@ -45,12 +45,13 @@ to move that PMC into the Attic and gently close it down.
 ## 2. If the board approves the resolution
 The Attic team will open an [Attic JIRA](https://issues.apache.org/jira/browse/ATTIC) item - `Move ${project} to the Attic`.
 
-Issue content typically contains the following steps (click for a description of each step of the process):
+In parallel, Marketing & Publicity will coordinate with the retiring project's members to [update social media (if any)](process-howto.html#update-social-media-if-any).
+
+Attic JIRA issue content typically contains the following steps (click for a description of each step of the process):
    1. [Confirm Board Resolution](process-howto.html#1-confirm-board-resolution)
    1. [Create project page on Attic site](process-howto.html#2-create-project-page-on-attic-site)
    1. [Inform users of the move to the Attic](process-howto.html#3-inform-users-of-the-move-to-the-attic)
    1. [Update the project DOAP files (if any)](process-howto.html#4-update-the-project-doap-file-if-any)
-   1. [Update social media (if any)](process-howto.html#5-update-social-media-if-any)
    1. [Get Infra to lock down project resources](process-howto.html#6-get-infra-to-lock-down-project-resources)
    1. [Announce on *announce AT apache.org*](process-howto.html#7-announce-on-announce-at-apacheorg)
 
