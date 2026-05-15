@@ -1,0 +1,4928 @@
+{
+  "abdera": {
+    "established_date": "2008-11-19",
+    "retirement_date": "2017-02-27",
+    "attic_issue": "ATTIC-163",
+    "attic_date": "2017-04-04",
+    "attic_banner": true,
+    "project_description": "Abdera was a project to build a functionally-complete, high-performance implementation of the IETF Atom Syndication Format (RFC 4287) and Atom Publishing Protocol (RFC 5023) specifications.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "abdera"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ABDERA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ABDERA"
+      ]
+    },
+    "project_id": "abdera",
+    "project_name": "Abdera",
+    "project_name_lower": "abdera",
+    "project_longname": "Abdera",
+    "project_apachename": "Apache Abdera",
+    "project_domain": "abdera.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-163",
+    "project_shortdesc": "Atom Publishing Protocol Implementation",
+    "project_type": "PMC"
+  },
+  "ace": {
+    "established_date": "2011-12-21",
+    "retirement_date": "2017-12-20",
+    "attic_issue": "ATTIC-167",
+    "attic_date": "2018-02-06",
+    "attic_banner": true,
+    "project_description": "ACE was a software distribution framework that allows you to centrally manage and distribute software components, configuration data and other artifacts to target systems. It is built using OSGi and can be deployed in different topologies. The target systems are usually also OSGi based, but don't have to be.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "ace"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ACE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ACE"
+      ]
+    },
+    "project_id": "ace",
+    "project_name": "Ace",
+    "project_name_lower": "ace",
+    "project_longname": "Ace",
+    "project_apachename": "Apache Ace",
+    "project_domain": "ace.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-167",
+    "project_shortdesc": "Centralized life cycle management and deployment of OSGi based and related modular software artifacts for distribution",
+    "project_type": "PMC"
+  },
+  "any23": {
+    "established_date": "2012-08-28",
+    "retirement_date": "2023-06-21",
+    "attic_issue": "ATTIC-215",
+    "attic_date": "2023-10-05",
+    "attic_banner": true,
+    "project_description": "The mission of Any23 (Anything to Triples) was the creation and maintenance of software related to automatic crawling, parsing, analyzing, producing, validating and converting RDF (Resource Description Framework) data.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "any23"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ANY23"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ANY23"
+      ]
+    },
+    "project_id": "any23",
+    "project_name": "Any23",
+    "project_name_lower": "any23",
+    "project_longname": "Any23",
+    "project_apachename": "Apache Any23",
+    "project_domain": "any23.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-215",
+    "project_shortdesc": "Anything to Triples",
+    "project_type": "PMC"
+  },
+  "apex": {
+    "established_date": "2016-04-20",
+    "retirement_date": "2019-09-18",
+    "attic_issue": "ATTIC-177",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_description": "Apex was a unified platform for big data stream and batch processing. Use cases included ingestion, ETL, real-time analytics, alerts and real-time actions.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "apex"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "APEXCORE",
+          "APEXMALHAR"
+        ]
+      }
+    ],
+    "project_id": "apex",
+    "project_name": "Apex",
+    "project_name_lower": "apex",
+    "project_longname": "Apex",
+    "project_apachename": "Apache Apex",
+    "project_domain": "apex.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-177",
+    "project_shortdesc": "Enterprise-grade unified stream and batch processing engine",
+    "project_type": "PMC"
+  },
+  "archiva": {
+    "established_date": "2008-03-19",
+    "retirement_date": "2024-02-21",
+    "attic_issue": "ATTIC-221",
+    "attic_date": "2024-05-06",
+    "attic_banner": true,
+    "project_description": "Archiva mission was the creation and maintenance of software related to Build Artifact Repository Manager.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "archiva"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "notifications",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MRM"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ARCHIVA"
+      ]
+    },
+    "project_id": "archiva",
+    "project_name": "Archiva",
+    "project_name_lower": "archiva",
+    "project_longname": "Archiva",
+    "project_apachename": "Apache Archiva",
+    "project_domain": "archiva.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-221",
+    "project_shortdesc": "Build Artifact Repository Manager",
+    "project_type": "PMC"
+  },
+  "aurora": {
+    "established_date": "2015-03-18",
+    "retirement_date": "2020-02-19",
+    "attic_issue": "ATTIC-179",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_description": "Aurora was a Mesos framework for long-running services, cron jobs, and ad-hoc jobs.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "aurora"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "announcements",
+      "commits",
+      "issues",
+      "reviews",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "AURORA"
+        ]
+      },
+      {
+        "type": "GitHub",
+        "keys": [
+          "aurora"
+        ]
+      }
+    ],
+    "related_projects": [
+      {
+        "name": "Aurora Scheduler",
+        "url": "https://github.com/aurora-scheduler/",
+        "description": "is a continuation of the project outside the ASF"
+      }
+    ],
+    "project_id": "aurora",
+    "project_name": "Aurora",
+    "project_name_lower": "aurora",
+    "project_longname": "Aurora",
+    "project_apachename": "Apache Aurora",
+    "project_domain": "aurora.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-179",
+    "project_shortdesc": "Mesos framework for long-running services and cron jobs",
+    "project_type": "PMC"
+  },
+  "avalon": {
+    "established_date": "2002-11-18",
+    "retirement_date": "2004-11-14",
+    "attic_issue": "ATTIC-112",
+    "attic_date": "2011-05-26",
+    "attic_banner": false,
+    "project_description": "Avalon provided Java software for component and container programming and pioneered the use of design patterns such as Inversion of Control (IoC) and Separation of Concerns (SoC).",
+    "additional_text": "Avalon was closed down in 2004, long before the creation of the Apache Attic. It's mentioned here for completeness.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "avalon"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "apps-dev",
+      "cvs",
+      "phoenix-dev"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "AVALON",
+          "AVNSHARP",
+          "RUNTIME",
+          "STUDIO",
+          "CENTRAL",
+          "PLANET",
+          "TOOLS",
+          "PNIX"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "AVALON"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "See avalon.apache.org",
+        "url": "https://avalon.apache.org/",
+        "description": "for more information, including its successors, archives and description;"
+      }
+    ],
+    "project_id": "avalon",
+    "project_name": "Avalon",
+    "project_name_lower": "avalon",
+    "project_longname": "Avalon",
+    "project_apachename": "Apache Avalon",
+    "project_domain": "avalon.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-112",
+    "project_shortdesc": "Java software for component and container programming",
+    "project_type": "PMC"
+  },
+  "axis-sandesha-c": {
+    "retirement_date": "2014-09-01",
+    "attic_issue": "ATTIC-133",
+    "attic_date": "2015-07-12",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Axis Sandesha2/C",
+    "project_domain": "axis.apache.org/axis2/c/sandesha/",
+    "project_description": "Sandesha2/C was a C implementation of the WS-ReliableMessaging specification. Sandesha2/C was built on top of Apache Axis2/C Web services engine, as a module. Therefore by using Sandesha2/C you could add reliable messaging capability to Web services hosted using Axis2/C. Sandesha2/C could also be used with Axis2/C client to interact with an already hosted Web services in a reliable manner.",
+    "additional_text": "There was no mailing list, instead you can see posts related to Sandesha2/C in the Axis2/C mailing list in the mail archives.",
+    "board_reports": false,
+    "board_resolution": false,
+    "downloads": true,
+    "archive_path": "ws/sandesha2/c",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "axis/axis2/c/sandesha"
+      }
+    ],
+    "related_projects": [
+      {
+        "name": "axis.apache.org",
+        "url": "https://axis.apache.org/",
+        "description": "Sandesha2/C was a sub-project of Apache Axis"
+      }
+    ],
+    "project_id": "axis-sandesha-c",
+    "project_name_lower": "axis sandesha2/c",
+    "project_longname": "Axis Sandesha2/C",
+    "project_apachename": "Apache Axis Sandesha2/C",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-133",
+    "project_shortdesc": "Sandesha2/C was a C implementation of the WS-ReliableMessaging specification."
+  },
+  "axis-savan-c": {
+    "retirement_date": "2014-09-01",
+    "attic_issue": "ATTIC-133",
+    "attic_date": "2015-07-12",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Axis Savan/C",
+    "project_domain": "axis.apache.org/axis2/c/savan",
+    "project_description": "Savan/C was a C implementation of WS-Eventing specification. Savan/C was built on top of Axis2/C. Therefore by using Savan/C you could add WS-Eventing capability to Web services hosted using Axis2/C. Savan/C was designed as a general publisher/subscriber tool. The arcitecture was designed to abstract the general publisher/subscriber features so: that people could support more than one publisher/subscriber mechanisms within the same infrastructure.",
+    "additional_text": "There was no dedicated issue tracker, instead any issues raised were in the Axis2/C JIRA project (see below). There was no mailing list, instead you can see posts related to Savan/C in the Axis2/C mailing lists below.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "ws/savan/c",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "axis/axis2/c/savan"
+      }
+    ],
+    "mailing_lists": [
+      "c-dev",
+      "c-commits",
+      "c-user"
+    ],
+    "mailing_lists_prefix": "axis",
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "AXIS2C"
+        ]
+      }
+    ],
+    "project_id": "axis-savan-c",
+    "project_name_lower": "axis savan/c",
+    "project_longname": "Axis Savan/C",
+    "project_apachename": "Apache Axis Savan/C",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-133",
+    "project_shortdesc": "Savan/C was a C implementation of WS-Eventing specification."
+  },
+  "axis-savan-java": {
+    "retirement_date": "2014-09-01",
+    "attic_issue": "ATTIC-133",
+    "attic_date": "2015-07-12",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Axis Savan/Java",
+    "project_description": "Savan/Java was a Java implementation of WS-Eventing specification. Savan/Java was built on top of Axis2/Java. Therefore by using Savan/Java you could add WS-Eventing capability to Web services hosted using Axis2/Java. Savan/Java was designed as a general publisher/subscriber tool. The arcitecture was designed to abstract the general publisher/subscriber features so that people could support more than one publisher/subscriber mechanisms within the same infrastructure.",
+    "project_domain": "axis.apache.org/axis2/java/savan",
+    "additional_text": "No downloads were made available. See the website for limited additional information on Savan/Java. Note that the website is incorrect with regards to where the source code is. Ther was no mailing list, instead you can see posts related to Savan/Java in the Axis2/Java mailing list in the mail archives",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": false,
+    "archive_path": "asf/axis/axis2/java/savan",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "axis/axis2/java/savan"
+      }
+    ],
+    "mailing_lists": [
+      "java-dev",
+      "java-commits",
+      "java-user"
+    ],
+    "mailing_lists_prefix": "axis",
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SAVAN"
+        ]
+      }
+    ],
+    "project_id": "axis-savan-java",
+    "project_name_lower": "axis savan/java",
+    "project_longname": "Axis Savan/Java",
+    "project_apachename": "Apache Axis Savan/Java",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-133",
+    "project_shortdesc": "Savan/Java was a Java implementation of WS-Eventing specification."
+  },
+  "axkit": {
+    "retirement_date": "2009-08-19",
+    "attic_issue": "ATTIC-34",
+    "attic_date": "2009-08-31",
+    "attic_banner": false,
+    "project_name": "XML AxKit",
+    "project_type": "Subproject",
+    "project_description": "AxKit was an XML Application Server for Apache. It provided on-the-fly conversion from XML to any format, such as HTML, WAP or text using either W3C standard techniques, or flexible custom code.",
+    "board_reports": false,
+    "board_resolution": true,
+    "downloads": true,
+    "archive_path": "xml/axkit",
+    "related_projects": [
+      {
+        "name": "xml.apache.org",
+        "url": "https://xml.apache.org/",
+        "description": "AxKit was a subproject of Apache XML"
+      }
+    ],
+    "project_id": "axkit",
+    "project_name_lower": "xml axkit",
+    "project_longname": "XML AxKit",
+    "project_apachename": "Apache XML AxKit",
+    "project_domain": "axkit.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-34",
+    "project_shortdesc": "AxKit was an XML Application Server for Apache."
+  },
+  "bahir": {
+    "established_date": "2016-05-18",
+    "retirement_date": "2024-01-17",
+    "attic_issue": "ATTIC-220",
+    "attic_date": "2024-05-03",
+    "attic_banner": true,
+    "project_name": "Bahir",
+    "project_description": "Bahir's mission was to provide extensions to distributed analytic platforms such as Apache Spark.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "bahir"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "reviews",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "BAHIR"
+        ]
+      }
+    ],
+    "project_id": "bahir",
+    "project_name_lower": "bahir",
+    "project_longname": "Bahir",
+    "project_apachename": "Apache Bahir",
+    "project_domain": "bahir.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-220",
+    "project_shortdesc": "Extensions to distributed analytic platforms such as Apache Spark",
+    "project_type": "PMC"
+  },
+  "beehive": {
+    "established_date": "2005-07-28",
+    "retirement_date": "2009-11-18",
+    "attic_issue": "ATTIC-55",
+    "attic_date": "2010-02-10",
+    "attic_banner": false,
+    "project_description": "Beehive was a simple object model built on J2EE and Struts that used annotations to reduce the amount of required code.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "beehive"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "BEEHIVE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "BEEHIVE"
+      ]
+    },
+    "related_projects_text": "If you are looking for a project to use in place of Beehive, the following have been suggested for its components:",
+    "related_projects": [
+      {
+        "description": "Beehive NetUI / Page Flow - Struts 2 or Spring Web Flow"
+      },
+      {
+        "description": "Beehive Controls - Spring Beans"
+      },
+      {
+        "description": "Beehive WSM (web service metadata) - Axis2's implementation of JSR-181"
+      }
+    ],
+    "project_id": "beehive",
+    "project_name": "Beehive",
+    "project_name_lower": "beehive",
+    "project_longname": "Beehive",
+    "project_apachename": "Apache Beehive",
+    "project_domain": "beehive.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-55",
+    "project_shortdesc": "Simple object model on J2EE and Struts using JSR-175 annotations",
+    "project_type": "PMC"
+  },
+  "bloodhound": {
+    "established_date": "2013-03-20",
+    "retirement_date": "2024-07-17",
+    "attic_issue": "ATTIC-224",
+    "attic_date": "2024-07-28",
+    "attic_banner": true,
+    "project_description": "Bloodhound mission was to develop an issue tracking, wiki and repository browser.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "bloodhound"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "project_id": "bloodhound",
+    "project_name": "Bloodhound",
+    "project_name_lower": "bloodhound",
+    "project_longname": "Bloodhound",
+    "project_apachename": "Apache Bloodhound",
+    "project_domain": "bloodhound.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-224",
+    "project_shortdesc": "Issue tracking, wiki and repository browser",
+    "project_type": "PMC"
+  },
+  "buildr": {
+    "established_date": "2008-11-19",
+    "retirement_date": "2022-07-20",
+    "attic_issue": "ATTIC-208",
+    "attic_date": "2022-08-26",
+    "attic_banner": true,
+    "project_description": "Buildr mission was to create a simple and intuitive build system for Java applications.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "buildr"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "ci",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "BUILDR"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "BUILDR"
+      ]
+    },
+    "project_id": "buildr",
+    "project_name": "Buildr",
+    "project_name_lower": "buildr",
+    "project_longname": "Buildr",
+    "project_apachename": "Apache Buildr",
+    "project_domain": "buildr.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-208",
+    "project_shortdesc": "Simple and intuitive build system for Java applications",
+    "project_type": "PMC"
+  },
+  "chemistry": {
+    "established_date": "2011-02-16",
+    "retirement_date": "2022-02-16",
+    "attic_issue": "ATTIC-203",
+    "attic_date": "2022-07-05",
+    "attic_banner": true,
+    "project_description": "Chemistry mission was the creation and maintenance of software related to CMIS (Content Managment Interoperability Services) Clients and Servers.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "chemistry"
+      },
+      {
+        "type": "Git",
+        "path": "chemistry"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CMIS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CMIS"
+      ]
+    },
+    "project_id": "chemistry",
+    "project_name": "Chemistry",
+    "project_name_lower": "chemistry",
+    "project_longname": "Chemistry",
+    "project_apachename": "Apache Chemistry",
+    "project_domain": "chemistry.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-203",
+    "project_shortdesc": "CMIS (Content Managment Interoperability Services) Clients and Servers",
+    "project_type": "PMC"
+  },
+  "chukwa": {
+    "established_date": "2013-10-16",
+    "retirement_date": "2020-05-20",
+    "attic_issue": "ATTIC-183",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_description": "Chukwa's mission was Open source data collection system for monitoring large distributed systems.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "chukwa"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CHUKWA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CHUKWA"
+      ]
+    },
+    "project_id": "chukwa",
+    "project_name": "Chukwa",
+    "project_name_lower": "chukwa",
+    "project_longname": "Chukwa",
+    "project_apachename": "Apache Chukwa",
+    "project_domain": "chukwa.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-183",
+    "project_shortdesc": "Open source data collection system for monitoring large distributed systems.",
+    "project_type": "PMC"
+  },
+  "clerezza": {
+    "established_date": "2013-02-20",
+    "retirement_date": "2022-06-15",
+    "attic_issue": "ATTIC-207",
+    "attic_date": "2022-07-30",
+    "attic_banner": true,
+    "project_name": "Clerezza",
+    "project_description": "Clerezza was a service platform which provided a set of functionality for management of semantically linked data accessible through RESTful Web Services and in a secured way.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "clerezza"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CLEREZZA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CLEREZZA"
+      ]
+    },
+    "project_id": "clerezza",
+    "project_name_lower": "clerezza",
+    "project_longname": "Clerezza",
+    "project_apachename": "Apache Clerezza",
+    "project_domain": "clerezza.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-207",
+    "project_shortdesc": "Semantically linked data for OSGi",
+    "project_type": "PMC"
+  },
+  "click": {
+    "established_date": "2009-11-18",
+    "retirement_date": "2014-05-21",
+    "attic_issue": "ATTIC-131",
+    "attic_date": "2015-09-28",
+    "attic_banner": false,
+    "project_description": "Click was a JEE web application framework, providing a natural rich client style programming model.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "click"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CLK",
+          "CLKE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CLICK"
+      ]
+    },
+    "project_id": "click",
+    "project_name": "Click",
+    "project_name_lower": "click",
+    "project_longname": "Click",
+    "project_apachename": "Apache Click",
+    "project_domain": "click.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-131",
+    "project_shortdesc": "JEE web application framework",
+    "project_type": "PMC"
+  },
+  "climate": {
+    "established_date": "2014-02-19",
+    "retirement_date": "2020-10-21",
+    "attic_issue": "ATTIC-195",
+    "attic_date": "2021-04-11",
+    "attic_banner": true,
+    "project_name": "Open Climate Workbench",
+    "project_description": "Open Climate Workbench's mission was Climate model evaluation.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "climate"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CLIMATE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CLIMATE"
+      ]
+    },
+    "project_id": "climate",
+    "project_name_lower": "open climate workbench",
+    "project_longname": "Open Climate Workbench",
+    "project_apachename": "Apache Open Climate Workbench",
+    "project_domain": "climate.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-195",
+    "project_shortdesc": "Climate model evaluation",
+    "project_type": "PMC"
+  },
+  "cocoon": {
+    "established_date": "2003-01-22",
+    "retirement_date": "2025-01-15",
+    "attic_issue": "ATTIC-227",
+    "attic_date": "2025-03-23",
+    "attic_banner": true,
+    "project_description": "Cocoon mission was Web development framework: separation of concerns, component-based.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "cocoon"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "users",
+      "cvs",
+      "docs",
+      "users-fr"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "COCOON",
+          "COCOON3"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "COCOON"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "HeroDevs Never Ending Support for Cocoon",
+        "url": "https://www.herodevs.com/support/apache-cocoon-nes",
+        "description": "is a set of commercial patches for CVEs of the project outside the ASF"
+      }
+    ],
+    "project_id": "cocoon",
+    "project_name": "Cocoon",
+    "project_name_lower": "cocoon",
+    "project_longname": "Cocoon",
+    "project_apachename": "Apache Cocoon",
+    "project_domain": "cocoon.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-227",
+    "project_shortdesc": "Web development framework: separation of concerns, component-based",
+    "project_type": "PMC"
+  },
+  "continuum": {
+    "established_date": "2008-02-20",
+    "retirement_date": "2016-05-18",
+    "attic_issue": "ATTIC-155",
+    "attic_date": "2016-08-14",
+    "attic_banner": false,
+    "project_name": "Continuum",
+    "project_description": "Continuum was an enterprise-ready continuous integration server with features such as automated builds, release management, role-based security, and integration with popular build tools and source control management systems.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "continuum"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "notifications",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CONTINUUM"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CONTINUUM"
+      ]
+    },
+    "project_id": "continuum",
+    "project_name_lower": "continuum",
+    "project_longname": "Continuum",
+    "project_apachename": "Apache Continuum",
+    "project_domain": "continuum.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-155",
+    "project_shortdesc": "Continuous Integration and Build Server",
+    "project_type": "PMC"
+  },
+  "crimson": {
+    "retirement_date": "2010-08-01",
+    "attic_issue": "ATTIC-84",
+    "attic_date": "2010-10-27",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "XML Crimson",
+    "project_description": "Crimson was a Java XML parser which supports XML 1.0 via various APIs.",
+    "project_domain": "xml.apache.org/crimson",
+    "additional_text": "There was no issue tracker nor mailing lists for the project. Contact general@xml.apache.org or general@attic.apache.org for more information.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": false,
+    "related_projects": [
+      {
+        "name": "Apache Xerces",
+        "url": "https://xerces.apache.org/",
+        "description": "replaced Crimson."
+      },
+      {
+        "name": "Download Xerces",
+        "url": "https://archive.apache.org/dist/xerces/",
+        "description": "from the Apache archives."
+      },
+      {
+        "name": "xml.apache.org",
+        "url": "https://xml.apache.org/",
+        "description": "Crimson was a subproject of Apache XML"
+      }
+    ],
+    "project_id": "crimson",
+    "project_name_lower": "xml crimson",
+    "project_longname": "XML Crimson",
+    "project_apachename": "Apache XML Crimson",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-84",
+    "project_shortdesc": "Crimson was a Java XML parser which supports XML 1."
+  },
+  "crunch": {
+    "established_date": "2013-02-20",
+    "retirement_date": "2020-06-17",
+    "attic_issue": "ATTIC-185",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_description": "Crunch's mission was Simple and Efficient MapReduce Pipelines.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "crunch"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CRUNCH"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "CRUNCH"
+      ]
+    },
+    "project_id": "crunch",
+    "project_name": "Crunch",
+    "project_name_lower": "crunch",
+    "project_longname": "Crunch",
+    "project_apachename": "Apache Crunch",
+    "project_domain": "crunch.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-185",
+    "project_shortdesc": "Simple and Efficient MapReduce Pipelines",
+    "project_type": "PMC"
+  },
+  "deltacloud": {
+    "established_date": "2011-10-26",
+    "retirement_date": "2015-07-15",
+    "attic_issue": "ATTIC-140",
+    "attic_date": "2016-02-27",
+    "attic_banner": false,
+    "project_description": "Deltacloud provided the API server and drivers necessary for connecting to cloud providers via a cloud abstraction API.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "deltacloud"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "DTACLOUD"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "DTACLOUD"
+      ]
+    },
+    "project_id": "deltacloud",
+    "project_name": "Deltacloud",
+    "project_name_lower": "deltacloud",
+    "project_longname": "Deltacloud",
+    "project_apachename": "Apache Deltacloud",
+    "project_domain": "deltacloud.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-140",
+    "project_shortdesc": "API server and drivers necessary for connecting to cloud providers.",
+    "project_type": "PMC"
+  },
+  "devicemap": {
+    "established_date": "2014-11-19",
+    "retirement_date": "2016-12-21",
+    "attic_issue": "ATTIC-161",
+    "attic_date": "2017-01-06",
+    "attic_banner": false,
+    "project_name": "DeviceMap",
+    "project_description": "DeviceMap was a project to create a data repository containing device information, images and other relevant information for all sorts of mobile devices.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "devicemap"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "DMAP"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "DEVICEMAP"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "OpenDDR",
+        "url": "https://openddr.mobi/",
+        "description": "is a new version of OpenDDR, parts of which were migrated to Apache Devicemap, and now have been merged back to OpenDDR."
+      },
+      {
+        "name": "YAUAA: Yet Another UserAgent Analyzer",
+        "url": "https://github.com/nielsbasjes/yauaa",
+        "description": "is an Apache licensed alternative to DeviceMap. Rather than employing a fixed collection of User-Agent (UA) strings as in DeviceMap, YAUAA performs a semantic analysis to determine certain attributes of the UA."
+      },
+      {
+        "name": "DeviceDetector",
+        "url": "https://devicedetector.lw1.at/",
+        "description": "is an LGPL 3.0 licensed PHP project that parses YAML based device data in a similar way as DeviceMap/OpenDDR do with W3C compatible data."
+      },
+      {
+        "name": "mobiledetect",
+        "url": "https://mobiledetect.net/",
+        "description": "is an MIT licensed PHP project for detecting mobile devices."
+      }
+    ],
+    "project_id": "devicemap",
+    "project_name_lower": "devicemap",
+    "project_longname": "DeviceMap",
+    "project_apachename": "Apache DeviceMap",
+    "project_domain": "devicemap.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-161",
+    "project_shortdesc": "Data repository containing device information, images and other relevant information for all sorts of mobile devices, e.g. smartphones and tablets.",
+    "project_type": "PMC"
+  },
+  "directmemory": {
+    "established_date": "2012-08-15",
+    "retirement_date": "2015-07-15",
+    "attic_issue": "ATTIC-141",
+    "attic_date": "2015-08-23",
+    "attic_banner": false,
+    "project_name": "DirectMemory",
+    "project_description": "DirectMemory was an off-heap cache for the Java Virtual Machine.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "directmemory"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "DIRECTMEMORY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "DIRECTMEMORY"
+      ]
+    },
+    "project_id": "directmemory",
+    "project_name_lower": "directmemory",
+    "project_longname": "DirectMemory",
+    "project_apachename": "Apache DirectMemory",
+    "project_domain": "directmemory.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-141",
+    "project_shortdesc": "Off-heap cache for the Java Virtual Machine",
+    "project_type": "PMC"
+  },
+  "drat": {
+    "established_date": "2017-09-20",
+    "retirement_date": "2020-08-19",
+    "attic_issue": "ATTIC-192",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_name": "DRAT",
+    "project_description": "DRAT's mission was large scale code license analysis, auditing and reporting.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "drat"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "GitHub",
+        "keys": [
+          "drat"
+        ]
+      }
+    ],
+    "project_id": "drat",
+    "project_name_lower": "drat",
+    "project_longname": "DRAT",
+    "project_apachename": "Apache DRAT",
+    "project_domain": "drat.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-192",
+    "project_shortdesc": "large scale code license analysis, auditing and reporting",
+    "project_type": "PMC"
+  },
+  "eagle": {
+    "established_date": "2016-12-21",
+    "retirement_date": "2020-11-18",
+    "attic_issue": "ATTIC-193",
+    "attic_date": "2021-04-11",
+    "attic_banner": true,
+    "project_description": "Eagle was an open source analytics solution for identifying security and performance issues instantly on big data platforms.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "eagle"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "EAGLE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "EAG"
+      ]
+    },
+    "project_id": "eagle",
+    "project_name": "Eagle",
+    "project_name_lower": "eagle",
+    "project_longname": "Eagle",
+    "project_apachename": "Apache Eagle",
+    "project_domain": "eagle.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-193",
+    "project_shortdesc": "open source analytics solution for identifying security and performance issues instantly on big data platforms",
+    "project_type": "PMC"
+  },
+  "esme": {
+    "established_date": "2010-12-15",
+    "retirement_date": "2013-06-19",
+    "attic_issue": "ATTIC-124",
+    "attic_date": "2014-05-27",
+    "attic_banner": true,
+    "project_name": "ESME",
+    "project_longname": "ESME (Enterprise Social Messaging Environment)",
+    "project_description": "ESME was a secure and highly scalable microsharing and micromessaging platform that allows people to discover and meet one another and get controlled access to other sources of information.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "esme"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ESME"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ESME"
+      ]
+    },
+    "project_id": "esme",
+    "project_name_lower": "esme",
+    "project_apachename": "Apache ESME (Enterprise Social Messaging Environment)",
+    "project_domain": "esme.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-124",
+    "project_shortdesc": "Enterprise Social Messaging Environment",
+    "project_type": "PMC"
+  },
+  "etch": {
+    "established_date": "2013-01-16",
+    "retirement_date": "2016-06-15",
+    "attic_issue": "ATTIC-158",
+    "attic_date": "2016-12-14",
+    "attic_banner": false,
+    "project_description": "Etch was a cross-platform, language- and transport-independent framework for building and consuming network services.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "etch"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ETCH"
+        ]
+      }
+    ],
+    "project_id": "etch",
+    "project_name": "Etch",
+    "project_name_lower": "etch",
+    "project_longname": "Etch",
+    "project_apachename": "Apache Etch",
+    "project_domain": "etch.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-158",
+    "project_shortdesc": "Cross-platform, language- and transport-independent RPC-like messaging framework",
+    "project_type": "PMC"
+  },
+  "excalibur": {
+    "established_date": "2004-05-26",
+    "retirement_date": "2010-12-15",
+    "attic_issue": "ATTIC-97",
+    "attic_date": "2011-03-04",
+    "attic_banner": true,
+    "project_description": "Excalibur was a Java Inversion of Control container.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "excalibur"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "scm",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "EXLBR",
+          "FORTRESS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "EXCALIBUR"
+      ]
+    },
+    "project_id": "excalibur",
+    "project_name": "Excalibur",
+    "project_name_lower": "excalibur",
+    "project_longname": "Excalibur",
+    "project_apachename": "Apache Excalibur",
+    "project_domain": "excalibur.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-97",
+    "project_shortdesc": "Inversion-of-control-style container development",
+    "project_type": "PMC"
+  },
+  "falcon": {
+    "established_date": "2014-12-17",
+    "retirement_date": "2019-06-19",
+    "attic_issue": "ATTIC-176",
+    "attic_date": "2021-04-01",
+    "attic_banner": true,
+    "project_description": "Falcon was a data processing and management solution for Hadoop designed for data motion, coordination of data pipelines, lifecycle management, and data discovery. Falcon enabled end consumers to quickly onboard their data and its associated processing and management tasks on Hadoop clusters.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "falcon"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "FALCON"
+        ]
+      }
+    ],
+    "project_id": "falcon",
+    "project_name": "Falcon",
+    "project_name_lower": "falcon",
+    "project_longname": "Falcon",
+    "project_apachename": "Apache Falcon",
+    "project_domain": "falcon.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-176",
+    "project_shortdesc": "Data management and processing platform.",
+    "project_type": "PMC"
+  },
+  "forrest": {
+    "established_date": "2004-05-26",
+    "retirement_date": "2020-02-19",
+    "attic_issue": "ATTIC-180",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_description": "Forrest was software for generation of aggregated multi-channel documentation maintaining a separation of content and presentation.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "forrest"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "site-svn",
+      "svn",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "FOR"
+        ]
+      }
+    ],
+    "project_id": "forrest",
+    "project_name": "Forrest",
+    "project_name_lower": "forrest",
+    "project_longname": "Forrest",
+    "project_apachename": "Apache Forrest",
+    "project_domain": "forrest.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-180",
+    "project_shortdesc": "Aggregated multi-channel documentation, separation of concerns",
+    "project_type": "PMC"
+  },
+  "giraph": {
+    "established_date": "2012-05-16",
+    "retirement_date": "2023-09-20",
+    "attic_issue": "ATTIC-217",
+    "attic_date": "2024-02-17",
+    "attic_banner": true,
+    "project_description": "Giraph was an iterative graph processing system built for high scalability.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "giraph"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "GIRAPH"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "GIRAPH"
+      ]
+    },
+    "project_id": "giraph",
+    "project_name": "Giraph",
+    "project_name_lower": "giraph",
+    "project_longname": "Giraph",
+    "project_apachename": "Apache Giraph",
+    "project_domain": "giraph.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-217",
+    "project_shortdesc": "Iterative graph processing system built for high scalability",
+    "project_type": "PMC"
+  },
+  "gora": {
+    "established_date": "2012-01-24",
+    "retirement_date": "2025-03-19",
+    "attic_issue": "ATTIC-236",
+    "attic_date": "2025-05-20",
+    "attic_banner": true,
+    "project_description": "Gora was an ORM framework for column stores such as Apache HBase and Apache Cassandra with a specific focus on Hadoop.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "gora"
+      },
+      {
+        "type": "Git",
+        "path": "gora"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "GORA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "GORA"
+      ]
+    },
+    "project_id": "gora",
+    "project_name": "Gora",
+    "project_name_lower": "gora",
+    "project_longname": "Gora",
+    "project_apachename": "Apache Gora",
+    "project_domain": "gora.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-236",
+    "project_shortdesc": "ORM framework for column stores such as Apache HBase and Apache Cassandra with a specific focus on Hadoop",
+    "project_type": "PMC"
+  },
+  "griffin": {
+    "established_date": "2018-11-21",
+    "retirement_date": "2025-09-24",
+    "attic_issue": "ATTIC-246",
+    "attic_date": "2025-11-25",
+    "attic_banner": true,
+    "project_description": "Griffin was a data quality solution for big data, including both streaming and batch mode. It offered an unified process to measure data quality from different perspectives.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "griffin"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "GRIFFIN"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "GRIFFIN"
+      ]
+    },
+    "project_id": "griffin",
+    "project_name": "Griffin",
+    "project_name_lower": "griffin",
+    "project_longname": "Griffin",
+    "project_apachename": "Apache Griffin",
+    "project_domain": "griffin.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-246",
+    "project_shortdesc": "a data quality solution for big data, including both streaming and batch mode. It offers an unified process to measure data quality from different perspectives.",
+    "project_type": "PMC"
+  },
+  "hama": {
+    "established_date": "2012-05-16",
+    "retirement_date": "2020-04-15",
+    "attic_issue": "ATTIC-181",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_description": "Hama was a framework for Big Data analytics based on the Bulk Synchronous Parallel paradigm.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "hama"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "HAMA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "HAMA"
+      ]
+    },
+    "project_id": "hama",
+    "project_name": "Hama",
+    "project_name_lower": "hama",
+    "project_longname": "Hama",
+    "project_apachename": "Apache Hama",
+    "project_domain": "hama.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-181",
+    "project_shortdesc": "a Bulk Synchronous Parallel computing framework on top of Apache Hadoop",
+    "project_type": "PMC"
+  },
+  "harmony": {
+    "established_date": "2006-10-25",
+    "retirement_date": "2011-11-16",
+    "attic_issue": "ATTIC-122",
+    "attic_date": "2012-08-22",
+    "attic_banner": false,
+    "project_description": "Harmony was a modular Java runtime with class libraries and associated tools.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "harmony"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "alerts",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "HARMONY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "HARMONY"
+      ]
+    },
+    "project_id": "harmony",
+    "project_name": "Harmony",
+    "project_name_lower": "harmony",
+    "project_longname": "Harmony",
+    "project_apachename": "Apache Harmony",
+    "project_domain": "harmony.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-122",
+    "project_shortdesc": "Modular Java runtime with class libraries and associated tools",
+    "project_type": "PMC"
+  },
+  "hawq": {
+    "established_date": "2018-08-15",
+    "retirement_date": "2024-07-17",
+    "attic_issue": "ATTIC-223",
+    "attic_date": "2024-07-28",
+    "attic_banner": true,
+    "project_name": "HAWQ",
+    "project_description": "HAWQ mission was a Hadoop native SQL query engine that combined the key technological advantages of an MPP database with the scalability and convenience of Hadoop.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "hawq"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "HAWQ"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "HAWQ"
+      ]
+    },
+    "project_id": "hawq",
+    "project_name_lower": "hawq",
+    "project_longname": "HAWQ",
+    "project_apachename": "Apache HAWQ",
+    "project_domain": "hawq.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-223",
+    "project_shortdesc": "a Hadoop native SQL query engine that combines the key technological advantages of an MPP database with the scalability and convenience of Hadoop",
+    "project_type": "PMC"
+  },
+  "hivemind": {
+    "established_date": "2006-04-26",
+    "retirement_date": "2009-03-18",
+    "attic_issue": "ATTIC-1",
+    "attic_date": "2009-05-14",
+    "attic_banner": false,
+    "project_name": "HiveMind",
+    "project_description": "HiveMind was a services and configuration microkernel. Its features are also referred to as Inversion of Control (IoC) Container or Lightweight Container. Closely linked to Tapestry 4, it lost activity when Tapestry 5 moved to a new IoC container.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "hivemind"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "HIVEMIND"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "HIVEMIND",
+        "HIVEMIND2"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "Tapestry IoC",
+        "url": "https://tapestry.apache.org/ioc.html",
+        "description": "Discussion on the mailing list indicated that this was the natural successor to HiveMind."
+      },
+      {
+        "name": "Gaderian",
+        "url": "https://ops4j1.jira.com/wiki/spaces/gaderian/",
+        "description": "is one fork that has been created"
+      }
+    ],
+    "project_id": "hivemind",
+    "project_name_lower": "hivemind",
+    "project_longname": "HiveMind",
+    "project_apachename": "Apache HiveMind",
+    "project_domain": "hivemind.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-1",
+    "project_shortdesc": "Services and configuration microkernel",
+    "project_type": "PMC"
+  },
+  "ibatis": {
+    "established_date": "2005-05-18",
+    "retirement_date": "2010-06-16",
+    "attic_issue": "ATTIC-66",
+    "attic_date": "2010-07-24",
+    "attic_banner": false,
+    "project_name": "iBATIS",
+    "project_description": "iBATIS was a data mapper framework that made it easier to use a relational database with object-oriented applications. There were both Java and .Net implementations.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "ibatis"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user-cs",
+      "user-java"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "IBATIS",
+          "IBATISNET",
+          "RBATIS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "IBATIS"
+      ]
+    },
+    "related_projects_text": "The iBATIS committers moved over to MyBatis which is the natural successor to iBATIS.",
+    "related_projects": [
+      {
+        "name": "MyBatis",
+        "url": "https://www.mybatis.org/",
+        "description": "is a fork of iBATIS"
+      }
+    ],
+    "project_id": "ibatis",
+    "project_name_lower": "ibatis",
+    "project_longname": "iBATIS",
+    "project_apachename": "Apache iBATIS",
+    "project_domain": "ibatis.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-66",
+    "project_shortdesc": "Data mapper framework to make it easier to use a relational database with object-oriented applications.",
+    "project_type": "PMC"
+  },
+  "jakarta": {
+    "established_date": "2002-02-27",
+    "retirement_date": "2011-12-21",
+    "attic_issue": null,
+    "attic_date": "2011-12-01",
+    "attic_banner": false,
+    "project_description": "Founded in 1999, the Jakarta Project housed a diverse set of popular open source Java solutions.",
+    "additional_text": "In December 2011, Jakarta was retired as all of its subprojects had either become their own projects or been retired.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "announcements",
+      "general",
+      "site-cvs",
+      "notifications"
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JAKARTA"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "Jakarta EE",
+        "url": "https://jakarta.ee/",
+        "description": "is a project under the Eclipse Foundation, named in February 2018"
+      }
+    ],
+    "project_id": "jakarta",
+    "project_name": "Jakarta",
+    "project_name_lower": "jakarta",
+    "project_longname": "Jakarta",
+    "project_apachename": "Apache Jakarta",
+    "project_domain": "jakarta.apache.org",
+    "project_shortdesc": "Diverse set of popular open source Java solutions",
+    "project_type": "PMC"
+  },
+  "jakarta-cactus": {
+    "retirement_date": "2011-08-06",
+    "attic_issue": "ATTIC-120",
+    "attic_date": "2011-08-07",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta Cactus",
+    "project_domain": "jakarta.apache.org/cactus/",
+    "project_description": "Jakarta previously hosted Cactus, a simple test framework for unit testing server-side java code.",
+    "additional_text": "Cactus users are encouraged to switch to other techniques for testing.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/cactus",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/cactus"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CACTUS"
+        ]
+      }
+    ],
+    "project_id": "jakarta-cactus",
+    "project_name_lower": "jakarta cactus",
+    "project_longname": "Jakarta Cactus",
+    "project_apachename": "Apache Jakarta Cactus",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-120",
+    "project_shortdesc": "Jakarta previously hosted Cactus, a simple test framework for unit testing server-side java code."
+  },
+  "jakarta-ecs": {
+    "retirement_date": "2010-10-20",
+    "attic_issue": "ATTIC-95",
+    "attic_date": "2010-10-27",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta ECS",
+    "project_domain": "jakarta.apache.org/ecs",
+    "project_description": "Jakarta previously hosted ECS (Element Construction Set), a Java API for generating elements for any of a variety of markup languages (examples included HTML 4.0 and XML).",
+    "board_resolution": true,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/ecs",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/ecs"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ECS"
+        ]
+      }
+    ],
+    "project_id": "jakarta-ecs",
+    "project_name_lower": "jakarta ecs",
+    "project_longname": "Jakarta ECS",
+    "project_apachename": "Apache Jakarta ECS",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-95",
+    "project_shortdesc": "Jakarta previously hosted ECS (Element Construction Set), a Java API for generating elements for any of a variety of markup languages (examples included HTML 4."
+  },
+  "jakarta-oro": {
+    "retirement_date": "2010-10-20",
+    "attic_issue": "ATTIC-96",
+    "attic_date": "2010-10-28",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta ORO",
+    "project_domain": "jakarta.apache.org/oro",
+    "project_description": "Jakarta previously hosted ORO, a set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc.",
+    "board_resolution": true,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/oro",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/oro"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "Bugzilla",
+        "keys": [
+          "ORO"
+        ]
+      }
+    ],
+    "project_id": "jakarta-oro",
+    "project_name_lower": "jakarta oro",
+    "project_longname": "Jakarta ORO",
+    "project_apachename": "Apache Jakarta ORO",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-96",
+    "project_shortdesc": "Jakarta previously hosted ORO, a set of text-processing Java classes that provide Perl5 compatible regular expressions, AWK-like regular expressions, glob expressions, and utility classes for performing substitutions, splits, filtering filenames, etc."
+  },
+  "jakarta-regexp": {
+    "retirement_date": "2011-04-20",
+    "attic_issue": "ATTIC-117",
+    "attic_date": "2011-08-06",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta Regexp",
+    "project_domain": "jakarta.apache.org/regexp",
+    "project_description": "Jakarta previously hosted Regexp, a 100% Pure Java Regular Expression package.",
+    "board_resolution": true,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/regexp",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/regexp"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "Bugzilla",
+        "keys": [
+          "Regexp"
+        ]
+      }
+    ],
+    "project_id": "jakarta-regexp",
+    "project_name_lower": "jakarta regexp",
+    "project_longname": "Jakarta Regexp",
+    "project_apachename": "Apache Jakarta Regexp",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-117",
+    "project_shortdesc": "Jakarta previously hosted Regexp, a 100% Pure Java Regular Expression package."
+  },
+  "jakarta-slide": {
+    "retirement_date": "2010-04-21",
+    "attic_issue": "ATTIC-94",
+    "attic_date": "2010-10-28",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta Slide",
+    "project_domain": "jakarta.apache.org/slide",
+    "project_description": "Jakarta previously hosted Slide, a content repository which could serve as a basis for a content management system as well as other purposes. Among its features was full WebDAV support.",
+    "board_resolution": true,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/slide",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/slide"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "Bugzilla",
+        "keys": [
+          "Slide"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JAKARTASLIDE"
+      ]
+    },
+    "project_id": "jakarta-slide",
+    "project_name_lower": "jakarta slide",
+    "project_longname": "Jakarta Slide",
+    "project_apachename": "Apache Jakarta Slide",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-94",
+    "project_shortdesc": "Jakarta previously hosted Slide, a content repository which could serve as a basis for a content management system as well as other purposes."
+  },
+  "jakarta-taglibs": {
+    "retirement_date": "2010-04-21",
+    "attic_issue": "ATTIC-93",
+    "attic_date": "2010-09-05",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "Jakarta Taglibs",
+    "project_domain": "tomcat.apache.org/taglibs",
+    "project_description": "Starting in 2000, Jakarta hosted the Jakarta Taglibs project, a large collection of JSP Tag Libraries. They ranged from simple utility libraries and UI libraries, to Dreamweaver extensions and an implementation of the JSP Standard Tag Library (JSTL) specification.",
+    "additional_text": "With the advent of JSTL, the core features of many of the libraries had been standardized and the need for these libraries diminished. As such, much of the Taglibs codebase moved into maintenance mode.",
+    "board_resolution": true,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "jakarta/taglibs",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jakarta/taglibs"
+      }
+    ],
+    "mailing_lists": [
+      "dev"
+    ],
+    "issue_trackers": [
+      {
+        "type": "Bugzilla",
+        "keys": [
+          "Taglibs"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JAKARTATAGLIBS"
+      ]
+    },
+    "related_projects_text": "In 2008 and 2009, the majority of these libraries were deprecated and have now been retired. The remaining work has moved over to the Tomcat Taglibs project:",
+    "related_projects": [
+      {
+        "name": "Tomcat Taglibs",
+        "url": "https://tomcat.apache.org/taglibs/",
+        "description": "Standard - The implementations of the various JSTL specifications"
+      },
+      {
+        "name": "RDC",
+        "url": "https://tomcat.apache.org/taglibs/rdc/",
+        "description": "Reusable Dialog Components Taglib (retired from the Tomcat Taglibs project in 2014)"
+      },
+      {
+        "name": "Mailer 2",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated-sandbox/mailer2/trunk/",
+        "description": "JSP Version 2.0+"
+      },
+      {
+        "name": "Cache",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated-sandbox/cache/trunk/",
+        "description": "JSP Version 1.2+"
+      },
+      {
+        "name": "Data Grid",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated-sandbox/datagrid/trunk/",
+        "description": "JSP Version 1.2+"
+      },
+      {
+        "name": "Application",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/application/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Benchmark",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/benchmark/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "BSF",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/bsf/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "DateTime",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/datetime/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "DBTags",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/dbtags/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "I18N",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/i18n/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Image",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated-sandbox/image/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Input",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/input/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "IO",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/io/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Iterators",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/sandbox/iterators/trunk/",
+        "description": "JSP Version 1.2+"
+      },
+      {
+        "name": "JNDI",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/proper/jndi/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "JMS",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/jmstags/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Log",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/proper/log/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Mailer",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/mailer/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Page",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/page/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Random",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/random/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Regexp",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/proper/regexp/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Request",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/request/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Response",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/response/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Scrape",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/scrape/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Session",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/session/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "String",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/proper/string/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "UltraDev 4.0 Tool Extension",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/tools/trunk/UltraDev/4.0/ctlx/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "Unstandard",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/sandbox/unstandard/trunk/",
+        "description": "JSP Version 1.2+"
+      },
+      {
+        "name": "Utility",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/utility/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "XSL",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/xsl/trunk/",
+        "description": "JSP Version 1.1+"
+      },
+      {
+        "name": "XTags",
+        "url": "https://svn.apache.org/repos/asf/jakarta/taglibs/deprecated/xtags/trunk/",
+        "description": "JSP Version 1.1+"
+      }
+    ],
+    "project_id": "jakarta-taglibs",
+    "project_name_lower": "jakarta taglibs",
+    "project_longname": "Jakarta Taglibs",
+    "project_apachename": "Apache Jakarta Taglibs",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-93",
+    "project_shortdesc": "Starting in 2000, Jakarta hosted the Jakarta Taglibs project, a large collection of JSP Tag Libraries."
+  },
+  "jclouds": {
+    "established_date": "2013-10-16",
+    "retirement_date": "2025-06-18",
+    "attic_issue": "ATTIC-244",
+    "attic_date": "2025-08-06",
+    "attic_banner": true,
+    "project_name": "jclouds",
+    "project_shortdesc": "A multi-cloud toolkit for the Java platform",
+    "project_description": "jclouds was an open source multi-cloud toolkit for the Java platform that gives you the freedom to create applications that are portable across clouds while giving you full control to use cloud-specific features.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "jclouds"
+      },
+      {
+        "type": "Git",
+        "path": "jclouds"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "notifications",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "JCLOUDS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JCLOUDS"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "Apache OpenDAL",
+        "url": "https://opendal.apache.org/",
+        "description": "For users of BlobStore, Apache OpenDAL provides one data access layer for all storage backends, which serves similar functionality."
+      }
+    ],
+    "project_id": "jclouds",
+    "project_name_lower": "jclouds",
+    "project_longname": "jclouds",
+    "project_apachename": "Apache jclouds",
+    "project_domain": "jclouds.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-244",
+    "project_type": "PMC"
+  },
+  "joshua": {
+    "established_date": "2018-10-17",
+    "retirement_date": "2021-11-17",
+    "attic_issue": "ATTIC-200",
+    "attic_date": "2021-12-12",
+    "attic_banner": true,
+    "project_description": "Joshua's mission was to provide statistical and other forms of machine translation.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "archive_path": "incubator/joshua",
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "joshua"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "JOSHUA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JOSHUA"
+      ]
+    },
+    "project_id": "joshua",
+    "project_name": "Joshua",
+    "project_name_lower": "joshua",
+    "project_longname": "Joshua",
+    "project_apachename": "Apache Joshua",
+    "project_domain": "joshua.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-200",
+    "project_shortdesc": "statistical and other forms of machine translation.",
+    "project_type": "PMC"
+  },
+  "juddi": {
+    "established_date": "2010-08-18",
+    "retirement_date": "2023-02-15",
+    "attic_issue": "ATTIC-213",
+    "attic_date": "2023-03-04",
+    "attic_banner": true,
+    "project_name": "jUDDI",
+    "project_description": "jUDDI mission was Java implementation of the Universal Description, Discovery, and Integration specification.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "juddi"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "JUDDI",
+          "SCOUT"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "JUDDI"
+      ]
+    },
+    "project_id": "juddi",
+    "project_name_lower": "juddi",
+    "project_longname": "jUDDI",
+    "project_apachename": "Apache jUDDI",
+    "project_domain": "juddi.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-213",
+    "project_shortdesc": "Java implementation of the Universal Description, Discovery, and Integration specification",
+    "project_type": "PMC"
+  },
+  "kibble": {
+    "established_date": "2017-10-18",
+    "retirement_date": "2025-10-15",
+    "attic_issue": "ATTIC-250",
+    "attic_date": "2025-11-12",
+    "attic_banner": true,
+    "project_description": "Kibble was an interactive project activity analyzer and aggregator.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "kibble"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "KIBBLE"
+      ]
+    },
+    "project_id": "kibble",
+    "project_name": "Kibble",
+    "project_name_lower": "kibble",
+    "project_longname": "Kibble",
+    "project_apachename": "Apache Kibble",
+    "project_domain": "kibble.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-250",
+    "project_shortdesc": "an interactive project activity analyzer and aggregator",
+    "project_type": "PMC"
+  },
+  "labs": {
+    "established_date": "2006-11-15",
+    "retirement_date": "2020-08-19",
+    "attic_issue": "ATTIC-188",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_description": "Labs was a place for innovation where committers of the foundation could experiment with new ideas.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "labs"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "tech"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "LABS",
+          "HTTPDRAFT"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "LABS"
+      ]
+    },
+    "project_id": "labs",
+    "project_name": "Labs",
+    "project_name_lower": "labs",
+    "project_longname": "Labs",
+    "project_apachename": "Apache Labs",
+    "project_domain": "labs.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-188",
+    "project_shortdesc": "A place for innovation where committers of the foundation can experiment with new ideas",
+    "project_type": "PMC"
+  },
+  "lens": {
+    "established_date": "2015-08-19",
+    "retirement_date": "2020-08-19",
+    "attic_issue": "ATTIC-186",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_description": "Lens was Unified analytics platform.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "lens"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "LENS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "LENS"
+      ]
+    },
+    "project_id": "lens",
+    "project_name": "Lens",
+    "project_name_lower": "lens",
+    "project_longname": "Lens",
+    "project_apachename": "Apache Lens",
+    "project_domain": "lens.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-186",
+    "project_shortdesc": "Unified analytics platform",
+    "project_type": "PMC"
+  },
+  "lenya": {
+    "established_date": "2004-09-22",
+    "retirement_date": "2015-04-22",
+    "attic_issue": "ATTIC-136",
+    "attic_date": "2015-07-14",
+    "attic_banner": true,
+    "project_description": "Lenya was an Open Source Java/XML Content Management System that came with revision control, multi-site management, scheduling, search, WYSIWYG editors, and workflow.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "lenya"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "Bugzilla",
+        "keys": [
+          "Lenya"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "LENYA"
+      ]
+    },
+    "project_id": "lenya",
+    "project_name": "Lenya",
+    "project_name_lower": "lenya",
+    "project_longname": "Lenya",
+    "project_apachename": "Apache Lenya",
+    "project_domain": "lenya.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-136",
+    "project_shortdesc": "an Open Source Java/XML Content Management System that came with revision control, multi-site management, scheduling, search, WYSIWYG editors, and workflow.",
+    "project_type": "PMC"
+  },
+  "lucy": {
+    "established_date": "2012-03-21",
+    "retirement_date": "2018-06-20",
+    "attic_issue": "ATTIC-171",
+    "attic_date": "2019-11-17",
+    "attic_banner": true,
+    "project_description": "The Lucy search engine library provides full-text search for dynamic programming languages. It is a \"loose C\" port of the Apache Lucene search engine library for Java.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "lucy"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "CLOWNFISH",
+          "LUCY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "LUCY"
+      ]
+    },
+    "project_id": "lucy",
+    "project_name": "Lucy",
+    "project_name_lower": "lucy",
+    "project_longname": "Lucy",
+    "project_apachename": "Apache Lucy",
+    "project_domain": "lucy.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-171",
+    "project_shortdesc": "Search engine library for dynamic languages",
+    "project_type": "PMC"
+  },
+  "marmotta": {
+    "established_date": "2013-11-20",
+    "retirement_date": "2020-11-18",
+    "attic_issue": "ATTIC-194",
+    "attic_date": "2021-04-11",
+    "attic_banner": true,
+    "project_description": "Marmotta was an Open Platform for Linked Data.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "marmotta"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MARMOTTA"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MARMOTTA"
+      ]
+    },
+    "project_id": "marmotta",
+    "project_name": "Marmotta",
+    "project_name_lower": "marmotta",
+    "project_longname": "Marmotta",
+    "project_apachename": "Apache Marmotta",
+    "project_domain": "marmotta.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-194",
+    "project_shortdesc": "An Open Platform for Linked Data",
+    "project_type": "PMC"
+  },
+  "mesos": {
+    "established_date": "2013-06-19",
+    "retirement_date": "2025-08-20",
+    "attic_issue": "ATTIC-245",
+    "attic_date": "2025-10-10",
+    "attic_banner": true,
+    "project_description": "Mesos was a cluster manager that provides efficient resource isolation and sharing across distributed applications.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "mesos"
+      },
+      {
+        "type": "Git",
+        "path": "mesos"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "builds",
+      "commits",
+      "issues",
+      "modules",
+      "reviews",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MESOS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MESOS"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "Clusterd",
+        "url": "https://github.com/m3scluster/clusterd",
+        "description": "is a fork of Apache Mesos being maintained by Andreas Peters who would be very grateful for any help in continuing to maintain Mesos."
+      }
+    ],
+    "project_id": "mesos",
+    "project_name": "Mesos",
+    "project_name_lower": "mesos",
+    "project_longname": "Mesos",
+    "project_apachename": "Apache Mesos",
+    "project_domain": "mesos.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-245",
+    "project_shortdesc": "a cluster manager that provides efficient resource isolation and sharing across distributed applications",
+    "project_type": "PMC"
+  },
+  "metamodel": {
+    "established_date": "2014-11-19",
+    "retirement_date": "2021-06-16",
+    "attic_issue": "ATTIC-198",
+    "attic_date": "2021-07-10",
+    "attic_banner": true,
+    "project_name": "MetaModel",
+    "project_description": "MetaModel mission was common interface for discovery, exploration of metadata and querying of different types of data sources.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "metamodel"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "METAMODEL"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "METAMODEL"
+      ]
+    },
+    "project_id": "metamodel",
+    "project_name_lower": "metamodel",
+    "project_longname": "MetaModel",
+    "project_apachename": "Apache MetaModel",
+    "project_domain": "metamodel.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-198",
+    "project_shortdesc": "common interface for discovery, exploration of metadata and querying of different types of data sources",
+    "project_type": "PMC"
+  },
+  "metron": {
+    "established_date": "2017-04-19",
+    "retirement_date": "2020-12-16",
+    "attic_issue": "ATTIC-190",
+    "attic_date": "2021-04-11",
+    "attic_banner": true,
+    "project_description": "Metron's mission was Real-time big data security.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "metron"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "METRON"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "METRON"
+      ]
+    },
+    "project_id": "metron",
+    "project_name": "Metron",
+    "project_name_lower": "metron",
+    "project_longname": "Metron",
+    "project_apachename": "Apache Metron",
+    "project_domain": "metron.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-190",
+    "project_shortdesc": "Real-time big data security",
+    "project_type": "PMC"
+  },
+  "mnemonic": {
+    "established_date": "2017-11-15",
+    "retirement_date": "2025-02-19",
+    "attic_issue": "ATTIC-233",
+    "attic_date": "2025-04-30",
+    "attic_banner": true,
+    "project_description": "Mnemonic was a transparent nonvolatile hybrid memory oriented library for Big data, High-performance computing, and Analytics.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "mnemonic"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MNEMONIC"
+        ]
+      },
+      {
+        "type": "GitHub",
+        "keys": [
+          "mnemonic"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MNEMONIC"
+      ]
+    },
+    "project_id": "mnemonic",
+    "project_name": "Mnemonic",
+    "project_name_lower": "mnemonic",
+    "project_longname": "Mnemonic",
+    "project_apachename": "Apache Mnemonic",
+    "project_domain": "mnemonic.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-233",
+    "project_shortdesc": "a transparent nonvolatile hybrid memory oriented library for Big data, High-performance computing, and Analytics",
+    "project_type": "PMC"
+  },
+  "mrunit": {
+    "established_date": "2012-05-16",
+    "retirement_date": "2016-04-20",
+    "attic_issue": "ATTIC-154",
+    "attic_date": "2016-05-12",
+    "attic_banner": true,
+    "project_name": "MRUnit",
+    "project_description": "MRUnit was a Java library that helped developers unit test Apache Hadoop map reduce jobs.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "mrunit"
+      },
+      {
+        "type": "Git",
+        "path": "mrunit"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MRUNIT"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MRUNIT"
+      ]
+    },
+    "project_id": "mrunit",
+    "project_name_lower": "mrunit",
+    "project_longname": "MRUnit",
+    "project_apachename": "Apache MRUnit",
+    "project_domain": "mrunit.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-154",
+    "project_shortdesc": "Java library that helps developers unit test Apache Hadoop map reduce jobs",
+    "project_type": "PMC"
+  },
+  "muse": {
+    "retirement_date": "2013-01-01",
+    "attic_issue": "ATTIC-123",
+    "attic_date": "2014-05-16",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "WS Muse",
+    "project_domain": "ws.apache.org",
+    "project_description": "Muse was a Java-based implementation of the WS-ResourceFramework (WSRF), WS-BaseNotification (WSN), and WS-DistributedManagement (WSDM) specifications.",
+    "additional_tex": "The website appears to have been removed.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "ws/muse",
+    "mailing_lists": [
+      "muse-dev",
+      "muse-commits",
+      "muse-user"
+    ],
+    "mailing_lists_prefix": "ws",
+    "related_projects": [
+      {
+        "name": "amused",
+        "url": "https://52north.org/communities/sensorweb/amused/",
+        "description": "is a fork of Muse"
+      },
+      {
+        "name": "Apache Web Services",
+        "url": "https://ws.apache.org/",
+        "description": "Muse was a subproject of Apache Web Services"
+      }
+    ],
+    "project_id": "muse",
+    "project_name_lower": "ws muse",
+    "project_longname": "WS Muse",
+    "project_apachename": "Apache WS Muse",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-123",
+    "project_shortdesc": "An implementation of the OASIS Web Services Distributed Management (WSDM) family of specifications."
+  },
+  "mxnet": {
+    "established_date": "2022-09-21",
+    "retirement_date": "2023-09-20",
+    "attic_issue": "ATTIC-216",
+    "attic_date": "2024-02-14",
+    "attic_banner": true,
+    "project_name": "MXNet",
+    "project_description": "MXNet was a flexible and efficient library for Deep Learning.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "mxnet"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "discuss-archive",
+      "events",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MXNET"
+        ]
+      },
+      {
+        "type": "GitHub",
+        "keys": [
+          "mxnet"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MXNET"
+      ]
+    },
+    "project_id": "mxnet",
+    "project_name_lower": "mxnet",
+    "project_longname": "MXNet",
+    "project_apachename": "Apache MXNet",
+    "project_domain": "mxnet.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-216",
+    "project_shortdesc": "a flexible and efficient library for Deep Learning",
+    "project_type": "PMC"
+  },
+  "ode": {
+    "established_date": "2007-07-18",
+    "retirement_date": "2019-08-21",
+    "attic_issue": "ATTIC-175",
+    "attic_date": "2020-01-14",
+    "attic_banner": true,
+    "project_name": "ODE",
+    "project_longname": "ODE (Orchestration Director Engine)",
+    "project_description": "ODE executed business processes written following the WS-BPEL standard.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "ode"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ODE",
+          "JACOB",
+          "OWC"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "ODE2",
+        "ODExSITE"
+      ]
+    },
+    "project_id": "ode",
+    "project_name_lower": "ode",
+    "project_apachename": "Apache ODE (Orchestration Director Engine)",
+    "project_domain": "ode.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-175",
+    "project_shortdesc": "Business Process Management (BPM), Process Orchestration and Workflow through service composition",
+    "project_type": "PMC"
+  },
+  "ojb": {
+    "retirement_date": "2011-01-01",
+    "attic_issue": "ATTIC-113",
+    "attic_date": "2011-06-28",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "DB ObJectRelationalBridge (OJB)",
+    "project_domain": "db.apache.org",
+    "project_description": "OJB was an Object/Relational mapping tool that allowed transparent persistence for Java Objects against relational databases.",
+    "additional_tex": "The website appears to have been removed.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "db/ojb",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "db/ojb"
+      }
+    ],
+    "mailing_lists": [
+      "ojb-dev",
+      "ojb-user"
+    ],
+    "mailing_lists_prefix": "db",
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OJB"
+        ]
+      }
+    ],
+    "related_projects_text": "If you are looking for a project to use in place of OJB, implementations of the standards Java Data Objects (JDO) and Java Persistence API (JPA) may be good starting points. The Apache Software Foundation hosts the following alternatives:",
+    "related_projects": [
+      {
+        "name": "Apache Cayenne",
+        "url": "https://cayenne.apache.org/"
+      },
+      {
+        "name": "Apache Empire-db",
+        "url": "https://empire-db.apache.org/"
+      },
+      {
+        "name": "Apache OpenJPA",
+        "url": "https://openjpa.apache.org/"
+      },
+      {
+        "name": "Apache Torque",
+        "url": "https://db.apache.org/torque"
+      },
+      {
+        "name": "Apache DB",
+        "url": "https://db.apache.org/",
+        "description": "OJB was a subproject of Apache DB"
+      }
+    ],
+    "project_id": "ojb",
+    "project_name_lower": "db objectrelationalbridge (ojb)",
+    "project_longname": "DB ObJectRelationalBridge (OJB)",
+    "project_apachename": "Apache DB ObJectRelationalBridge (OJB)",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-113",
+    "project_shortdesc": "OJB was an Object/Relational mapping tool that allowed transparent persistence for Java Objects against relational databases."
+  },
+  "olingo": {
+    "established_date": "2014-03-19",
+    "retirement_date": "2025-12-17",
+    "attic_issue": "ATTIC-251",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_description": "Olingo was a Java library that implements the Open Data Protocol (OData). ",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "olingo"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OLINGO"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "OLINGO"
+      ]
+    },
+    "project_id": "olingo",
+    "project_name": "Olingo",
+    "project_name_lower": "olingo",
+    "project_longname": "Olingo",
+    "project_apachename": "Apache Olingo",
+    "project_domain": "olingo.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-251",
+    "project_shortdesc": "OASIS OData protocol libraries",
+    "project_type": "PMC"
+  },
+  "oltu": {
+    "established_date": "2013-01-16",
+    "retirement_date": "2018-03-21",
+    "attic_issue": "ATTIC-168",
+    "attic_date": "2018-07-11",
+    "attic_banner": true,
+    "project_description": "Oltu is an OAuth protocol implementation in Java. It also covers others \"OAuth family\" related implementations such as JWT, JWS and OpenID Connect",
+    "additional_text": "Originally known as Amber.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "oltu"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OLTU"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "OLTU",
+        "AMBER"
+      ]
+    },
+    "project_id": "oltu",
+    "project_name": "Oltu",
+    "project_name_lower": "oltu",
+    "project_longname": "Oltu",
+    "project_apachename": "Apache Oltu",
+    "project_domain": "oltu.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-168",
+    "project_shortdesc": "OAuth protocol implementation in Java",
+    "project_type": "PMC"
+  },
+  "onami": {
+    "established_date": "2013-04-17",
+    "retirement_date": "2016-01-20",
+    "attic_issue": "ATTIC-147",
+    "attic_date": "2016-02-27",
+    "attic_banner": false,
+    "project_description": "Onami was a project focused on the development and maintenance of a set of Google Guice extensions not provided out of the box by the library itself.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "onami"
+      },
+      {
+        "type": "Git",
+        "path": "onami"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "ONAMI"
+        ]
+      }
+    ],
+    "project_id": "onami",
+    "project_name": "Onami",
+    "project_name_lower": "onami",
+    "project_longname": "Onami",
+    "project_apachename": "Apache Onami",
+    "project_domain": "onami.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-147",
+    "project_shortdesc": "Development and maintenance of a set of Google Guice extensions",
+    "project_type": "PMC"
+  },
+  "oodt": {
+    "established_date": "2010-11-17",
+    "retirement_date": "2023-04-19",
+    "attic_issue": "ATTIC-214",
+    "attic_date": "2023-06-30",
+    "attic_banner": true,
+    "project_name": "OODT",
+    "project_description": "OODT's mission was to create Object Oriented Data Technology (middleware metadata).",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "oodt"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OODT"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "OODT"
+      ]
+    },
+    "project_id": "oodt",
+    "project_name_lower": "oodt",
+    "project_longname": "OODT",
+    "project_apachename": "Apache OODT",
+    "project_domain": "oodt.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-214",
+    "project_shortdesc": "Object Oriented Data Technology (middleware metadata)",
+    "project_type": "PMC"
+  },
+  "oozie": {
+    "established_date": "2012-08-28",
+    "retirement_date": "2025-02-19",
+    "attic_issue": "ATTIC-232",
+    "attic_date": "2025-04-05",
+    "attic_banner": true,
+    "project_name": "Oozie",
+    "project_description": "Oozie was a workflow scheduler system to manage Apache Hadoop jobs..",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "oozie"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "OOZIE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "OOZIE"
+      ]
+    },
+    "project_id": "oozie",
+    "project_name_lower": "oozie",
+    "project_longname": "Oozie",
+    "project_apachename": "Apache Oozie",
+    "project_domain": "oozie.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-232",
+    "project_shortdesc": "A workflow scheduler system to manage Apache Hadoop jobs.",
+    "project_type": "PMC"
+  },
+  "pivot": {
+    "established_date": "2009-12-16",
+    "retirement_date": "2025-01-15",
+    "attic_issue": "ATTIC-228",
+    "attic_date": "2025-04-05",
+    "attic_banner": true,
+    "project_description": "Pivot's mission was Rich Internet applications in Java.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "pivot"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "PIVOT"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "PIVOT"
+      ]
+    },
+    "project_id": "pivot",
+    "project_name": "Pivot",
+    "project_name_lower": "pivot",
+    "project_longname": "Pivot",
+    "project_apachename": "Apache Pivot",
+    "project_domain": "pivot.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-228",
+    "project_shortdesc": "Rich Internet applications in Java",
+    "project_type": "PMC"
+  },
+  "polygene": {
+    "established_date": "2015-03-18",
+    "retirement_date": "2018-12-19",
+    "attic_issue": "ATTIC-174",
+    "attic_date": "2019-04-10",
+    "attic_banner": true,
+    "project_description": "Polygene is a community based effort exploring Composite Oriented Programming for domain centric application development.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "polygene"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "POLYGENE"
+        ]
+      }
+    ],
+    "project_id": "polygene",
+    "project_name": "Polygene",
+    "project_name_lower": "polygene",
+    "project_longname": "Polygene",
+    "project_apachename": "Apache Polygene",
+    "project_domain": "polygene.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-174",
+    "project_shortdesc": "Composite Oriented Programming for domain centric application development.",
+    "project_type": "PMC"
+  },
+  "portals": {
+    "established_date": "2004-02-18",
+    "retirement_date": "2025-09-24",
+    "attic_issue": "ATTIC-247",
+    "attic_date": "2025-11-07",
+    "attic_banner": true,
+    "project_description": "Portals was Portal technology.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "portals"
+      }
+    ],
+    "mailing_lists": [
+      "bridges-commits",
+      "bridges-dev",
+      "bridges-user",
+      "commits",
+      "general",
+      "jetspeed-dev",
+      "jetspeed-user",
+      "pluto-dev",
+      "pluto-scm",
+      "pluto-user",
+      "portalapps-dev",
+      "portalapps-user",
+      "wsrp4j-dev",
+      "wsrp4j-user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "APA",
+          "PB",
+          "PLUTO",
+          "PORTALS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "PORTALS"
+      ]
+    },
+    "project_id": "portals",
+    "project_name": "Portals",
+    "project_name_lower": "portals",
+    "project_longname": "Portals",
+    "project_apachename": "Apache Portals",
+    "project_domain": "portals.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-247",
+    "project_shortdesc": "Portal technology",
+    "project_type": "PMC"
+  },
+  "predictionio": {
+    "established_date": "2017-10-18",
+    "retirement_date": "2020-09-16",
+    "attic_issue": "ATTIC-187",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_name": "PredictionIO",
+    "project_description": "PredictionIO was a machine learning server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "predictionio"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "PIO"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "PIO"
+      ]
+    },
+    "project_id": "predictionio",
+    "project_name_lower": "predictionio",
+    "project_longname": "PredictionIO",
+    "project_apachename": "Apache PredictionIO",
+    "project_domain": "predictionio.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-187",
+    "project_shortdesc": "a machine learning server built on top of state-of-the-art open source stack, that enables developers to manage and deploy production-ready predictive services for various kinds of machine learning tasks",
+    "project_type": "PMC"
+  },
+  "quetzalcoatl": {
+    "established_date": "2007-06-20",
+    "retirement_date": "2010-06-16",
+    "attic_issue": "ATTIC-67",
+    "attic_date": "2010-07-24",
+    "attic_banner": false,
+    "project_domain": "quetz.apache.org",
+    "project_description": "Quetzalcoatl, or Quetz as it was more commonly known, was a project charged with the creation and maintenance of open-source software related to mod_python and the Python programming language. Mainly formed around the mod_python subproject, it didn't have activity in the mod_python community to drive the larger project along.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "quetzalcoatl"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "mailing_lists_prefix": "quetz-mod_python",
+    "related_projects_text": "The mod_python website and downloads remain open.",
+    "related_projects": [
+      {
+        "name": "See modpython.org",
+        "url": "http://www.modpython.org",
+        "description": "for more information on mod_python. Quetz itself never had a website."
+      }
+    ],
+    "project_id": "quetzalcoatl",
+    "project_name": "Quetzalcoatl",
+    "project_name_lower": "quetzalcoatl",
+    "project_longname": "Quetzalcoatl",
+    "project_apachename": "Apache Quetzalcoatl",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-67",
+    "project_shortdesc": "Quetzalcoatl, or Quetz as it was more commonly known, was a project charged with the creation and maintenance of open-source software related to mod_python and the Python programming language.",
+    "project_type": "PMC"
+  },
+  "rave": {
+    "established_date": "2012-03-21",
+    "retirement_date": "2016-01-20",
+    "attic_issue": "ATTIC-148",
+    "attic_date": "2016-02-28",
+    "attic_banner": false,
+    "project_description": "Rave was a web and social mashup engine that aggregated and served web widgets. It was targeted as an engine for internet and intranet portals.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "rave"
+      },
+      {
+        "type": "Git",
+        "path": "rave"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "RAVE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "RAVE"
+      ]
+    },
+    "project_id": "rave",
+    "project_name": "Rave",
+    "project_name_lower": "rave",
+    "project_longname": "Rave",
+    "project_apachename": "Apache Rave",
+    "project_domain": "rave.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-148",
+    "project_shortdesc": "Web and social mashup engine",
+    "project_type": "PMC"
+  },
+  "reef": {
+    "established_date": "2015-11-18",
+    "retirement_date": "2022-07-20",
+    "attic_issue": "ATTIC-209",
+    "attic_date": "2022-08-26",
+    "attic_banner": true,
+    "project_name": "REEF",
+    "project_description": "REEF (Retainable Evaluator Execution Frameworks) mission was to provide a library for developing portable applications for cluster resource managers such as Apache Hadoop YARN or Apache Mesos",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "reef"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "REEF"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "REEF"
+      ]
+    },
+    "project_id": "reef",
+    "project_name_lower": "reef",
+    "project_longname": "REEF",
+    "project_apachename": "Apache REEF",
+    "project_domain": "reef.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-209",
+    "project_shortdesc": "Retainable Evaluator Execution Framework",
+    "project_type": "PMC"
+  },
+  "river": {
+    "established_date": "2011-01-19",
+    "retirement_date": "2022-02-16",
+    "attic_issue": "ATTIC-204",
+    "attic_date": "2022-04-13",
+    "attic_banner": true,
+    "project_description": "River's mission was the creation and maintenance of software related to Jini service oriented architecture.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "river"
+      },
+      {
+        "type": "Git",
+        "path": "river"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "RIVER"
+        ]
+      }
+    ],
+    "project_id": "river",
+    "project_name": "River",
+    "project_name_lower": "river",
+    "project_longname": "River",
+    "project_apachename": "Apache River",
+    "project_domain": "river.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-204",
+    "project_shortdesc": "Jini service oriented architecture",
+    "project_type": "PMC"
+  },
+  "sentry": {
+    "established_date": "2016-03-16",
+    "retirement_date": "2020-12-16",
+    "attic_issue": "ATTIC-191",
+    "attic_date": "2021-04-11",
+    "attic_banner": true,
+    "project_description": "Sentry was a system for enforcing fine grained authorization to data and metadata in Apache Hadoop.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "sentry"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SENTRY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SENTRY"
+      ]
+    },
+    "project_id": "sentry",
+    "project_name": "Sentry",
+    "project_name_lower": "sentry",
+    "project_longname": "Sentry",
+    "project_apachename": "Apache Sentry",
+    "project_domain": "sentry.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-191",
+    "project_shortdesc": "Fine grained authorization to data and metadata in Apache Hadoop",
+    "project_type": "PMC"
+  },
+  "servicemix": {
+    "established_date": "2007-09-19",
+    "retirement_date": "2026-03-18",
+    "attic_issue": "ATTIC-252",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_name": "ServiceMix",
+    "project_description": "ServiceMix was an Enterprise Service Bus.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "servicemix"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SM",
+          "SMX4",
+          "SMX4KNL",
+          "SMX4NMR",
+          "SMXCOMP"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SM",
+        "SMX3",
+        "SMX4",
+        "SMX4KNL",
+        "SMX4NMR",
+        "SMXCOMP"
+      ]
+    },
+    "project_id": "servicemix",
+    "project_name_lower": "servicemix",
+    "project_longname": "ServiceMix",
+    "project_apachename": "Apache ServiceMix",
+    "project_domain": "servicemix.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-252",
+    "project_shortdesc": "Enterprise Service Bus",
+    "project_type": "PMC"
+  },
+  "shale": {
+    "established_date": "2006-06-27",
+    "retirement_date": "2009-05-20",
+    "attic_issue": "ATTIC-2",
+    "attic_date": "2009-12-22",
+    "attic_banner": false,
+    "project_description": "Shale was a web application framework, fundamentally based on JavaServer Faces.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "shale"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "notifications",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SHALE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SHALE"
+      ]
+    },
+    "related_projects_text": "Discussion on the mailing list indicated that Seam and MyFaces were the natural successors to Shale.",
+    "related_projects": [
+      {
+        "name": "MyFaces Test",
+        "url": "http://svn.apache.org/repos/asf/myfaces/test/trunk/",
+        "description": "The Shale Test code has been forked into the MyFaces project"
+      },
+      {
+        "name": "MyFaces",
+        "url": "https://myfaces.apache.org/"
+      },
+      {
+        "name": "SeamFramework",
+        "url": "https://www.seamframework.org/",
+        "description": null
+      }
+    ],
+    "project_id": "shale",
+    "project_name": "Shale",
+    "project_name_lower": "shale",
+    "project_longname": "Shale",
+    "project_apachename": "Apache Shale",
+    "project_domain": "shale.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-2",
+    "project_shortdesc": "Web application framework, fundamentally based on JavaServer Faces",
+    "project_type": "PMC"
+  },
+  "shindig": {
+    "established_date": "2010-01-20",
+    "retirement_date": "2015-10-21",
+    "attic_issue": "ATTIC-145",
+    "attic_date": "2016-01-14",
+    "attic_banner": false,
+    "project_description": "Shindig was an OpenSocial container to help you to start hosting OpenSocial apps quickly.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "shindig"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "issues",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SHINDIG"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SHINDIG",
+        "SHINDIGxSITE"
+      ]
+    },
+    "project_id": "shindig",
+    "project_name": "Shindig",
+    "project_name_lower": "shindig",
+    "project_longname": "Shindig",
+    "project_apachename": "Apache Shindig",
+    "project_domain": "shindig.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-145",
+    "project_shortdesc": "Opensocial Reference Implementation",
+    "project_type": "PMC"
+  },
+  "sqoop": {
+    "established_date": "2012-03-21",
+    "retirement_date": "2021-06-16",
+    "attic_issue": "ATTIC-199",
+    "attic_date": "2021-07-11",
+    "attic_banner": true,
+    "project_description": "Sqoop mission was the creation and maintenance of software related to Bulk Data Transfer for Apache Hadoop and Structured Datastores.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "sqoop"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SQOOP"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SQOOP"
+      ]
+    },
+    "project_id": "sqoop",
+    "project_name": "Sqoop",
+    "project_name_lower": "sqoop",
+    "project_longname": "Sqoop",
+    "project_apachename": "Apache Sqoop",
+    "project_domain": "sqoop.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-199",
+    "project_shortdesc": "Bulk Data Transfer for Apache Hadoop and Structured Datastores",
+    "project_type": "PMC"
+  },
+  "stanbol": {
+    "established_date": "2012-09-19",
+    "retirement_date": "2020-04-15",
+    "attic_issue": "ATTIC-182",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_description": "Stanbol was a set of reusable components for semantic content management.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "stanbol"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "STANBOL"
+        ]
+      }
+    ],
+    "project_id": "stanbol",
+    "project_name": "Stanbol",
+    "project_name_lower": "stanbol",
+    "project_longname": "Stanbol",
+    "project_apachename": "Apache Stanbol",
+    "project_domain": "stanbol.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-182",
+    "project_shortdesc": "Reusable components for semantic content management",
+    "project_type": "PMC"
+  },
+  "stdcxx": {
+    "established_date": "2007-11-14",
+    "retirement_date": "2013-07-17",
+    "attic_issue": "ATTIC-130",
+    "attic_date": "2014-05-14",
+    "attic_banner": false,
+    "project_name": "C++ Standard Library",
+    "project_description": "The C++ Standard Library project was a collection of algorithms, containers, iterators, and other fundamental components of every piece of software, implemented as C++ classes, templates, and functions essential for writing C++ programs.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "stdcxx"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "STDCXX"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "STDCXX"
+      ]
+    },
+    "project_id": "stdcxx",
+    "project_name_lower": "c++ standard library",
+    "project_longname": "C++ Standard Library",
+    "project_apachename": "Apache C++ Standard Library",
+    "project_domain": "stdcxx.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-130",
+    "project_shortdesc": "C++ classes, templates, and functions essential for writing C++ programs",
+    "project_type": "PMC"
+  },
+  "stratos": {
+    "established_date": "2014-05-21",
+    "retirement_date": "2017-01-18",
+    "attic_issue": "ATTIC-162",
+    "attic_date": "2017-02-18",
+    "attic_banner": false,
+    "project_description": "Stratos was a highly-extensible Platform-as-a-Service (PaaS) framework that helped run Apache Tomcat, PHP, and MySQL applications, and could be extended to support many more environments on all major cloud infrastructures.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "stratos"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "STRATOS"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "STRATOS"
+      ]
+    },
+    "project_id": "stratos",
+    "project_name": "Stratos",
+    "project_name_lower": "stratos",
+    "project_longname": "Stratos",
+    "project_apachename": "Apache Stratos",
+    "project_domain": "stratos.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-162",
+    "project_shortdesc": "Highly-extensible Platform-as-a-Service (PaaS) framework",
+    "project_type": "PMC"
+  },
+  "streams": {
+    "established_date": "2017-07-19",
+    "retirement_date": "2024-10-16",
+    "attic_issue": "ATTIC-226",
+    "attic_date": "2025-01-14",
+    "attic_banner": true,
+    "project_description": "Streams mission was to unify a diverse world of digital profiles and online activities into common formats and vocabularies, and makes these datasets accessible across a variety of databases, devices, and platforms for streaming, browsing, searching, sharing, and analytics use-cases.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "streams"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "STREAMS"
+        ]
+      },
+      {
+        "type": "GitHub",
+        "keys": [
+          "streams"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "STREAMS"
+      ]
+    },
+    "project_id": "streams",
+    "project_name": "Streams",
+    "project_name_lower": "streams",
+    "project_longname": "Streams",
+    "project_apachename": "Apache Streams",
+    "project_domain": "streams.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-226",
+    "project_shortdesc": "interoperability of online profiles and activity feeds",
+    "project_type": "PMC"
+  },
+  "submarine": {
+    "established_date": "2019-10-16",
+    "retirement_date": "2024-05-15",
+    "attic_issue": "ATTIC-222",
+    "attic_date": "2024-07-20",
+    "attic_banner": true,
+    "project_description": "Submarine mission was allowing infrastructure engineers and data scientists to build deep learning applications (TensorFlow, PyTorch, etc.) end to end on cluster management platforms (like YARN/K8s).",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "submarine"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "SUBMARINE"
+        ]
+      },
+      {
+        "type": "GitHub",
+        "keys": [
+          "submarine"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "SUBMARINE"
+      ]
+    },
+    "project_id": "submarine",
+    "project_name": "Submarine",
+    "project_name_lower": "submarine",
+    "project_longname": "Submarine",
+    "project_apachename": "Apache Submarine",
+    "project_domain": "submarine.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-222",
+    "project_shortdesc": "allowing infrastructure engineers and data scientists to build deep learning applications (TensorFlow, PyTorch, etc.) end to end on cluster management platforms (like YARN/K8s)",
+    "project_type": "PMC"
+  },
+  "tajo": {
+    "established_date": "2014-03-19",
+    "retirement_date": "2020-09-16",
+    "attic_issue": "ATTIC-196",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_name": "Tajo",
+    "project_description": "Tajo mission was Big data warehouse system on Apache Hadoop.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "tajo"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "TAJO"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "TAJO"
+      ]
+    },
+    "project_id": "tajo",
+    "project_name_lower": "tajo",
+    "project_longname": "Tajo",
+    "project_apachename": "Apache Tajo",
+    "project_domain": "tajo.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-196",
+    "project_shortdesc": "Big data warehouse system on Apache Hadoop",
+    "project_type": "PMC"
+  },
+  "tiles": {
+    "established_date": "2006-12-20",
+    "retirement_date": "2018-12-19",
+    "attic_issue": "ATTIC-173",
+    "attic_date": "2019-11-18",
+    "attic_banner": true,
+    "project_description": "Tiles is a templating framework built to simplify the development of web application user interfaces.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "tiles"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "TILES",
+          "AUTOTAG",
+          "TEVAL",
+          "TREQ",
+          "TILESSB",
+          "TILESSHARED",
+          "TILESSHOW"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "TILES"
+      ]
+    },
+    "project_id": "tiles",
+    "project_name": "Tiles",
+    "project_name_lower": "tiles",
+    "project_longname": "Tiles",
+    "project_apachename": "Apache Tiles",
+    "project_domain": "tiles.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-173",
+    "project_shortdesc": "A templating framework for web application user interfaces",
+    "project_type": "PMC"
+  },
+  "trafficcontrol": {
+    "established_date": "2018-05-16",
+    "retirement_date": "2025-10-15",
+    "attic_issue": "ATTIC-249",
+    "attic_date": "2025-11-25",
+    "attic_banner": true,
+    "project_name": "Traffic Control",
+    "project_description": "Traffic Control allowed the building of a large scale content delivery network. Built around Apache Traffic Server as the caching software, Traffic Control implemented all the core functions of a modern CDN.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "trafficcontrol"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "users"
+    ],
+    "project_id": "trafficcontrol",
+    "project_name_lower": "traffic control",
+    "project_longname": "Traffic Control",
+    "project_apachename": "Apache Traffic Control",
+    "project_domain": "trafficcontrol.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-249",
+    "project_shortdesc": "building, monitoring, configuring, and provisioning a large scale content delivery network (CDN)",
+    "project_type": "PMC"
+  },
+  "trafodion": {
+    "established_date": "2017-12-20",
+    "retirement_date": "2021-04-21",
+    "attic_issue": "ATTIC-197",
+    "attic_date": "2021-05-13",
+    "attic_banner": true,
+    "project_description": "Trafodion was a webscale SQL-on-Hadoop solution enabling transactional or operational workloads on Apache Hadoop.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "trafodion"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "codereview",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "TRAFODION"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "TRAFODION"
+      ]
+    },
+    "project_id": "trafodion",
+    "project_name": "Trafodion",
+    "project_name_lower": "trafodion",
+    "project_longname": "Trafodion",
+    "project_apachename": "Apache Trafodion",
+    "project_domain": "trafodion.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-197",
+    "project_shortdesc": "webscale SQL-on-Hadoop solution enabling transactional or operational workloads.",
+    "project_type": "PMC"
+  },
+  "tuscany": {
+    "established_date": "2008-05-21",
+    "retirement_date": "2016-05-18",
+    "attic_issue": "ATTIC-156",
+    "attic_date": "2016-08-03",
+    "attic_banner": false,
+    "project_description": "Tuscany simplified the task of developing service-oriented architectured solutions by providing a comprehensive infrastructure for development and management, based on the Service Component Architecture standard.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "tuscany"
+      },
+      {
+        "type": "Git",
+        "path": "tuscany"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user",
+      "notification"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "TUSCANY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "TUSCANY",
+        "TUSCANYWIKI",
+        "TUSCANYxDOCx1x",
+        "TUSCANYxDOCx2x"
+      ]
+    },
+    "project_id": "tuscany",
+    "project_name": "Tuscany",
+    "project_name_lower": "tuscany",
+    "project_longname": "Tuscany",
+    "project_apachename": "Apache Tuscany",
+    "project_domain": "tuscany.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-156",
+    "project_shortdesc": "An SCA based Service Composition Framework",
+    "project_type": "PMC"
+  },
+  "twill": {
+    "established_date": "2016-06-15",
+    "retirement_date": "2020-05-20",
+    "attic_issue": "ATTIC-184",
+    "attic_date": "2021-04-10",
+    "attic_banner": true,
+    "project_description": "Twill mission was to use Apache Hadoop YARN's distributed capabilities with a programming model that is similar to running threads.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "twill"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "TWILL"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "TWILL"
+      ]
+    },
+    "project_id": "twill",
+    "project_name": "Twill",
+    "project_name_lower": "twill",
+    "project_longname": "Twill",
+    "project_apachename": "Apache Twill",
+    "project_domain": "twill.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-184",
+    "project_shortdesc": "Use Apache Hadoop YARN's distributed capabilities with a programming model that is similar to running threads",
+    "project_type": "PMC"
+  },
+  "usergrid": {
+    "established_date": "2015-08-19",
+    "retirement_date": "2021-12-15",
+    "attic_issue": "ATTIC-201",
+    "attic_date": "2022-01-30",
+    "attic_banner": true,
+    "project_description": "Usergrid was a project to build a BaaS Framework.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "usergrid"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "USERGRID"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "USERGRID"
+      ]
+    },
+    "project_id": "usergrid",
+    "project_name": "Usergrid",
+    "project_name_lower": "usergrid",
+    "project_longname": "Usergrid",
+    "project_apachename": "Apache Usergrid",
+    "project_domain": "usergrid.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-201",
+    "project_shortdesc": "The BaaS Framework you run",
+    "project_type": "PMC"
+  },
+  "vxquery": {
+    "established_date": "2014-07-16",
+    "retirement_date": "2020-01-15",
+    "attic_issue": "ATTIC-178",
+    "attic_date": "2021-04-05",
+    "attic_banner": true,
+    "project_name": "VXQuery",
+    "project_description": "VXQuery implemented a parallel XML Query processor.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "vxquery"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "VXQUERY"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "VXQUERY"
+      ]
+    },
+    "project_id": "vxquery",
+    "project_name_lower": "vxquery",
+    "project_longname": "VXQuery",
+    "project_apachename": "Apache VXQuery",
+    "project_domain": "vxquery.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-178",
+    "project_shortdesc": "A parallel XQuery processor",
+    "project_type": "PMC"
+  },
+  "whirr": {
+    "established_date": "2011-08-17",
+    "retirement_date": "2015-03-18",
+    "attic_issue": "ATTIC-135",
+    "attic_date": "2015-07-16",
+    "attic_banner": true,
+    "project_description": "Whirr was a set of libraries for running cloud services and deploying clusters.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "whirr"
+      },
+      {
+        "type": "Git",
+        "path": "whirr"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "WHIRR"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "WHIRR"
+      ]
+    },
+    "project_id": "whirr",
+    "project_name": "Whirr",
+    "project_name_lower": "whirr",
+    "project_longname": "Whirr",
+    "project_apachename": "Apache Whirr",
+    "project_domain": "whirr.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-135",
+    "project_shortdesc": "Libraries for running Cloud Services",
+    "project_type": "PMC"
+  },
+  "wink": {
+    "established_date": "2012-12-19",
+    "retirement_date": "2017-04-19",
+    "attic_issue": "ATTIC-166",
+    "attic_date": "2017-05-01",
+    "attic_banner": true,
+    "project_description": "Wink was a simple yet solid framework for building RESTful Web services. It is comprised of a Server module and a Client module for developing and consuming RESTful Web services.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "wink"
+      },
+      {
+        "type": "Git",
+        "path": "wink"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "WINK"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "WINK"
+      ]
+    },
+    "project_id": "wink",
+    "project_name": "Wink",
+    "project_name_lower": "wink",
+    "project_longname": "Wink",
+    "project_apachename": "Apache Wink",
+    "project_domain": "wink.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-166",
+    "project_shortdesc": "RESTful Web services Framework",
+    "project_type": "PMC"
+  },
+  "wookie": {
+    "established_date": "2012-11-21",
+    "retirement_date": "2016-03-16",
+    "attic_issue": "ATTIC-151",
+    "attic_date": "2016-04-11",
+    "attic_banner": false,
+    "project_description": "Wookie was a Java server application that allowed you to upload and deploy W3C/OpenSocial/Google Wave widgets to your applications.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "wookie"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "WOOKIE"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "WOOKIE"
+      ]
+    },
+    "project_id": "wookie",
+    "project_name": "Wookie",
+    "project_name_lower": "wookie",
+    "project_longname": "Wookie",
+    "project_apachename": "Apache Wookie",
+    "project_domain": "wookie.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-151",
+    "project_shortdesc": "Widgets for Applications",
+    "project_type": "PMC"
+  },
+  "xang": {
+    "retirement_date": "2009-12-22",
+    "attic_issue": "ATTIC-44",
+    "attic_date": "2010-02-10",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "XML Xang",
+    "project_domain": "xml.apache.org/xang",
+    "project_description": "Xang was an XML Web Framework that aggregated multiple data sources, made that data URL addressable and defined custom methods to access that data.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "xml/xang"
+      }
+    ],
+    "mailing_lists": [
+      "xang-dev",
+      "xang-cvs"
+    ],
+    "mailing_lists_prefix": "xml",
+    "related_projects": [
+      {
+        "name": "xml.apache.org",
+        "url": "https://xml.apache.org/",
+        "description": "Xang was a subproject of Apache XML"
+      }
+    ],
+    "project_id": "xang",
+    "project_name_lower": "xml xang",
+    "project_longname": "XML Xang",
+    "project_apachename": "Apache XML Xang",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-44",
+    "project_shortdesc": "Xang was an XML Web Framework that aggregated multiple data sources, made that data URL addressable and defined custom methods to access that data."
+  },
+  "xindice": {
+    "retirement_date": "2011-08-01",
+    "attic_issue": "ATTIC-121",
+    "attic_date": "2012-08-22",
+    "attic_banner": false,
+    "project_type": "Subproject",
+    "project_name": "XML Xindice",
+    "project_domain": "xml.apache.org/xindice",
+    "project_description": "Xindice was a native XML database.",
+    "board_resolution": false,
+    "board_reports": false,
+    "downloads": true,
+    "archive_path": "xml/xindice",
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "xml/xindice"
+      }
+    ],
+    "mailing_lists": [
+      "xindice-dev",
+      "xindice-users"
+    ],
+    "mailing_lists_prefix": "xml",
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "XINDICE"
+      ]
+    },
+    "related_projects": [
+      {
+        "name": "xml.apache.org",
+        "url": "https://xml.apache.org/",
+        "description": "Xindice was a subproject of Apache XML"
+      }
+    ],
+    "project_id": "xindice",
+    "project_name_lower": "xml xindice",
+    "project_longname": "XML Xindice",
+    "project_apachename": "Apache XML Xindice",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-121",
+    "project_shortdesc": "Xindice was a native XML database."
+  },
+  "xml": {
+    "established_date": "2000-07-24",
+    "retirement_date": "2012-04-18",
+    "attic_issue": "ATTIC-146",
+    "attic_date": "2012-04-01",
+    "attic_banner": false,
+    "project_name": "XML",
+    "project_description": "Founded in 1999, the Apache XML Project housed a diverse set of popular open source XML solutions.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Subversion",
+        "path": "xml"
+      }
+    ],
+    "mailing_lists": [
+      "bugs",
+      "announcements",
+      "general",
+      "general-cvs"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "XML"
+        ]
+      }
+    ],
+    "project_id": "xml",
+    "project_name_lower": "xml",
+    "project_longname": "XML",
+    "project_apachename": "Apache XML",
+    "project_domain": "xml.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-146",
+    "project_shortdesc": "Diverse set of popular open source XML solutions.",
+    "project_type": "PMC"
+  }
+}
