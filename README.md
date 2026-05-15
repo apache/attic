@@ -1,0 +1,1 @@
+https://attic-infrastructure-ruleset-bot/default-branch-protection.staged.apache.org/\n\nbuilt from `infrastructure-ruleset-bot/default-branch-protection` branch https://github.com/apache/attic/tree/infrastructure-ruleset-bot/default-branch-protection

@@ -1,0 +1,3 @@
+staging:
+  profile: infrastructure-ruleset-bot/default-branch-protection
+  whoami: infrastructure-ruleset-bot/default-branch-protection-site
