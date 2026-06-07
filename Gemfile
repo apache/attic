@@ -7,4 +7,4 @@ gem "sass-embedded", "1.100.0" # avoids deprecation errors
 gem "just-the-docs", "0.12.0" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
 
-gem "psych", "~> 5.3.1" # needed for retire.rb, as the default is too old
+gem "psych", "~> 5.4.0" # needed for retire.rb, as the default is too old

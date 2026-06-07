@@ -71,7 +71,7 @@ GEM
     mercenary (0.4.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    psych (5.3.1)
+    psych (5.4.0)
       date
       stringio
     public_suffix (7.0.5)
@@ -99,7 +99,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4.1)
   just-the-docs (= 0.12.0)
-  psych (~> 5.3.1)
+  psych (~> 5.4.0)
   sass-embedded (= 1.100.0)
 
 BUNDLED WITH
