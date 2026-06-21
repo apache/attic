@@ -1,0 +1,1 @@
+https://attic-dependabot/github_actions/actions/checkout-7.staged.apache.org/\n\nbuilt from `dependabot/github_actions/actions/checkout-7` branch https://github.com/apache/attic/tree/dependabot/github_actions/actions/checkout-7

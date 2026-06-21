@@ -1,0 +1,3 @@
+staging:
+  profile: dependabot/github_actions/actions/checkout-7
+  whoami: dependabot-github_actions-actions-checkout-7-site
