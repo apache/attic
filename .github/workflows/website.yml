@@ -104,8 +104,10 @@ jobs:
           # cannot create dependabot/ branches; also '/' is not allowed in the SITE branch name
           if [[ $BRANCH == dependabot/* ]]
           then
-            SITE="${SITE//\//-}"
-            echo "branch: $BRANCH => site: $SITE = https://attic-${BRANCH//\//-}.staged.apache.org/"
+            echo "Dependabot cannot create the branch - skipping"
+            exit 0
+            # SITE="${SITE//\//-}"
+            # echo "branch: $BRANCH => site: $SITE = https://attic-${BRANCH//\//-}.staged.apache.org/"
           else
             echo "branch: $BRANCH => site: $SITE = https://attic-$BRANCH.staged.apache.org/"
           fi
