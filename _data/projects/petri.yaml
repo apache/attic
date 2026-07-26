@@ -1,0 +1,22 @@
+---
+established_date: 2019-11-20
+retirement_date: 2026-06-17
+attic_issue: ATTIC-253
+attic_date:
+attic_banner: true
+project_description: >-
+    Petri was an assessment of, education in, and adoption of the
+    Foundation's policies and procedures for collaborative development and the pros
+    and cons of joining the Foundation.
+board_resolution: true
+board_reports: true
+downloads: false
+source_repositories:
+-   type: Git
+mailing_lists:
+- commits
+- discuss
+issue_trackers:
+-   type: JIRA
+wiki:
+    type: CWIKI
