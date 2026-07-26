@@ -3448,6 +3448,50 @@
     "project_shortdesc": "A workflow scheduler system to manage Apache Hadoop jobs.",
     "project_type": "PMC"
   },
+  "petri": {
+    "established_date": "2019-11-20",
+    "retirement_date": "2026-06-17",
+    "attic_issue": "ATTIC-253",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_description": "Petri was an assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": false,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "petri"
+      }
+    ],
+    "mailing_lists": [
+      "commits",
+      "discuss"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "PETRI"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "PETRI"
+      ]
+    },
+    "project_id": "petri",
+    "project_name": "Petri",
+    "project_name_lower": "petri",
+    "project_longname": "Petri",
+    "project_apachename": "Apache Petri",
+    "project_domain": "petri.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-253",
+    "project_shortdesc": "assessment of, education in, and adoption of the Foundation's policies and procedures for collaborative development and the pros and cons of joining the Foundation",
+    "project_type": "PMC"
+  },
   "pivot": {
     "established_date": "2009-12-16",
     "retirement_date": "2025-01-15",
