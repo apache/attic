@@ -46,6 +46,7 @@
 # _data/projects/pid.yaml
 
 require 'date'
+require 'json'
 require 'yaml'
 require 'net/http'
 require 'uri'
@@ -72,7 +73,9 @@ end
 def get_json(url, key=nil)
   begin
     response = get_url(url)
-    json = YAML.safe_load(response.body)
+    # Although the YAML module can parse JSON,
+    # it does not appear to handle Unicode surrogate pairs well
+    json = JSON.parse(response.body)
     if key
       return json[key]
     else
@@ -84,7 +87,7 @@ def get_json(url, key=nil)
     exit 1
   rescue Exception => e
     puts "Failed to process #{url}: #{e}"
-    exit 1
+    raise
   end
 end
 
