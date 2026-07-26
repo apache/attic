@@ -45,6 +45,7 @@
 # Output:
 # _data/projects/pid.yaml
 
+require 'date'
 require 'yaml'
 require 'net/http'
 require 'uri'
@@ -78,8 +79,12 @@ def get_json(url, key=nil)
       return json
     end
   rescue Net::OpenTimeout => to
-    puts to
-    return nil
+    puts "Timeout reading #{url}: #{to}"
+    puts "(Try again later)"
+    exit 1
+  rescue Exception => e
+    puts "Failed to process #{url}: #{e}"
+    exit 1
   end
 end
 
