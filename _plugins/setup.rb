@@ -20,6 +20,7 @@
 
 module Setup
   require 'uri'
+  require 'json'
   require 'net/http'
 
 # Hash: key: target file, value: source
@@ -41,7 +42,8 @@ module Setup
         puts "Setup: #{data_file} is old or missing"
         uri = URI.parse(data_src)
         response = Net::HTTP.get_response uri
-        File.write(data_file, response.body)
+        # Use JSON parse and dump to avoid problenms with surrogate pairs when parsed by Jekyll (which uses yaml gem)
+        File.write(data_file, JSON.dump(JSON.parse(response.body)))
       else
         puts "Setup: #{data_file} is recent"
       end
