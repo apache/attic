@@ -147,6 +147,8 @@ def main()
     puts "Processing #{pid}"
     meta = retirees[pid]
     retired_date = Date.parse(meta['retired_date'])
+    # All entries should now have established_date entries
+    established_date = Date.parse(meta['established_date'])
     display_name = meta['display_name']
     description = meta['description'].chomp('.') # we add a full-stop later
     # Allow for desc. starting with a or an or a vowel
@@ -160,7 +162,7 @@ def main()
     end
     project_description = display_name + sep + description + '.'
     data = {
-      established_date: 'yyyy-mm-dd',
+      established_date: established_date,
       retirement_date: retired_date,
       attic_issue: 'ATTIC-nnn',
       attic_date: nil,
