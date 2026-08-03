@@ -103,7 +103,7 @@ In that case, retiring PMC members will have to to:
    Change the profile name (not handle) from "Apache Foo" to "Apache Foo (Attic)".  
    Update the profile messaging to read “Apache Foo (Attic) is no longer an active project. Visit Apache.org to learn more."
 2. Provide ASF Marketing & Publicity with social media access:  
-   Once social media changes have been made, email <a href="mailto:press@apache.org">press@apache.org</a> to discuss with the ASF Marketing & Publicity team the best way to share social media credentials for safekeeping.
+   Once social media changes have been made, email <a href="mailto:markpub@apache.org">markpub@apache.org</a> to discuss with the ASF Marketing & Publicity team the best way to share social media credentials for safekeeping.
 
 ## 2. Create project page on Attic site:
 **https://attic.apache.org/projects/${project}.html**
