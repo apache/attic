@@ -144,7 +144,7 @@ limitations under the License.
     {% when "CWIKI" %}
       {%- for wiki_key in page.wiki.keys %}
         {%- unless forloop.first %} | {% endunless %}
-        <a href="https://cwiki.apache.org/confluence/display/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
+        <a href="https://cwiki.apache.org/confluence/spaces/{{ wiki_key }}/">cwiki: {{ wiki_key }}</a>
       {%- endfor %}
       </td>
     {%- else %}
