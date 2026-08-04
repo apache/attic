@@ -88,11 +88,13 @@ Use the text below to create an <a href="https://issues.apache.org/jira/projects
 <code>The {{ project_name }} project has retired.
 The following resources were detected for archive/removal please:
 
+{% if page.downloads == true -%}
 Remove the distribution SVN developer directory:
 - https://dist.apache.org/repos/dist/dev/{{ page.project_id }}
 Remove the distribution SVN release directory contents:
 - https://dist.apache.org/repos/dist/release/{{ page.project_id }}
 and set up redirection to https://attic.apache.org/projects/{{ page.project_id }}.html
+{%- endif -%}
 
 {% if mlists -%}
 Mailing lists https://lists.apache.org/list.html?{{ page.project_id }}.apache.org:
