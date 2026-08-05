@@ -31,12 +31,12 @@ This page lists all the **Projects** and **Subprojects** in The Apache Attic.
 In the early years The Apache Attic accepted some ***Subprojects***, but this is no longer the
 case and only ***Top Level Projects*** (projects with a **PMC**) are now accepted.
 
-|Project|Type|Description|Retired|
-|:------|:---|:----------|:------|
+|Project|Type|Description|Establish|Retire|
+|:------|:---|:----------|:--------|:-----|
 {%- for project in site.data.project_array %}
 |{{forloop.index}}. [{{project.project_apachename}}](
    {%- link {{project.project_id | prepend: "projects/" | append: ".html"}} -%}
-)|{{project.project_type}}|{{project.project_shortdesc}}|{{project.retirement_date | date: "%b %Y"}}
+)|{{project.project_type}}|{{project.project_shortdesc}}|{{project.established_date | date: "%b %Y"}}|{{project.retirement_date | date: "%b %Y"}}
 {%- endfor %}
 
 
