@@ -25,3 +25,7 @@ issue_trackers:
       - LUCY
 wiki:
     type: CWIKI
+related_projects:
+    - name: Lucy search project
+      url: https://github.com/lucysearch
+      description: is a fork of the Apache Lucy project being maintained outside the ASF
