@@ -36,7 +36,19 @@ github:
   autolink_jira:
     - INFRA
     - ATTIC
-
+ rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 notifications:
   commits: commits@attic.apache.org
   pullrequests: general@attic.apache.org
