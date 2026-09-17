@@ -3062,7 +3062,7 @@
     "project_longname": "WS Muse",
     "project_apachename": "Apache WS Muse",
     "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-123",
-    "project_shortdesc": "An implementation of the OASIS Web Services Distributed Management (WSDM) family of specifications."
+    "project_shortdesc": "Muse was a Java-based implementation of the WS-ResourceFramework (WSRF), WS-BaseNotification (WSN), and WS-DistributedManagement (WSDM) specifications."
   },
   "mxnet": {
     "established_date": "2022-09-21",
