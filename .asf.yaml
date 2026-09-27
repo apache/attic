@@ -36,7 +36,7 @@ github:
   autolink_jira:
     - INFRA
     - ATTIC
- rulesets:
+  rulesets:
     - name: "Default Branch Protection"
       type: branch
       branches:
