@@ -1,0 +1,24 @@
+---
+established_date: 2017-07-19
+retirement_date: 2026-09-16
+attic_issue: ATTIC-nnn
+attic_date:
+attic_banner: true
+project_name: MADlib
+project_description: >-
+    MADlib was Scalable, Big Data, SQL-driven machine learning framework
+    for Data Scientists.
+board_resolution: true
+board_reports: true
+downloads: true
+source_repositories:
+-   type: Git
+mailing_lists:
+- dev
+- commits
+- issues
+- user
+issue_trackers:
+-   type: JIRA
+wiki:
+    type: CWIKI
