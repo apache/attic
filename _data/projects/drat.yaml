@@ -10,7 +10,7 @@ project_description: >-
     auditing and reporting.
 board_resolution: true
 board_reports: true
-downloads: true
+downloads: false
 source_repositories:
     - type: Git
 mailing_lists:
