@@ -18,3 +18,7 @@ mailing_lists:
     - users
 issue_trackers:
     - type: JIRA
+related_projects:
+    - name: Apache Zest
+      url: https://whimsy.apache.org/board/minutes/Polygene.html#2016-12-21
+      description: was renamed to 'Apache Polygene' by the ASF Board in December 2016.
