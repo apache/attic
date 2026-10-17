@@ -1,5 +1,5 @@
-# XMLBEANS was revived and is now maintained by the POI project
 ---
+established_date: 2004-06-23
 retirement_date: 2013-07-17
 attic_issue: ATTIC-129
 attic_date: 2013-07-01
@@ -7,16 +7,10 @@ attic_banner: false
 project_name: XMLBeans
 project_description: >-
     XMLBeans is a technology for accessing XML by binding it to Java types.
+additional_text: >-
+    Apache XMLBeans was revived in June 2018 and became a project of
+    Apache POI.
 board_resolution: true
-board_reports: true
-downloads: true
-source_repositories:
-    - type: Subversion
-mailing_lists:
-    - dev
-    - commits
-    - user
-issue_tracker:
-    type: JIRA
-wiki:
-    type: CWIKI
+related_projects:
+    - name: Apache POI
+      url: https://poi.apache.org/
