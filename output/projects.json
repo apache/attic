@@ -3573,6 +3573,13 @@
         ]
       }
     ],
+    "related_projects": [
+      {
+        "name": "Apache Zest",
+        "url": "https://whimsy.apache.org/board/minutes/Polygene.html#2016-12-21",
+        "description": "was renamed to 'Apache Polygene' by the ASF Board in December 2016."
+      }
+    ],
     "project_id": "polygene",
     "project_name": "Polygene",
     "project_name_lower": "polygene",
