@@ -4982,5 +4982,30 @@
     "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-146",
     "project_shortdesc": "Diverse set of popular open source XML solutions.",
     "project_type": "PMC"
+  },
+  "xmlbeans": {
+    "established_date": "2004-06-23",
+    "retirement_date": "2013-07-17",
+    "attic_issue": "ATTIC-129",
+    "attic_date": "2013-07-01",
+    "attic_banner": false,
+    "project_name": "XMLBeans",
+    "project_description": "XMLBeans is a technology for accessing XML by binding it to Java types.",
+    "additional_text": "Apache XMLBeans was revived in June 2018 and became a project of Apache POI.",
+    "board_resolution": true,
+    "related_projects": [
+      {
+        "name": "Apache POI",
+        "url": "https://poi.apache.org/"
+      }
+    ],
+    "project_id": "xmlbeans",
+    "project_name_lower": "xmlbeans",
+    "project_longname": "XMLBeans",
+    "project_apachename": "Apache XMLBeans",
+    "project_domain": "xmlbeans.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-129",
+    "project_shortdesc": "XML-Java binding tool",
+    "project_type": "PMC"
   }
 }
