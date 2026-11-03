@@ -2729,6 +2729,52 @@
     "project_shortdesc": "Search engine library for dynamic languages",
     "project_type": "PMC"
   },
+  "madlib": {
+    "established_date": "2017-07-19",
+    "retirement_date": "2026-09-16",
+    "attic_issue": "ATTIC-254",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_name": "MADlib",
+    "project_description": "MADlib was Scalable, Big Data, SQL-driven machine learning framework for Data Scientists.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "madlib"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits",
+      "issues",
+      "user"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "MADLIB"
+        ]
+      }
+    ],
+    "wiki": {
+      "type": "CWIKI",
+      "keys": [
+        "MADLIB"
+      ]
+    },
+    "project_id": "madlib",
+    "project_name_lower": "madlib",
+    "project_longname": "MADlib",
+    "project_apachename": "Apache MADlib",
+    "project_domain": "madlib.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-254",
+    "project_shortdesc": "Scalable, Big Data, SQL-driven machine learning framework for Data Scientists",
+    "project_type": "PMC"
+  },
   "marmotta": {
     "established_date": "2013-11-20",
     "retirement_date": "2020-11-18",
