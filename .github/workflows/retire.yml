@@ -62,10 +62,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Set up Ruby
-        # Although ubuntu-latest includes ruby 3.2.2, this step is needed to set up bundler
+        # Although ubuntu-latest includes ruby 3.2 this step is needed to set up bundler
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.3
+          ruby-version: 3.2
           bundler-cache: true
       - name: Create PR for _data/projects/pid.yaml
         env:
