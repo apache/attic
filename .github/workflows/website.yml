@@ -31,6 +31,8 @@ on:
 jobs:
   website:
     runs-on: ubuntu-latest
+    env:
+      BRANCH: ${{ (github.head_ref || github.ref_name) }}
 
     steps:
       - name: 🗂 Checkout
@@ -38,14 +40,14 @@ jobs:
         with:
           fetch-depth: 1
       - name: 🗂 Checkout asf-site branch with minimum depth (main only)
-        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        if: env.BRANCH == 'main'
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # 7.0.1
         with:
           ref: asf-site
           fetch-depth: 1
           path: asf-site
       - name: 🗂 Checkout cwiki-retired branch with minimum depth (main only)
-        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        if: env.BRANCH == 'main'
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # 7.0.1
         with:
           ref: cwiki-retired
@@ -64,12 +66,12 @@ jobs:
           ruby --version
           bundle exec jekyll build -d asf-site/output
       - name: Move cwiki-retired out of asf-site (main only)
-        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        if: env.BRANCH == 'main'
         run: |
           mv asf-site/output/cwiki_retired/* cwiki-retired
           rm -rf asf-site/output/cwiki_retired
       - name: 🚀 Add commit to the asf-site branch (main only)
-        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        if: env.BRANCH == 'main'
         working-directory: asf-site
         run: |
           echo "Running git config"
@@ -83,7 +85,7 @@ jobs:
             git push origin asf-site
           fi
       - name: 🚀 Add commit to the cwiki-retired branch (main only)
-        if: ${{ (github.head_ref || github.ref_name) == 'main' }}
+        if: env.BRANCH == 'main'
         working-directory: cwiki-retired
         run: |
           echo "Running git config"
@@ -96,21 +98,10 @@ jobs:
           then
             git push origin cwiki-retired
           fi
-      - name: 🚀 Add commit to the site staging *-site branch (except main)
-        if: ${{ (github.head_ref || github.ref_name) != 'main' }}
+      - name: 🚀 Add commit to the site staging *-site branch - 'retire-*' branches only
+        if: startsWith(env.BRANCH, 'retire-')
         run: |
-          BRANCH="${{ (github.head_ref || github.ref_name) }}"
-          SITE="${{ (github.head_ref || github.ref_name) }}-site"
-          # cannot create dependabot/ branches; also '/' is not allowed in the SITE branch name
-          if [[ $BRANCH == dependabot/* ]]
-          then
-            echo "Dependabot cannot create the branch - skipping"
-            exit 0
-            # SITE="${SITE//\//-}"
-            # echo "branch: $BRANCH => site: $SITE = https://attic-${BRANCH//\//-}.staged.apache.org/"
-          else
-            echo "branch: $BRANCH => site: $SITE = https://attic-$BRANCH.staged.apache.org/"
-          fi
+          echo "branch: $BRANCH => site: $SITE = https://attic-$BRANCH.staged.apache.org/"
           echo "Running git config"
           git config user.name "GitHub Actions"
           git config user.email "actions@users.noreply.github.com"
