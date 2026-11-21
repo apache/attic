@@ -4,6 +4,7 @@ retirement_date: 2017-12-20
 attic_issue: ATTIC-167
 attic_date: 2018-02-06
 attic_banner: true
+project_name: ACE
 project_description: >-
     ACE was a software distribution framework that allows you to centrally
     manage and distribute software components, configuration data and other
