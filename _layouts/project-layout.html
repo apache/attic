@@ -23,6 +23,7 @@ limitations under the License.
 {%- assign establish_locn  = establish_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
 {%- assign resolution_file  = page.retirement_date | date: "%Y/board_minutes_%Y_%m_%d.txt" %}
 {%- assign resolution_locn  = resolution_file | prepend: "https://svn.apache.org/repos/asf/infrastructure/site/trunk/content/foundation/records/minutes/" %}
+{%- assign proj_boardmin_id  = page.project_name | replace: " ", "_"  | replace: "+", "x"%}
 
 <h1>{{ page.project_apachename }}</h1>
 
@@ -156,7 +157,7 @@ limitations under the License.
 {%- if page.board_reports == true %}
   <tr>
     <td>Board Reports</td>
-    <td><a href="https://whimsy.apache.org/board/minutes/{{ page.project_id }}.html">Minutes</a></td>
+    <td><a href="https://whimsy.apache.org/board/minutes/{{ proj_boardmin_id }}.html">Minutes</a></td>
   </tr>
 {%- endif %}
 
