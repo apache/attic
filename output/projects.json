@@ -1902,6 +1902,44 @@
     "project_shortdesc": "Data mapper framework to make it easier to use a relational database with object-oriented applications.",
     "project_type": "PMC"
   },
+  "inlong": {
+    "established_date": "2022-06-15",
+    "retirement_date": "2026-11-18",
+    "attic_issue": "ATTIC-255",
+    "attic_date": null,
+    "attic_banner": true,
+    "project_name": "InLong",
+    "project_shortdesc": "A one-stop data integration framework that provides automatic, secure, and reliable data transmission capabilities.",
+    "project_description": "InLong was a one-stop data integration framework that provides automatic, secure, and reliable data transmission capabilities. InLong supports both batch and stream data processing at the same time, which offers great power to build data analysis, modeling, and other real-time applications based on streaming data.",
+    "board_resolution": true,
+    "board_reports": true,
+    "downloads": true,
+    "source_repositories": [
+      {
+        "type": "Git",
+        "path": "inlong"
+      }
+    ],
+    "mailing_lists": [
+      "dev",
+      "commits"
+    ],
+    "issue_trackers": [
+      {
+        "type": "JIRA",
+        "keys": [
+          "INLONG"
+        ]
+      }
+    ],
+    "project_id": "inlong",
+    "project_name_lower": "inlong",
+    "project_longname": "InLong",
+    "project_apachename": "Apache InLong",
+    "project_domain": "inlong.apache.org",
+    "attic_issue_link": "https://issues.apache.org/jira/browse/ATTIC-255",
+    "project_type": "PMC"
+  },
   "jakarta": {
     "established_date": "2002-02-27",
     "retirement_date": "2011-12-21",
